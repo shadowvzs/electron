@@ -1,0 +1,11 @@
+{
+  "name": "bible",
+  "version": "1.0.0",
+  "description": "My electron app",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Varga Zsolt",
+  "license": "MIT",
+  "devDependencies": {}
+}

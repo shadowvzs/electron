@@ -1,0 +1,96 @@
+﻿31
+!A világ teremtése*#1910400135
+1
+#0100100601#0100102101#0100102701#0100200303#0101401901#1201901501#1600900601#1800900801#1803300401#1803701801#1803800401#1903300601#1908901201#1909000201#1909600501#1910202601#1910400201#1911501501#1912100201#1913600502#1914600601#2000802301#2303701601#2304002102#2304002801#2304200501#2304402401#2304501201#2304501801#2305101301#2401001201#2402700501#2403201701#2405101501#4300100102#4401401501#4401702401#4900300901#5100101601#5800300401#5801100301#6600401101#6601000601
+Kezdetben teremté Isten az eget és a földet.
+2
+#0100200701#0100800201#0503201101#1800701201#1802600801#1803300401#1803800901#1903600601#1904200701#1910400601#1910403001#1910702401#2003000401#2302300101#2302401001#2302701001#2303100501#2303201401#2303401101#2304501801#2400402301
+A föld pedig kietlen és puszta vala, és setétség vala a mélység színén, és az Isten Lelke lebeg vala a vizek felett.
+3
+#0100100601#1903300601#1903300901#1914800501#4700400601#5801100301#6200100503
+És monda Isten: Legyen világosság: és lőn világosság.
+4
+#0100101001#0100101201#0100101401#0100101801#0100102101#0100102501#0100103101#0201002103#1802601001#1803801901#1901802801#1910402001#1910403101#1910502801#1911906801#2304201601#2304500701#2403103501
+És látá Isten, hogy jó a világosság; és elválasztá Isten a világosságot a setétségtől.
+5
+#0100100801#0100101001#0100101301#0100101901#0100102301#0100103101#0100201901#0100202301#1907401601
+És nevezé Isten a világosságot nappalnak, és a setétséget nevezé éjszakának: és lőn este és lőn reggel, első nap.
+6
+#0100100101#0100100301#0100100901#1902400201#1913600601#2304402401#2401001201#2405101501#6100300501
+És monda Isten: Legyen mennyezet a víz között, amely elválassza a vizeket a vizektől.
+7
+#0100100901#0100101101#0100101501#0100102401#0100701101#1802601001#1803800804#1906803301#1914800401#2000802801
+Teremté tehát Isten a mennyezetet, és elválasztá a mennyezet alatt való vizeket, a mennyezet felett való vizektől. És úgy lőn.
+8
+#0100100501#1800900801#1803701801#1901900101#1910400201#2304002201#2304402401#2304501201#2401001201#3801200101
+És nevezé Isten a mennyezetet égnek: és lőn este, és lőn reggel, második nap.
+9
+#0100100701#1803800804#1903300602#1903300901#1909500501#1910400604#1913600601#2000802901#2400502201#4300100901#3700200601#6100300501
+És monda Isten: Gyűljenek egybe az ég alatt való vizek egy helyre, hogy tessék meg a száraz. És úgy lőn.
+10
+#0100100402#1803800801#1903300701#1909000201#1909500501
+És nevezé Isten a szárazat földnek; az egybegyűlt vizeket pedig tengernek nevezé. És látá Isten, hogy jó.
+11
+#0100100701#0100101201#0100102101#0100102402#0100200501#0100602001#0100701401#0301101401#0301101901#0301102201#0501401301#0501401801#1906500905#1910401401#4601503801
+Azután monda Isten: Hajtson a föld gyenge füvet, maghozó füvet, gyümölcsfát, amely gyümölcsöt hozzon az ő neme szerint, amelyben legyen néki magva e földön. És úgy lőn.
+12
+#0100100401#0100101101
+Hajta tehát a föld gyenge füvet, maghozó füvet az ő neme szerint, és gyümölcstermő fát, amelynek gyümölcsében mag van az ő neme szerint. És látá Isten, hogy jó.
+13
+#0100100501
+És lőn este és lőn reggel, harmadik nap.
+14
+#0100100401#0100802201#1907401601#1910401901#1913600701#2401000201#2403103502#2403302001#2403302501
+És monda Isten: Legyenek világító testek az ég mennyezetén, hogy elválasszák a nappalt az éjszakától, és legyenek jelek, és meghatározói ünnepeknek, napoknak és esztendőknek.
+15
+#0100100701#2403103501
+És legyenek világítókul az ég mennyezetén hogy világítsanak a földre. És úgy lőn.
+16
+#0500401901#0501700301#1800900901#1803102601#1803800701#1803803103#1900800301#1903300601#1907401601#1910401901#1913600703#2101200201#2304002601#2400800201#2403103501#2404301301#2600801601#3000500801#5900101701
+Teremté tehát Isten a két nagy világító testet: a nagyobbik világító testet, hogy uralkodjék nappal és a kisebbik világító testet, hogy uralkodjék éjjel; és a csillagokat.
+17
+#1803801201#1900800302
+És helyezteté Isten azokat az ég mennyezetére, hogy világítsanak a földre;
+18
+#0100100401#2403302001#2403302501
+És hogy uralkodjanak a nappalon és az éjszakán, és elválasszák a világosságot a setétségtől. És látá Isten, hogy jó.
+19
+#0100100501
+És lőn este és lőn reggel, negyedik nap.
+20
+#0100201901#1914600601
+És monda Isten: Pezsdűljenek a vizek élő állatok nyüzsgésétől; és madarak repdessenek a föld felett, az ég mennyezetének színén.
+21
+#0100100101#0100100401#0100101101#1800300801#1800701201#1907401301#1910402502#1914800701#2302700101#2603200201
+És teremté Isten a nagy vízi állatokat, és mindazokat a csúszó-mászó állatokat, amelyek nyüzsögnek a vizekben az ő nemök szerint, és mindenféle szárnyas repdesőt az ő neme szerint. És látá Isten, hogy jó.
+22
+#0100102801#0100801701#0100900101#0100900701#0100901901#0104702701#0302600901#2603601101
+És megáldá azokat Isten, mondván: Szaporodjatok, és sokasodjatok, és töltsétek be a tenger vizeit; a madár is sokasodjék a földön.
+23
+#0100100501
+És lőn este és lőn reggel, ötödik nap.
+24
+#0100100701#0100101101#0100201901
+Azután monda az Isten: Hozzon a föld élő állatokat nemök szerint: barmokat, csúszó-mászó állatokat és szárazföldi vadakat nemök szerint. És úgy lőn.
+25
+#0100100401#0100101101#0100702102#2402700501
+Teremté tehát Isten a szárazföldi vadakat nemök szerint, a barmokat nemök szerint, és a földön csúszó-mászó mindenféle állatokat nemök szerint. És látá Isten, hogy jó.
+!Az ember Isten képmása
+26
+#0100102701#0100300501#0100302201#0100500101#0100500301#0100900201#0100900601#0101100701#1900800504#1900900601#1908200601#1910000301#2300600801#2304501801#4401702802#4601100701#4700400401#5100301001#5100101501#5100301001#5900300901
+És monda Isten: Teremtsünk embert a mi képünkre és hasonlatosságunkra; és uralkodjék a tenger halain, az ég madarain, a barmokon, mind az egész földön, és a földön csúszó-mászó mindenféle állatokon.
+27
+#0100100101#0100102601#0100200701#0100500102#0500403201#1910301401#1911907301#4001900401#4101000601#4601100701#4800302801
+<b>Teremté tehát az Isten az embert az ő képére, Isten képére teremté őt: férfiúvá és asszonynyá teremté őket.</b>
+28
+#0100102201#0100102601#0100600101#0100900101#0100900701#0101700601#0103300501#0302600901#0602400301#1900800603#1911300901#1911501601#1912700301#1912700501#4401702601
+És megáldá Isten őket, és monda nékik Isten: Szaporodjatok és sokasodjatok, és töltsétek be a földet és hajtsátok birodalmatok alá; és uralkodjatok a tenger halain, az ég madarain, és a földön csúszó-mászó mindenféle állatokon.
+29
+#0100900301#0501201501#19910401401#1911501601#5400400301
+És monda Isten: Ímé néktek adok minden maghozó füvet az egész föld színén, és minden fát, amelyen maghozó gyümölcs van; az legyen néktek eledelül.
+30
+#0100200701#0100702201#1803804101#1907802501#1910401401#1910402701#1911100501#1913602501#1914501501#1914700901
+A föld minden vadainak pedig, és az ég minden madarainak, és a földön csúszó-mászó mindenféle állatoknak, amelyekben élő lélek van, a zöld füveket adom eledelül. És úgy lőn.
+31
+#0100100402#1910402401#1913600501#2000301901#2401001201#5400400401
+<b>És látá Isten, hogy minden amit teremtett vala, ímé igen jó. És lőn este és lőn reggel, hatodik nap.</b>

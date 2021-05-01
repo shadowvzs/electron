@@ -1,0 +1,152 @@
+73
+!Őrizők rendelése
+1
+#1300901711#1302601208
+És lőn, hogy midőn megépítteték a kőfal, felállítám az ajtókat és kirendeltetének a kapunállók, az énekesek és a Léviták őrizetre;
+2
+#1600100201
+És hadnagyokká tevém Jeruzsálem fölött Hanánit, testvéremet és Hanániást, a vár fejedelmét, mivel hogy ő hűségesebb és istenfélőbb vala sokaknál.
+3
+És mondék nékik: Meg ne nyittassanak Jeruzsálem kapui mindaddig, míg a nap melegen nem süt, és míg az őrök ott állanak, addig tegyék be az ajtókat és zárjátok be azokat; azután állítsatok őrizőket Jeruzsálem lakosai közül, némelyeket az ő vigyázó helyökre, s másokat az ő házok ellenébe.
+4
+A város pedig felette igen széles vala és nagy, s a nép kevés lévén benne, házak nem épültek.
+!Népszámlálás*#1500200170
+5
+Felindítá azért az én Istenem szívemet, hogy egybegyűjtsem az előljárókat, a főembereket és a népet, hogy felírattassanak; és megtalálám azok nemzetségének könyvét, akik először jöttek vala fel Babilóniából, melyben ily írást találék:
+6
+#1500200101
+Ezek a tartománynak fiai, akik feljöttek vala a rabság foglyai közül, akiket fogva vitetett Nabukodonozor, Babilónia királya, s most visszajövének Jeruzsálembe és Júdába, kiki az ő városába.
+7
+Kik jövének Zorobábellel: Jésua, Nehémiás, Azariás, Raámia, Nahamáni, Mordokhai, Bilsán, Miszpereth, Bigvai, Nehum, Baána. Izráel népe férfiainak számok ez:
+8
+Parós fiai: kétezerszázhetvenkettő;
+9
+Sefátja fiai: háromszázhetvenkettő;
+10
+Arah fiai: hatszázötvenkettő;
+11
+Pahath-Moáb fiai, Jésua és Joáb fiaitól: kétezernyolcszáztizennyolc;
+12
+Elám fiai: ezerkétszázötvennégy;
+13
+Zattu fiai: nyolcszáznegyvenöt;
+14
+Zakkai fiai: hétszázhatvan;
+15
+Binnui fiai: hatszáznegyvennyolc;
+16
+Bébai fiai: hatszázhuszonnyolc;
+17
+Azgád fiai: kétezerháromszázhuszonkettő;
+18
+Adónikám fiai: hatszázhatvanhét;
+19
+Bigvai fiai: kétezerhatvanhét;
+20
+Adin fiai: hatszázötvenöt;
+21
+Áter fiai, Ezékiástól: kilencvennyolc;
+22
+Hásum fiai: háromszázhuszonnyolc;
+23
+Bésai fiai: háromszázhuszonnégy;
+24
+Hárif fiai: száztizenkettő;
+25
+Gibeon fiai: kilencvenöt;
+26
+Bethlehem és Netófa férfiai: száznyolcvannyolc;
+27
+Anathóth férfiai: százhuszonnyolc;
+28
+Beth-Azmáveth férfiai: negyvenkettő;
+29
+Kirjáth-Jeárim, Kefira és Beéróth férfiai: hétszáznegyvenhárom;
+30
+Ráma és Géba férfiai: hatszázhuszonegy;
+31
+Mikmás férfiai: százhuszonkettő;
+32
+Béthel és Ai férfiai: százhuszonhárom;
+33
+A másik Nébó férfiai: ötvenkettő;
+34
+A másik Elám fiai: ezerkétszázötvennégy;
+35
+Hárim fiai: háromszázhúsz;
+36
+Jerikó fiai: háromszáznegyvenöt;
+37
+Lód, Hádid és Ónó fiai: hétszázhuszonegy;
+38
+Szenáa fiai: háromezerkilencszázharminc;
+39
+A papok: Jedája fiai Jésua családjából: kilencszázhetvenhárom;
+40
+Immér fiai: ezerötvenkettő;
+41
+Pashur fiai: ezerkétszáznegyvenhét;
+42
+Hárim fiai: ezertizenhét;
+43
+A Léviták: Jésua és Kadmiel fiai, Hódávia fiaitól: hetvennégy;
+44
+Az énekesek: Asáf fiai: száznegyvennyolc;
+45
+A kapunállók: Sallum fiai, Áter fiai, Talmón fiai, Akkub fiai, Hatita fiai, Sóbai fiai: százharmincnyolc;
+46
+A Léviták szolgái: Siha fiai, Hasufa fiai, Tabbaóth fiai,
+47
+Kérósz fiai, Szia fiai, Pádón fiai,
+48
+Lebána fiai, Hagába fiai, Salmai fiai,
+49
+Hanán fiai, Giddél fiai, Gahar fiai,
+50
+Reája fiai, Resin fiai, Nekóda fiai,
+51
+Gazzám fiai, Uzza fiai, Pászéah fiai,
+52
+Bészai fiai, Meunim fiai, Nefiszim fiai,
+53
+Bakbuk fiai, Hakufa fiai, Harhur fiai,
+54
+Basluth fiai, Mehida fiai, Harsa fiai,
+55
+Barkósz fiai, Sziszera fiai, Temah fiai,
+56
+Nesiah fiai, Hatifa fiai;
+57
+A Salamon szolgáinak fiai: Szótai fiai, Szófereth fiai, Perida fiai,
+58
+Jaalá fiai, Darkón fiai, Giddél fiai,
+59
+Sefátia fiai, Hattil fiai, Pókhereth-Hassebaim fiai, Ámon fiai;
+60
+Összesen a Léviták szolgái és a Salamon szolgáinak fiai, háromszázkilencvenkettő.
+61
+És ezek, akik feljövének Tel-Melahból, Tel-Harsából, Kerub-Addán-Immérből, de nem mondhatták meg családjukat és eredetüket, hogy Izráelből valók-é?
+62
+Delája fiai, Tóbiás fiai, Nekóda fiai, hatszáznegyvenkettő;
+63
+És a papok közül: Habája fiai, Hakkós fiai, Barzillai fiai, aki a Gileádbeli Barzillai leányai közül vett magának feleséget és ezek nevéről nevezteték;
+64
+Ezek keresték írásukat, tudniillik nemzetségök könyvét, de nem találák, miért is kirekesztetének a papságból;
+65
+És megmondá nékik a király helytartója, hogy ne egyenek a szentséges áldozatból, mígnem a pap ítél az Urimmal és Tummimmal;
+66
+Mind az egész gyülekezet együtt negyvenkétezerháromszázhatvan.
+67
+Szolgáikon és szolgálóikon kivül  ezek valának hétezerháromszázharmincheten  valának nékik énekes férfiaik és asszonyaik kétszáznegyvenöten;
+68
+Lovaik hétszázharminchat, öszvéreik kétszáznegyvenöt;
+69
+Tevéik négyszázharmincöt, szamaraik hatezerhétszázhúsz.
+70
+Némelyek pedig a családfők közül adakozának az építésre: a király helytartója ada a kincsekhez aranyban ezer dárikot, ötven medencét, ötszázharminc papi ruhát;
+71
+A többi családfők pedig adának az építés költségére aranyban húszezer dárikot, és ezüstben kétezerkétszáz mánét;
+72
+És amit a többi nép ada, az aranyban húszezer dárik, és ezüstben kétezer máne, és hatvanhét papiruha vala.
+73
+És lakozának mind a papok, mind a Léviták, mind a kapunállók, mind az énekesek, mind a nép fiai, mind a Léviták szolgái, szóval az egész Izráel a magok városaikban.

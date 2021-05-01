@@ -1,0 +1,113 @@
+51
+!A többi hat törzs öröksége
+1
+A sorsvetés által a második rész Simeonnak jutott, Simeon fiai törzsének nemzetségenként. Örökségük a Júda fiainak örökségén belül volt.
+2
+Az ő örökségük lett Beérseba, Seba és Móládá,
+3
+Hacar-Súál, Bálá és Ecem,
+4
+Eltólad, Betúl és Hormá,
+5
+Ciklag, Bét-Markábót és Hacar-Szúszá,
+6
+Bét-Lebáót és Sárúhen. Tizenhárom város a falvaival együtt.
+7
+Ain, Rimmón, Eter és Ásán. Négy város a falvaival együtt.
+8
+Továbbá mindazok a falvak, amelyek ezek körül a városok körül voltak Baalat-Beérig, délen Rámáig. Ez a Simeon fiai törzsének öröksége nemzetségeinek megfelelően.
+9
+A Júda fiainak osztályrészéből kaptak Simeon fiai örökséget, mert Júda fiainak osztályrésze elég nagy volt nekik. Ezért kaptak Simeon fiai örökséget azoknak az örökségén belül.
+10
+A sorsvetés által a harmadik rész Zebulon fiainak jutott az ő nemzetségeik szerint, és örökségük határa Szárídig terjedt.
+11
+Fölmegy a határuk nyugatnak, Maralá felé, érinti Dabbesetet, és érinti azt a patakot is, amely Jokneámmal szemben van.
+12
+Szárídtól pedig kelet felé fordul Kiszlót-Tábór határához, és továbbmegy Dobratnak, és fölmegy Jáfíáig.
+13
+Onnan pedig átmegy kelet felé Gát-Héfernek és Ét-Kácínnak, majd elér Rimmónig, amely Néá felé terül el.
+14
+Ezt megkerüli a határ Hannátóntól északra, és a Jiftah-Él völgyében végződik.
+15
+#0700103601
+Továbbá Kattát, Nahalál, Simrón, Jidalá és Betlehem. Tizenkét város a falvaival együtt.
+16
+Ez Zebulon fiainak öröksége nemzetségeinek megfelelően, ezek a városok a falvaikkal együtt.
+17
+A sorsvetés által a negyedik rész Issakárnak, az Issakár törzse fiainak jutott, nemzetségeik szerint.
+18
+#1200400801
+Ez lett a határuk: Jezréel, Keszulót és Suném,
+19
+Hafáraim, Sion és Anáharat,
+20
+Rabbít, Kisjón és Ebec,
+21
+Remet, Én-Ganním, Én-Haddá és BétPaccéc.
+22
+Érinti a határ Tábórt, Sahacímát és Bétsemest, a határuk a Jordánnál végződik. Tizenhat város és a falvaik.
+23
+Ez Issakár fiai törzsének öröksége nemzetségenként; ezek a városok a falvaikkal együtt.
+24
+A sorsvetés által az ötödik rész Ásér fiai törzsének jutott, nemzetségeik szerint.
+25
+Ez lett a határuk: Helkat, Halí, Beten és Aksáf,
+26
+Alammelek, Amád és Misál. Nyugaton érinti a határ a Karmelt és Sihór-Libnátot.
+27
+#1100901301
+Innen kelet felé fordul Bét-Dágónnak, és érinti Zebulont és a Jiftah-Él völgyét észak felől, majd Bét-Émeket és Neíélt, majd elér északon Kábúlig.
+28
+Innen Ebrón, Rehób, Hammón és Káná mellett egészen SzidónRabbáig húzódik.
+29
+#0601504401#0700103101#0902800301
+Azután visszafordul a határ Rámának, Tírusz erődített váro sáig. Majd Hószának fordul, és a vége a tengernél van, Akzíb oldala felől.
+30
+És ott van még Ummá, Afék és Rehób; huszonkét város a falvaival együtt.
+31
+Ez Ásér fiai törzsének öröksége nemzetségeik szerint; ezek a városok a falvaikkal együtt.
+32
+A sorsvetés által a hatodik rész Naftáli fiainak jutott, Naftáli fiainak, az ő nemzetségeiknek.
+33
+Ez lett a határuk: Héleftől, a caananními tölgyfától Adámí-Nekebig és Jabneélen át Lakkúmig terjed, és a Jordánig ér el.
+34
+Azután a határ nyugat felé, AznótTábórnak fordul, innen pedig továbbhalad Húkóknak, és érinti Zebulont dél felől, Ásért pedig nyugat felől és Júdát is, a Jordán pedig kelet felé van.
+35
+A megerősített városok ezek: Ciddím, Cér, Hammat, Rakkat és Kinneret,
+36
+Adámá, Ráma és Hácór,
+37
+Kedes, Edrei és Én-Hácór,
+38
+Jirón, Migdal-Él, Horém, BétAnát és Bétsemes. Tizenkilenc város a falvaival együtt.
+39
+Ez Naftáli fiai törzsének öröksége nemzetségeinek megfelelően; ezek a városok a falvaikkal együtt.
+40
+A sorsvetés által a hetedik rész a Dán fiai törzsének jutott, nemzetségeik szerint.
+41
+Ez lett örökségük határa: Corá, Estáól és ÍrSemes,
+42
+Saalabbin, Ajjálón és Jitlá,
+43
+Élón, Timnátá és Ekrón,
+44
+Elteké, Gibbetón és Baalat,
+45
+Jehud, Bené-Berak és Gat-Rimmón,
+46
+#3200100301
+Mé-Jarkón és Rakkón, a Jáfó előtt levő területtel együtt.
+47
+#0701802703
+Dán fiainak határa később hátrább került. Ezért Dán fiai fölkeltek, és harcoltak Lesem ellen, s el is foglalták és kardélre hányták, birtokba vették, és ott laktak, és Lesemet Dánnak nevezték atyjuk, Dán neve után.
+48
+Ez Dán fiai törzsének öröksége nemzetségenként, ezek a városok a falvaikkal együtt.
+!Józsué öröksége
+49
+Mikor pedig befejezték a föld örökbe vételét annak határai szerint, akkor Izráel fiai örökséget adtak Józsuénak, Nún fiának is maguk között.
+50
+#0602403001
+Az ÚR rendelése szerint adták neki azt a várost, amelyet kért: TimnatSzerahot az Efraim hegyvidékén. Fölépítette azt a várost, és abban lakott.
+51
+#0601700401
+Ezek azok a területek, amelyeket örökségül adtak Eleázár pap és Józsué, Nún fia és az izráeli törzsek családfői nemzetségeiknek sorsvetés által Silóban, az ÚR színe előtt, a gyülekezet sátrának bejáratánál. Így fejezték be az ország földjének fölosztását.

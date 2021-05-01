@@ -1,0 +1,85 @@
+﻿36
+!Józsué halála után Júda törzse kezdi a harcot
+1
+És lőn Józsué halála után, hogy megkérdék az Izráel fiai az Urat, mondván: Ki menjen legelőször közülünk a Kananeusra, hogy hadakozzék ő ellene?
+2
+És monda az Úr: Júda menjen! Ímé az ő kezébe adtam azt a földet.
+3
+Ekkor monda Júda az ő atyjafiának Simeonnak: Jer velem együtt a nékem sors által jutott örökségbe, hogy hadakozzunk a Kananeus ellen, és én is elmegyek veled a néked sors által jutott örökségbe. És Simeon elméne vele.
+4
+És felméne Júda, és kezökbe adá az Úr a Kananeust és a Perizeust, és levágtak közülök Bézekben tízezer embert.
+5
+És találák Adonibézeket Bézekben, és hadakozának ő ellene, és megverék a Kananeust és a Perizeust.
+6
+És megfutamodott Adonibézek, de űzőbe vevék, és elfogván őt, elvágták kezeinek és lábainak hüvelykújjait.
+7
+Ekkor monda Adonibézek: Hetven király szedeget vala asztalom alatt, akiknek elvágattam kezeik és lábaik hüvelykujjait; amint én cselekedtem, úgy fizetett nékem az Isten. Azután elvivék őt Jeruzsálembe, és ott meghala.
+8
+Azután Jeruzsálem ellen hadakoztak a Júda fiai, és elfoglalván azt, lakosait levágták fegyvernek élivel, a várost pedig lángba borították.
+9
+Azután pedig alámenének a Júda fiai, hogy harcoljanak a hegységen, a déli tartományban és a lapályon lakó Kananeus ellen.
+10
+#0601501307
+És elment Júda a Hebronban lakó Kananeus ellen,  Hebron neve azelőtt Kirjáth-Arba volt,  és megverték Sésait, Achimánt és Thalmáit.
+11
+Onnan pedig méne Debir lakói ellen. Debir neve pedig azelőtt Kirjáth-Széfer volt.
+12
+#0601501307
+És monda Káleb: Aki Kirjáth-Széfert megveri és elfoglalja, annak feleségül adom az én leányomat, Akszát.
+13
+És elfoglalá azt Othniel, Kénáz fia, Káleb öcscse, és néki adá Akszát, az ő leányát feleségül.
+14
+És lőn, hogy amikor eljöve az, biztatá őt, hogy kérjen mezőt az ő atyjától. Leszálla azért a szamárról, Káleb pedig monda néki: Mi bajod van?
+15
+Ő pedig monda néki: Adj áldást nékem: mert déli vidékre helyheztettél engem, adj most vízforrásokat is. És néki adá Káleb a felső forrást és az alsó forrást.
+16
+#0503400301
+És Keneusnak, a Mózes ipának fiai is felmentek a pálmák városából a Júda fiaival a Júda pusztájára, mely délre van Aradtól, és elmentek és letelepedtek a nép között.
+17
+#0402100301
+És elment Júda az ő atyjafiával, Simeonnal, és megverék a Céfátban lakó Kananeust, és elpusztították azt, és elnevezték a várost Hormának.
+18
+Azután elfoglalta Júda Gázát és annak határát, Askelont és annak határát, Ekront és annak határát.
+19
+Vala pedig az Úr Júdával, és kiűzé a hegység lakóit; de a völgy lakóit nem lehetett kiűzni, mert vas-szekereik voltak.
+20
+#0401402401#0601401301#0601501301
+És Kálebnek adták Hebront, amint meghagyta volt Mózes, és kiűzé onnan Anák három fiát.
+!Nem minden kananeust űznek ki
+21
+De a Jebuzeust, Jeruzsálemnek lakóját nem űzték el a Benjámin fiai, és ezért lakik a Jebuzeus a Benjámin fiaival Jeruzsálemben még máig is.
+22
+És felméne a József háza is, Béthel ellen, és az Úr volt ő vele.
+23
+#0102801901
+És kikémlelteté a József háza Béthelt. A város neve pedig régenten Lúz volt.
+24
+És látának a kémek egy férfiút, aki a városból jött vala, és mondának néki: Mutasd meg a város bejárását, és irgalmasságot cselekszünk veled.
+25
+És mikor ez megmutatta nékik a város bejárását, a várost fegyver élére hányták; de azt a férfiút és egész házanépét elbocsáták.
+26
+És elment az a férfiú a Khitteusok földére, és várost épített, és elnevezé azt Lúznak. Ez annak neve mind e mai napig.
+27
+#0601701102
+És nem űzte el Manassé a lakosokat sem Béthseánból és annak mezővárosaiból, sem Taanakból és mezővárosaiból, sem Dórból és mezővárosaiból, sem a Jibleámnak és mezővárosainak lakosait, sem Megiddónak és mezővárosainak lakosait. És a Kananeusnak tetszett ott lakni azon a földön.
+28
+#0601701301
+És mikor Izráel megerősödött, adófizetőjévé tette a Kananeust; de elűzni nem űzte el.
+29
+#0601601001
+És Efraim sem űzte ki a Kananeust, aki Gézerben lakott; hanem a Kananeus ott lakott közöttük Gézerben.
+30
+Zebulon sem űzte el sem Kitron lakosait, sem Nahalólnak lakóit, hanem közöttük lakozott a Kananeus, és adófizetőikké lettek.
+31
+Áser sem űzte el sem Akkó, sem Sidon, sem Akhláb, sem Akzib, sem Helba, sem Afik, sem Rehob lakóit.
+32
+És ott lakott Áser a Kananeusok, a föld lakói között, mert nem űzte el őket.
+33
+Nafthali sem űzte el sem Béth-Semes lakosait, sem Béth-Anath lakóit, hanem ott lakott a Kananeusok, a föld lakói között, és Béth-Semes és Béth-Anath lakói adófizetőikké lettek.
+34
+Az Emoreusok pedig felszorították a Dán fiait a hegységbe, mert nem engedték meg, hogy lejőjjenek a völgybe.
+35
+És az Emoreusoknak tetszett ott lakni a Héresz hegységen, Ajalonban és Saalbimban; de mikor a József házának keze rájok nehezedett, adófizetőkké lettek.
+36
+#0403400401#0601500301
+Az Emoreusok határa pedig az Akrabbim hágójától és Sélától fölfelé volt.

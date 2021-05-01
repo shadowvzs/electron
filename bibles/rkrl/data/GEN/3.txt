@@ -1,0 +1,76 @@
+24
+!A bűneset
+1
+#0100201701#1800100701#1800200201#4701100301#6601200901#6602000201
+A kígyó pedig ravaszabb vala minden mezei vadnál, melyet az Úr Isten teremtett vala, és monda az asszonynak: Csakugyan azt mondta az Isten, hogy a kertnek egy fájáról se egyetek?
+2
+#0100201601
+És monda az asszony a kígyónak: A kert fáinak gyümölcséből ehetünk;
+3
+#0100201701
+De annak a fának gyümölcséből, mely a kertnek közepette van, azt mondá Isten: abból ne egyetek, azt meg se illessétek, hogy meg ne haljatok.
+4
+#4300804401#4701100301
+És monda a kígyó az asszonynak: Bizony nem haltok meg;
+5
+#0100102601#0101401802#1900700802#2301401401#2602800201#4300804401
+Hanem tudja az Isten, hogy amely napon ejéndetek abból, megnyilatkoznak a ti szemeitek, és olyanok lésztek mint az Isten: jónak és gonosznak tudói.
+6
+#0403000702#2404401501#2404401901#2404402401#4701100301#5400201401#5900101402#6200201601
+És látá az asszony, hogy jó az a fa eledelre s hogy kedves a szemnek, és kivánatos az a fa a bölcseségért: szakaszta azért annak gyümölcséből, és evék, és ada vele levő férjének is, és az is evék.
+7
+#0100202501#0100302101
+És megnyilatkozának mindkettőjöknek szemei s észrevevék, hogy mezítelenek; figefa levelet aggatának azért össze, és körülkötőket csinálának magoknak.
+8
+#0302601201#0502301401#1801301601#1802300701#1803103301#1803402202#1900500501#1913900706#2302901501#2401601701#2402302401#2404901001#6600601502
+És meghallák az Úr Isten szavát, aki hűvös alkonyatkor a kertben jár vala; és elrejtőzék az ember és az ő felesége az Úr Isten elől a kert fái között.
+9
+#0100400901#0101600801#0101800901#1101900901#1101901301
+Szólítá ugyanis az Úr Isten az embert és monda néki: Hol vagy?
+10
+#0100202501#0201901601#0202001801#0500500501#0901201801
+És monda: Szavadat hallám a kertben, és megfélemlém, mivelhogy mezítelen vagyok, és elrejtezém.
+11
+#0100201701#0100202501
+És monda Ő: Ki mondá néked, hogy mezítelen vagy? Avagy talán ettél a fáról, melytől tiltottalak, hogy arról ne egyél?
+12
+#0100202201
+És monda az ember: Az asszony, akit mellém adtál vala, ő ada nékem arról a fáról, úgy evém.
+13
+#4500701101#4701100301#5400201401#6601200901
+És monda az Úr Isten az asszonynak: Mit cselekedtél? Az asszony pedig monda: A kígyó ámított el engem, úgy evém.
+!Átok és ígéret
+14
+#0502801506#1907200901#2304902301#2306502501#3300701701
+És monda az Úr Isten a kígyónak: Mivelhogy ezt cselekedted, átkozott légy minden barom és minden mezei vad között; hasadon járj, és port egyél életed minden napjaiban.
+15
+#0101601101#0701300501#2300701401#2300800301#2300900601#4000102301#4200103101#4300804401#4401301001#4501602001#4800400401#5800201401#6200300801#6200300801#6601201701
+<b>És ellenségeskedést szerzek közötted és az asszony között, a te magod között, és az ő magva között: az neked fejedre tapos, te pedig annak sarkát mardosod.</b>
+16
+#1904800602#2301300801#2302100301#2302601701#2400403101#2400602401#3300400901#4601100301#4601403401#4900502201#5400201102#5400201501#6000300501
+Az asszonynak monda: Felette igen megsokasítom viselősséged fájdalmait, fájdalommal szűlsz magzatokat; és epekedel a te férjed után, ő pedig uralkodik te rajtad.
+17
+#0100201701#0100502901#0103104201#0104700901#0200300701#0403503301#1800500701#1800700101#1801400101#1910603901#1912700201#2100101301#2100202301#2302400501#2305400901#2400300101#2402001801#4500802003
+Az embernek pedig monda: Mivelhogy hallgattál a te feleséged szavára, és ettél arról a fáról, amelyről azt parancsoltam, hogy ne egyél arról: Átkozott legyen a föld te miattad, fáradságos munkával élj belőle életednek minden napjaiban.
+18
+#0100401201#1803104001#1910401401#2300500601#5800600801
+Töviset és bogácskórót teremjen tenéked; s egyed a mezőnek fűvét.
+19
+#0100200701#0500800301#0500800901#0502300401#0800100601#0800201401#1909000301#1910402301#1910402901#1914600401#2101200701#4601504701#5300301001#5800902701
+Orcád verítékével egyed a te kenyeredet, míglen visszatérsz a földbe, mert abból vétettél:<b> mert por vagy te s ismét porrá leszesz.</b>
+!Kiüzetés a Paradicsomból
+20
+#0100202001#4701100301#5400201301
+Nevezte vala pedig Ádám az ő feleségét Évának, mivelhogy ő lett anyja minden élőnek.
+21
+#0100300701
+És csinála az Úr Isten Ádámnak és az ő feleségének bőr ruhákat, és felöltözteté őket.
+22
+#0100102601#0100200901#6600200701#6602201401
+És monda az Úr Isten: Ímé az ember olyanná lett, mint mi közülünk egy, jót és gonoszt tudván. Most tehát, hogy ki ne nyújtsa kezét, hogy szakasszon az élet fájáról is, hogy egyék, s örökké éljen:
+23
+#0100200702#0100400201
+Kiküldé őt az Úr Isten az Éden kertjéből, hogy mívelje a földet, amelyből vétetett vala.
+24
+#0100200802#0202501805#0900400401#1000600201#1002201101#1100602701#1100800601#1201901501#1400500801#1901801101#1908000201#1909900101#1910400401#2303701601#2601000101#2602801601
+És kiűzé az embert, és oda helyezteté az Éden kertjének keleti oldala felől a Kerúbokat és a villogó pallos lángját, hogy őrizzék az élet fájának útját.

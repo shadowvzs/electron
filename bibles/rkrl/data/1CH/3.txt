@@ -1,0 +1,62 @@
+24
+!Dávid fiainak és Júda királyainak névsora
+1
+#1000300201
+Ezek a Dávid fiai, akik Hebronban születének néki: elsőszülötte vala Amnon, a Jezréelből való Ahinoámtól; második vala Dániel, a Kármelből való Abigailtól.
+2
+#1001501301#1001602201#1001801501
+Harmadik Absolon, aki Maakának, a Gessurbeli Talmai király leányának volt a fia; negyedik Adónia, Haggittól való.
+3
+Ötödik Sefátia, Abitáltól való; hatodik Jitreám, az ő feleségétől, Eglától való.
+4
+#1000500402
+E hat fia születék néki Hebronban, ahol hét esztendeig és hat hónapig uralkodott; Jeruzsálemben pedig harminchárom esztendeig uralkodék.
+5
+#1000501401
+Jeruzsálemben pedig ezek születének néki: Simea, Sóbáb, Nátán és Salamon, négyen, Bathsuától, az Ammiel leányától.
+6
+És Ibhár, Elisáma és Elifélet.
+7
+Nógah, Néfeg és Jáfia.
+8
+És Elisáma, Eljada és Elifélet, kilencen.
+9
+#1001301401
+Mindezek a Dávid fiai, az ő ágyastársainak fiain kivül; és ezeknek a huga, Támár.
+10
+#1101104301#1101201703
+Salamonnak pedig fia volt Roboám; ennek fia Abija, ennek fia Asa, ennek fia Josafát.
+11
+#1200801603
+Ennek fia Jórám, ennek fia Akházia, ennek fia Joás.
+12
+#1201400101#1201400301
+Ennek fia Amásia, ennek fia Azária; ennek fia Jótám.
+13
+#1201600105#1201800109#1202000601#1202100116
+Ennek fia Akház, ennek fia Ezékiás, ennek fia Manasse.
+14
+Ennek fia Amon, ennek fia Jósiás.
+15
+Jósiásnak pedig fiai: elsőszülötte Johanán, második Jójákim, harmadik Sédékiás, Sallum negyedik.
+16
+#1202401701#1202500701#1202500901
+Jójákim fiai: az ő fia Jékoniás, ennek fia Sédékiás.
+17
+#1202401501
+Jékóniásnak fiai: Assir, ennek fia Saálthiel.
+18
+És Málkirám, Pedája, Sénasár, Jékámia, Hosáma és Nédábia.
+19
+#1500200201#1500300801
+Pedája fiai: Zerubábel és Simei. Zerubábel fiai: Mesullám, Hanánia; és az ő hugok vala Selómit.
+20
+És Hásuba, Ohel, Berekia, Hasádia és Jusáb-Hésed, ezek öten.
+21
+Hanánia fiai: Pelátia és Jésaia; és Refája fiai és Arnám fiai, Obádia fiai, Sekánia fiai.
+22
+És Sekánia fiai: Semája. Semája fiai: Hattus, Jigeál, Báriah, Neárja és Sáfát, ezek hatan.
+23
+Neárja fiai: Eljohénai, Ezékiás és Azrikám, ezek hárman.
+24
+Eljohénai fiai: Hódajéva, Eliásib, Pelája, Akkub, Johanán, Delája és Anáni; ezek heten.

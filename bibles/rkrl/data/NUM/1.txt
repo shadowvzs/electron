@@ -1,0 +1,118 @@
+54
+!A fegyver alá való férfiak száma
+1
+#0203001101
+Szóla pedig az Úr Mózesnek a Sinai pusztájában, a gyülekezet sátorában, a második hónapnak elsején, az Égyiptom földéből való kijövetelök után a második esztendőben, mondván:
+2
+#0203802601#0402600201#0402605101
+Vegyétek számba Izráel fiainak egész gyülekezetét, az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a neveknek száma szerint, minden férfiút főről főre,
+3
+Húsz esztendőstől fogva és feljebb, mindent, aki hadba mehet Izráelben; számláljátok meg őket az ő seregök szerint, te és Áron.
+4
+És legyen veletek egy-egy férfiú mindenik törzsből, mindenik feje legyen az ő atyái házának.
+5
+Ezek pedig a férfiak nevei, akik veletek legyenek: Rúbenből Elisúr, Sedeúrnak fia.
+6
+Simeonból Selúmiel, Surisaddainak fia.
+7
+Júdából Naasson, Amminádábnak fia.
+8
+Izsakhárból Néthánéel, Suárnak fia.
+9
+Zebulonból Eliáb, Hélonnak fia.
+10
+József fiai közül: Efraimból Elisama, Ammihudnak fia; Manasséból Gámliel, Pédasurnak fia.
+11
+Benjáminból Abidán, Gideóni fia.
+12
+Dánból Ahiézer, Ammisaddai fia.
+13
+Áserből Págiel, Okránnak fia.
+14
+Gádból Eleásaf, Déhuelnek fia.
+15
+Nafthaliból Akhira, Enánnak fia.
+16
+Ezek a gyülekezetnek hivatalosai, az ő atyjok törzseinek fejei, Izráel ezereinek is fejei ők.
+17
+Maga mellé vevé azért Mózes és Áron e férfiakat, akik név szerint is előszámláltattak vala.
+18
+És összegyüjték az egész gyülekezetet a második hónapnak első napján; és vallást tőnek az ő születésökről, az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a neveknek száma szerint, húsz esztendőstől fogva és feljebb főről főre.
+19
+Amiképpen megparancsolta vala az Úr Mózesnek, úgy számlálá meg őket a Sinai pusztájában.
+20
+Valának pedig Rúbennek, Izráel elsőszülöttének fiai, azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a nevek száma szerint, főről főre, minden férfiú, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+21
+Akik megszámláltattak a Rúben törzséből: negyvenhat ezer és ötszáz.
+22
+Simeon fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, az ő megszámláltjai, a neveknek száma szerint, főről főre, minden férfiú, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+23
+Akik megszámláltattak Simeon törzséből: ötvenkilenc ezer és háromszáz.
+24
+Gád fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a neveknek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+25
+Akik megszámláltattak Gád törzséből: negyvenöt ezer és hatszáz ötven.
+26
+Júda fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a nevek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+27
+Akik megszámláltattak Júda törzséből: hetvennégy ezer és hatszáz.
+28
+Izsakhár fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a nevek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+29
+Akik megszámláltattak Izsakhár törzséből: ötvennégy ezer és négyszáz.
+30
+Zebulon fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a nevek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+31
+Akik megszámláltattak Zebulon törzséből: ötvenhét ezer és négyszáz.
+32
+József fiaiból Efraim fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a neveknek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+33
+Akik megszámláltattak Efraim törzséből: negyvenezer és ötszáz.
+34
+Manasse fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a nevek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+35
+Akik megszámláltattak Manasse törzséből: harminckét ezer és kétszáz.
+36
+Benjámin fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a nevek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+37
+Akik megszámláltattak Benjámin törzséből: harmincöt ezer és négyszáz.
+38
+Dán fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a nevek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+39
+Akik megszámláltattak Dán törzséből: hatvankét ezer és hétszáz.
+40
+Áser fiai közül azoknak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a neveknek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+41
+Akik megszámláltattak Áser törzséből: negyvenegy ezer és ötszáz.
+42
+A Nafthali fiainak szülöttei az ő nemzetségeik szerint, az ő atyáiknak háznépe szerint, a neveknek száma szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető;
+43
+Akik megszámláltattak a Nafthali törzséből: ötvenhárom ezer és négyszáz.
+44
+Ezek azok a megszámláltattak, akiket megszámláltak Mózes és Áron és Izráel fejedelmei, tizenkét férfiú; egy-egy férfiú vala az ő atyáiknak házanépéből.
+45
+Valának azért mindnyájan, akik megszámláltattak az Izráel fiai közül az ő atyáiknak háznépe szerint, húsz esztendőstől fogva és feljebb, minden hadba mehető az Izráelben;
+46
+#0203802601
+Valának mindnyájan a megszámláltattak: hatszáz háromezer és ötszáz ötven.
+47
+#0400300117
+De a léviták az ő atyáiknak háznépe szerint nem számláltattak közéjök.
+!A léviták külön vétele
+48
+Mert szólott vala az Úr Mózesnek, mondván:
+49
+#0400203301
+Csak a Lévi törzsét ne vedd számba, és azokat ne számláld Izráel fiai közé;
+50
+Hanem a lévitákat rendeld a bizonyság hajlékához, és minden edényéhez, és minden ahhoz valókhoz; ők hordozzák a hajlékot, és annak minden edényét, és ők szolgáljanak mellette, és a hajlék körül táborozzanak.
+51
+#0400303801
+És mikor a hajléknak elébb kell indulni, a léviták szedjék azt szét, mikor pedig megáll a hajlék, a léviták állassák azt fel, az idegen pedig, aki oda járul, meghaljon.
+52
+És tábort járjanak Izráel fiai kiki az ő táborában, és kiki az ő zászlója alatt, az ő seregeik szerint.
+53
+#0400300701#0400302301#0402903501#0402903801
+A léviták pedig tábort járjanak a bizonyság hajléka körül, hogy ne legyen harag Izráel fiainak gyülekezetén; és megtartsák a léviták a bizonyság hajlékának őrizetét.
+54
+Cselekedének azért az Izráel fiai mind aszerint, amint parancsolta vala az Úr Mózesnek, úgy cselekedének.

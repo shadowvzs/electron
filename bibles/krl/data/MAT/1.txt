@@ -1,0 +1,68 @@
+﻿25
+!Krisztus nemzetségi táblázata (József)*#4200302316
+1
+#4200302316
+Jézus Krisztusnak, Dávid fiának, Ábrahám fiának nemzetségkönyve.
+2
+#0102100310#0102502601#0102903501#0104901001
+Ábrahám fia volt Izsák, Izsák fia volt Jákób; Jákób fiai voltak Júda és testvérei.
+3
+#0103802902#0800401805
+Júda fia volt Fáresz és Zerah Támártól, Fáresz fia volt Heszrón; Heszrón fia volt Arám,
+4
+Arám fia volt Aminádáb, Aminádáb fia volt Nahson, Nahson fia volt Szalmón.
+5
+Szalmón fia volt Boáz Ráhábtól, Boáz fia volt Óbéd Ruthtól, Óbéd fia volt Isai.
+6
+#0800401805#1001202401
+Isai fia volt Dávid, a király. Dávid fia volt Salamon az Úriás feleségétől.
+7
+#1300301007
+Salamon fia volt Roboám, Roboám fia volt Abijjá, Abijjá fia volt Ászá,
+8
+Ászá fia volt Jósafát, Jósafát fia volt Jórám, Jórám fia volt Uzziás,
+9
+#1201500732#1201602001
+Uzziás fia volt Jótám, Jótám fia volt Áház, Áház fia volt Ezékiás,
+10
+#1202002101#1202101801#1202102301#1202102601
+Ezékiás fia volt Manassé, Manassé fia volt Ámón, Ámón fia volt Jósiás,
+11
+#1300301503
+Jósiás fiai voltak Jekonjás és testvérei a babiloni fogság idején.
+12
+#1300301701#1500300201
+A babiloni fogság után Jekonjás fia volt Sealtiél, Sealtiél fia volt Zerubbábel,
+13
+Zerubbábel fia volt Abihud, Abihud fia volt Eljákim, Eljákim fia volt Azzur,
+14
+Azzur fia volt Cádók, Cádók fia volt Jákin, Jákin fia volt Elihud,
+15
+Elihud fia volt Eleázár, Eleázár fia volt Mattán, Mattán fia volt Jákób.
+16
+#4002701706
+Jákób fia volt József, Mária férje, és Máriától született Jézus, akit Krisztusnak neveznek.
+17
+Összesen tehát Ábrahámtól Dávidig tizennégy nemzedék, Dávidtól a babiloni fogságba vitelig tizennégy nemzedék és a babiloni fogságba viteltől Krisztusig tizennégy nemzedék.
+!Krisztus fogantatása, neve, születése
+18
+#4200103501
+Jézus Krisztus születése így történt: Mária, az ő anyja eljegyeztetett Józseffel, de mielőtt egybekeltek volna, viselős lett a Szentlélektől.
+19
+József pedig, az ő férje igaz ember volt, és nem is akarta megbélyegezni feleségét, el akarta tehát titkon bocsátani.
+20
+#4000101801
+Amíg ezen tűnődött, íme, az Úr angyala álomban megjelent neki, és ezt mondta: József, Dávid fia, ne félj magadhoz venni Máriát, a feleségedet, mert ami benne fogantatott, az a Szentlélektől van.
+21
+#4200103101#4400401201
+Fiat szül, és nevezd őt Jézusnak, mert <b> ő szabadítja meg népét bűneiből.</b>
+22
+Mindez pedig azért történt, hogy beteljesedjék, amit az Úr mondott a próféta által, aki így szólt:
+23
+#2300701401
+Íme, a szűz fogan méhében, és fiat szül, akinek a neve Immánuel, amely azt jelenti: Velünk az Isten.
+24
+József pedig felserkent álmából, és úgy cselekedett, amint az Úr angyala parancsolta neki: magához vette feleségét,
+25
+#4200200701
+de nem ismerte őt, amíg Mária meg nem szülte elsőszülött fiát. És Jézusnak nevezte őt.

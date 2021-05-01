@@ -1,0 +1,118 @@
+54
+!A fegyver alá való férfiak száma
+1
+#0203001101
+Így szólt az ÚR Mózeshez a Sínaipusztában, a gyülekezet sátrában a második hónap első napján, Egyiptom földjéről való kijövetelük után a második esztendőben:
+2
+#0203802601#0402600201#0402605101
+Vegyétek számba Izráel fiainak egész gyülekezetét nemzetségeik szerint, atyáik háza népe szerint, a nevek száma szerint, minden férfit főről főre,
+3
+húszesztendőstől fogva és feljebb, mindenkit, aki harcra fogható Izráelben. Számláljátok meg őket seregenként, te és Áron!
+4
+Legyen veletek egy-egy férfi mindegyik törzsből, mindegyik atyái háza népének feje legyen.
+5
+Ez pedig a neve azoknak a férfiaknak, akik mellettetek fognak állni: Rúbenből Elicúr, Sedéúr fia.
+6
+Simeonból Selumiél, Cúrisaddaj fia.
+7
+Júdából Nahsón, Ammínádáb fia.
+8
+Issakárból Netanél, Cúár fia.
+9
+Zebulonból Eliáb, Hélón fia.
+10
+József fiai közül: Efraimból Elisámá, Ammihúd fia, Manasséból Gamliél, Pedácúr fia.
+11
+Benjáminból Abídán, Gideóni fia.
+12
+Dánból Ahiezer, Ammisaddaj fia.
+13
+Ásérból Pagiél, Okrán fia.
+14
+Gádból Eljászáf, Deúél fia.
+15
+Naftáliból Ahira, Énán fia.
+16
+Ezek a gyülekezetből elhívottak, atyjuk törzseinek fejei, Izráel nemzetségfői.
+17
+Maga mellé vette Mózes és Áron e név szerint is kijelölt férfiakat.
+18
+Összegyűjtötték az egész gyülekezetet a második hónap első napján, és bejegyezték születésük idejét nemzetségeik szerint, atyáik háza népe szerint, a nevek száma szerint, húszesztendőstől fogva és feljebb, főről főre.
+19
+Ahogy az ÚR parancsolta, úgy számlálta meg őket Mózes a Sínai-pusztában.
+20
+Rúbennek, Izráel elsőszülöttjének fiai, azok leszármazottai nemzetségenként, háza népenként, név szerint számba véve, főről főre minden férfiú, húszesztendőstől fogva és följebb minden harcra fogható,
+21
+akiket megszámláltak Rúben törzséből: negyvenhatezer-ötszáz lélek.
+22
+Simeon fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, főről főre minden férfi, húszesztendőstől fogva és följebb, minden harcra fogható,
+23
+akiket megszámláltak Simeon törzséből: ötvenkilencezer-háromszáz.
+24
+Gád fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+25
+akiket megszámláltak Gád törzséből: negyvenötezer-hatszázötven.
+26
+Júda fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+27
+akiket megszámláltak Júda törzséből: hetvennégyezer-hatszáz.
+28
+Issakár fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+29
+akiket megszámláltak Issakár törzséből: ötvennégyezer-négyszáz.
+30
+Zebulon fiainak leszármazottai nemzetségenként és háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+31
+akiket megszámláltak Zebulon törzséből: ötvenhétezer-négyszáz.
+32
+József fiaiból Efraim fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+33
+akiket megszámláltak Efraim törzséből: negyvenezer-ötszáz.
+34
+Manassé fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb, minden harcra fogható,
+35
+akiket megszámláltak Manassé törzséből: harminckétezer-kétszáz.
+36
+Benjámin fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+37
+akiket megszámláltak Benjámin törzséből: harmincötezer-négyszáz.
+38
+Dán fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, a nevek száma szerint, húszesztendőstől fogva és följebb minden harcra fogható,
+39
+akiket megszámláltak Dán törzséből: hatvankétezer-hétszáz.
+40
+Ásér fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+41
+akiket megszámláltak Ásér törzséből: negyvenegyezer-ötszáz.
+42
+Naftáli fiainak leszármazottai nemzetségenként, háza népenként, név szerint számba véve, húszesztendőstől fogva és följebb minden harcra fogható,
+43
+akiket megszámláltak Naftáli törzséből: ötvenháromezer-négyszáz.
+44
+Ezeket vették számba, akiket Mózes, Áron és Izráel tizenkét fejedelme számolt meg; egy-egy férfi, mindegyik a háza népének feje.
+45
+Mindazok, akiket számba vettek Izráel fiai közül, atyáik háza népe szerint, húszesztendőstől fogva és följebb, minden harcra foghatót Izráelben,
+46
+#0203802601
+mindazok, akiket megszámoltak: hatszázháromezer-ötszázötvenen voltak.
+47
+#0400300117
+De a lévitákat atyáik háza népe szerint nem vették számba közöttük.
+!A léviták külön vétele
+48
+Mert így szólt az ÚR Mózeshez:
+49
+#0400203301
+Csak Lévi törzsét ne vedd számba, és ne sorold őket Izráel fiai közé,
+50
+hanem rendeld őket a bizonyság hajlékának, minden edényének és minden ahhoz valónak őrzőivé. Ők hordozzák a hajlékot, minden edényét, szolgáljanak mellette, és a hajlék körül táborozzanak.
+51
+#0400303801
+Amikor a hajléknak tovább kell indulnia, a léviták szedjék szét, amikor pedig megáll a hajlék, a léviták állítsák föl. Ha pedig idegen közeledik hozzá, haljon meg.
+52
+Izráel fiai közül mindenki a maga táborában és az ő zászlaja alatt, seregeik szerint táborozzon.
+53
+#0400300701#0400302301#0402903501#0402903801
+A léviták pedig a bizonyság hajléka körül táborozzanak, hogy ne legyen haragom Izráel fiainak gyülekezetén. A léviták lássák el a bizonyság hajlékának őrzését.
+54
+Izráel fiai úgy tettek, ahogy az ÚR megparancsolta Mózesnek.

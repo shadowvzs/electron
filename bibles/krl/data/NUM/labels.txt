@@ -1,0 +1,80 @@
+79
+A fegyver alá való férfiak száma*1*1*47
+A léviták külön vétele*1*48*7
+A táborjárás rendje*2*1*34
+Áron családja*3*1*4
+A léviták tiszte*3*5*9
+A lévita családok*3*14*26
+Az elsőszülöttek kiváltása*3*40*12
+Utasítások a léviták számára*4*1*33
+A léviták megszámlálása*4*34*16
+A tisztátlanok elkülönítése*5*1*4
+Vétekért való áldozat eltulajdonítás miatt*5*5*6
+Hűtlenségi gyanú tisztázása*5*11*21
+Nazireusok törvénye*6*1*21
+Ároni áldás*6*22*6
+A törzsfők ajándékai a szent sátor felszentelésekor*7*1*89
+Az arany gyertyatartóról*8*1*4
+A léviták felszentelése*8*5*18
+A léviták szolgálati ideje*8*23*4
+Izráel fiai megtartják a páskhát*9*1*2
+0201200311*9*3*3
+A tisztátalanok és utasok páskhája*9*6*9
+Felhő- és tűzoszlop*9*15*9
+Az ezüstkürtök használata*10*1*10
+Elindulás a Sinai pusztájából*10*11*26
+Táborégés*11*1*3
+A nép kivánsága*11*4*12
+Hetven vén, a ki prófétál*11*16*14
+Fürjek és Kibrot-thaavá azaz kívánság sírjai*11*30*6
+Miriám poklossá lesz Mózes ellen való beszédéért*12*1*15
+Kanaán földére kémek küldetnek*13*1*25
+A kémek visszatérnek és elcsüggesztik a népet*13*26*9
+A nép zúgolódásának bűntetése*14*1*45
+Étel- és italáldozatokról*15*1*16
+A tészta zsengéjéről*15*17*5
+Gyarlóságból és gonoszságból eredő bűnök*15*22*10
+A szombatrontó büntetése*15*32*5
+Emlékeztető jel a ruhán*15*37*5
+Kóré (Kórah) csoportjának lázadása*16*1*19
+Kóré csoportjának elpusztulása*16*20*16
+A lázadók tömjénezői és Ároné*16*36*15
+Áron vesszeje kivirágzik*17*1*13
+A papok és léviták tiszte*18*1*7
+A papok jövedelme*18*8*12
+A léviták jövedelme*18*20*13
+Tisztulási mód veres tehén hamva által*19*1*22
+Miriám halála. Víz ered a kősziklából*20*1*13
+Edom nem bocsátja át a népet*20*14*8
+Áron halála*20*22*8
+Harc Arad királyával. Az érckígyó*21*1*9
+Izráel hadi szállásai*21*10*11
+Szíhon legyőzetik*21*21*11
+Og legyőzetik*21*32*4
+Bálák küld Bálámért, hogy átkozza meg a népet*22*1*20
+Bálám szamara megszólal*22*21*21
+Bálámmal átok helyett kétszer áldást mondat Isten*23*1*30
+Bálám ismét jót jövendöl Izráelről*24*1*9
+Csillag származik Jákóbból ...*24*10*16
+Az izráeliták lelki és testi paráznaságának bűntetése*25*1*18
+A nép új megszámlálása, az ország felosztása végett*26*1*65
+Leányok örökségi joga*27*1*11
+Józsué Mózes utódává szenteltetik*27*12*12
+A mindennapi áldozat törvénye*28*1*8
+A szombati és újholdi áldozat*28*9*7
+A páskha-áldozat*28*16*10
+A pünkösti áldozat*28*26*6
+Újévi áldozat*29*1*6
+Engesztelő-ünnepi áldozat*29*7*5
+Sátoros ünnepi áldozat*29*12*29
+Fogadalmakról való törvény*30*1*16
+Győzelem a Midiánitákon*31*1*24
+A zsákmány elosztása*31*25*30
+A Jordántól keletre eső országrész felosztása*32*1*42
+A hadi szállások felsorolása*33*1*49
+Utasítás a kananeusok kiűzésére*33*50*7
+A Kanaán földének határai*34*1*15
+Kik osszák fel az országot*34*16*14
+A léviták városairól*35*1*8
+Menedékvárosokról*35*9*26
+Örökösödési joggal biró leányok nem mehetnek mástörzsbelihez*36*1*13

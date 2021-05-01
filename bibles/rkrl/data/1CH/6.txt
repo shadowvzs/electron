@@ -1,0 +1,195 @@
+81
+!Lévi utódai
+1
+#0104601101
+Lévi fiai: Gerson, Kéhát és Mérári.
+2
+Kéhát fiai pedig: Amrám, Ishár, Hebron és Uzziel.
+3
+#0200200102#0200201001#0200401401#0200602301
+Amrám gyermekei: Áron, Mózes és Miriám; Áron fiai pedig: Nádáb, Abihu, Eleázár és Ithamár.
+4
+Eleázár nemzé Fineást, Fineás nemzé Abisuát;
+5
+Abisua pedig nemzé Bukkit, Bukki nemzé Uzzit;
+6
+Uzzi nemzé Zeráhiát, Zeráhia nemzé Mérajótot;
+7
+Mérajót nemzé Amáriát, Amária nemzé Ahitúbot;
+8
+#1000801701#1302701701
+Ahitúb nemzé Sádókot; Sádók nemzé Ahimáhást;
+9
+Ahimáhás nemzé Azáriát, Azária nemzé Jóhanánt;
+10
+#1402601701
+Jóhanán nemzé Azáriát, ez volt a pap abban a házban, amelyet Salamon Jeruzsálemben épített vala.
+11
+Azária nemzé Amáriát; Amária nemzé Ahitúbot;
+12
+Ahitúb nemzé Sádókot, Sádók nemzé Sallumot;
+13
+#1202200401
+Sallum nemzé Hilkiát; Hilkia nemzé Azáriát;
+14
+#1202501801#1202502101
+Azária nemzé Séráját, Sérája nemzé Jéhozadákot;
+15
+#1202500804
+Jéhozadák pedig fogságba méne, mikor az Úr Júdát és Jeruzsálemet fogságba viteté Nabukodonozor által.
+!Lévi és Áron fiainak nevei és lakhelye
+16
+Lévi fiai: Gerson, Kéhát és Mérári.
+17
+#0200601701
+Ezek a Gerson fiainak nevei: Libni és Simhi.
+18
+Kéhát fiai: Amrám, Jichár, Khebron és Huzziel.
+19
+Mérári fiai: Makhli és Musi. Ezek a Lévi háznépei az ő nemzetségeik szerint.
+20
+Gersonnak fiai: Ligni az ő fia, Jáhát ennek fia, Zima ennek fia.
+21
+Jóah ennek fia, Iddó ennek fia, Zérah ennek fia és Jéathérai ennek fia.
+22
+#0200602401
+Kéhát fiai: Amminádáb az ő fia, Kórákh ennek fia és Asszir ennek fia;
+23
+Elkána ennek fia, Ebiásáf ennek fia és Asszir ennek fia.
+24
+Tákhát ennek fia, Uriel ennek fia, Uzzia ennek fia és Saul ennek fia.
+25
+Elkána fiai: Amásai és Ahimót,
+26
+Elkána. Elkána fia: Sófai az ő fia és Náhát ennek fia.
+27
+#0900100101
+Eliáb ennek fia, Jérohám ennek fia, Elkána ennek fia.
+28
+#0900100101#0900102001#0900301901#0900701501
+Sámuel fiai pedig: az elsőszülött Vásni, a második Abija.
+29
+Mérári fiai: Mahli, Libni ennek fia; Simhi ennek fia és Uzza ennek fia.
+30
+Simea ennek fia, Haggija ennek fia és Asája ennek fia.
+31
+#1000601701
+Ezek azok, akiket Dávid állított be az Úr házában az énekléshez, mikor az Isten ládája elhelyeztetett.
+32
+#1100600101#1100603801
+És amíg Salamon felépíté az Úr házát Jeruzsálemben, addig a gyülekezet sátora előtt szolgáltak énekléssel és állottak szolgálatban, kiki az ő rendje szerint.
+33
+Ezek pedig akik szolgáltak, és az ő fiaik: a Kéhátiták fiai közül Hémán főéneklő, Jóel fia, ki Sámuel fia.
+34
+Ki Elkána fia, ki Jérohám fia, ki Eliél fia, ki Thóa fia.
+35
+Ki Cúf fia, ki Elkána fia, ki Mahát fia, ki Amásai fia.
+36
+Ki Elkána fia, ki Jóél fia, ki Azárja fia, ki Séfánia fia.
+37
+#1300602201
+Ki Tákhát fia, ki Asszir fia, ki Ebiásáf fia, ki Kórákh fia.
+38
+#1300200101
+Ki Jichár fia, ki Kéhát fia, ki Lévi fia, ki Izráel fia.
+39
+És ennek testvére, Asáf, aki jobbkeze felől áll vala; Asáf, a Berekiás fia, ki Simea fia vala.
+40
+Ki Mikáel fia, ki Bahásia fia, ki Melkija fia.
+41
+Ki Ethni fia, ki Zérah fia, ki Adája fia.
+42
+Ki Etán fia, ki Zimma fia, ki Simhi fia.
+43
+#1300600101
+Ki Jáhát fia, ki Gerson fia, ki Lévi fia.
+44
+#1300600101
+Továbbá a Mérári fiai, akik azokkal atyafiak valának, balkéz felől állnak vala; Etán, Kisi fia, ki Abdi fia, ki Malluk fia.
+45
+Ki Kasábja fia, ki Amásia fia, ki Hilkia fia.
+46
+Ki Amsi fia, ki Báni fia, ki Sémer fia.
+47
+#1300600101
+Ki Makhli fia, ki Musi fia, ki Mérári fia, ki Lévi fia.
+48
+És testvéreik, a Léviták rendeltetnek vala az Isten háza hajlékának egyéb szolgálatjára.
+49
+#0203000704#0300800136#0400401601
+Áron pedig és az ő fiai az egészen megégetendő áldozatnak oltára mellé, és a füstölő oltár mellé, a szentek-szentjének szolgálatja mellé, és az Izráel megszentelésére rendeltetének mind aszerint, amint Mózes, az Isten szolgája megparancsolta volt.
+50
+Áron fiai pedig ezek: Eleázár, az ő fia, ennek fia Fineás, ennek fia Abisua.
+51
+Ennek fia Bukki, ennek fia Uzzi, ennek fia Zerája.
+52
+Ennek fia Merájót, ennek fia Amárja, ennek fia Akhitúb.
+53
+#1001502701
+Ennek fia Sádók, ennek fia Akhimás.
+54
+#0602100145#1300605527
+És az Áron fiainak, a Kéhátiták nemzetségéből, ezek a lakhelyeik, letelepedésük szerint az ő vidékükön, mert ez jutott volt nékik sors által.
+55
+Ők kapták Hebront, a Júda földében és a körülte való legelőket.
+56
+#0401403001
+De e város földjeit és annak faluit Kálebnek, a Jefunné fiának adák.
+57
+Az Áron fiainak azért a Júda városai közül adák a menedékvárosokat, Hebront, Libnát és legelőit, Jatthirt és Esthemoát és ezeknek legelőit,
+58
+És Hilent és annak legelőit, és Débirt és annak legelőit,
+59
+#0900601901
+Asánt és annak legelőit, és Béth-Semest és annak legelőit.
+60
+A Benjámin nemzetségéből: Gébát és annak legelőit, Allémetet és annak legelőit, Anatót várost is és annak legelőit. Ezeknek az ő nemzetségek szerint tizenhárom városuk volt.
+61
+#0602100501
+A Kéhát többi fiainak pedig az egy nemzetségnek családjaitól, és a félnemzetségből, a Manasse nemzetségének felétől, sors által tíz várost adtak.
+62
+Míg a Gerson fiainak meg az ő nemzetségök szerint az Izsakhár nemzetségéből, az Áser nemzetségéből, a Nafthali nemzetségéből és a Manasse nemzetségéből Básánban adtak tizenhárom várost.
+63
+A Mérári fiainak az ő nemzetségök szerint a Rúben nemzetségéből, a Gád nemzetségéből és a Zebulon nemzetségéből sors által tizenkét várost.
+64
+Adának tehát az Izráel fiai a Lévitáknak városokat, azoknak legelőivel együtt.
+65
+Sors által adták a Júda nemzetségéből, a Simeon nemzetségéből és a Benjámin nemzetségéből ezeket a névszerint megnevezett városokat.
+66
+Azoknak, akik a Kéhát fiainak családjaiból valók voltak, és a határukban levő városok az Efraim nemzetségéből valának:
+67
+#1100901501
+Azoknak adák a menedékvárosokat, Sikemet és annak legelőit az Efraim hegyén, Gézert és annak legelőit.
+68
+És Jokmeámot és annak legelőit, Bethoront és annak legelőit.
+69
+#0601001201
+Ajalont és annak legelőit; Gáthrimmont is és annak legelőit.
+70
+A Manasse nemzetségének feléből Anert és annak legelőit, Bileámot és annak legelőit, a Kéhát többi fiainak családjai részére.
+71
+#1300600101
+A Gerson fiainak pedig a Manasse félnemzetségéből Gólánt Básánban és annak legelőit, és Astarótot és annak legelőit:
+72
+Az Izsakhár nemzetségéből adák Kédest és annak legelőit; Dobrátot és annak legelőit.
+73
+Rámótot és annak legelőit, Anémet és annak legelőit.
+74
+#0602103001
+Az Áser nemzetségéből Másált és annak legelőit, és Abdont és annak legelőit.
+75
+Hukókot és annak legelőit; Réhobot és annak legelőit.
+76
+A Nafthali nemzetségéből Kédest Galileában és annak legelőit; Hammont és annak legelőit; és Kirjáthaimot és annak legelőit.
+77
+#1300600101
+A Mérári többi fiainak a Zebulon nemzetségéből Rimmont és annak legelőit, és Thábort és annak legelőit.
+78
+A Jordánon túl Jérikhó ellenében a Jordánnak napkelet felől való részében a Rúben nemzetségéből Bésert a pusztában és annak legelőit; Jahását és annak legelőit.
+79
+Kedemótot és annak legelőit; Mefaátot és annak legelőit.
+80
+#0602103801
+A Gád nemzetségéből Rámótot Gileádban és annak legelőit; Mahanaimot és annak legelőit.
+81
+Hesbont és annak legelőit; Jaázert és annak legelőit.

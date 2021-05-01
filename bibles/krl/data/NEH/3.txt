@@ -1,0 +1,94 @@
+32
+!A jeruzsálemi kőfal építésének leírása
+1
+#2403103801#3801401001#4300500201
+Eljásib, a főpap és testvérei, a papok nekiláttak, és fölépítették a Juh-kaput. Fölszentelték, és helyükre állították ajtószárnyait. A várfalat pedig a Hamméá-toronyig és tovább, Hananél tornyáig építették, majd fölszentelték azt is.
+2
+#1500203401
+Mellettük építettek a jerikóiak, ezek mellett pedig Zakkúr, Imri fia épített.
+3
+#1403301401#1500203501#1601203901#3600101001
+A Hal-kaput pedig Hasszenáá fiai építették. Ők gerendázták be, és tették a helyükre ajtajait, kapupántjait és zárait.
+4
+#1300301901#1500206101#1600601801#1600303001
+Mellettük javítgatta a várfalat Merémót, Úrijjá fia, Hakkóc unokája. Mellettük pedig Mesullám, Berekjá fia, Mesézabél unokája javítgatott. Őmellette pedig Cádók, Baaná fia javítgatott.
+5
+#1600302701#2402701102
+Ezek mellett a tekóabeliek javítgattak, de főembereik nem hajtották nyakukat uruk szolgálatába.
+6
+#1403301401#1601203901
+Az óváros kapuját Jójádá, Pászéah fia és Mesullám, Beszódjá fia javítgatta. Ők gerendázták be, és állították föl ajtajait, kapupántjait és zárait.
+7
+#1302703001#1600301501#1600301901
+Mellettük a gibeóni Melatjá és a mérónóti Jádón javítgatott; ők a folyamon túli helytartó hivatalához tartozó gibeóni és micpai férfiak voltak.
+8
+#1600303101#1601203801
+Mellettük Uzzíél, Harhajá fia javítgatott az ötvösökkel, őmellette pedig Hananjá, a kenőcskészítők egyike javítgatott. Megerősítették Jeruzsálemet egészen a széles várfalig.
+9
+Mellettük Refájá, Húr fia, Jeruzsálem fél kerületének a vezetője javítgatott.
+10
+#1601000401#1600900501#1601200201
+Mellette Jedajá, Harúmaf fia javítgatott, méghozzá a saját házával szemben. Mellette Hattús, Hasabnejá fia javítgatott.
+11
+#1500200601#1500203201
+A várfalnak egy másik részét és a Kemencék tornyát Malkijjá, Hárim fia és Hassúb, Pahat-Móáb fia javítgatta.
+12
+#1601102501#1601102701
+Mellettük Sallum, Hallóhés fia, Jeruzsálem másik fél kerületének a vezetője és a lányai javítgattak.
+13
+#0601503401#1600201301#1601103001#1601203101
+A Völgy-kaput Hánún és Zánóah lakói javítgatták. Ők építették föl azt, és tették a helyükre ajtajait, kapupántjait és zárait. A várfalból ezerkönyöknyit javítottak ki, a Szemét-kapuig.
+14
+A Szemét-kaput pedig Malkijjá, Rékáb fia, Bét-Hakkerem tartományának a vezetője javítgatta. Ő építette föl azt, és állította a helyükre ajtajait, kapupántjait és zárait.
+15
+#1202500401#2403900401#2405200701#1600201401#1601100501#1601203701
+A Forrás-kaput Sallún, Kol-Hóze fia, Micpá tartományának vezetője javítgatta. Ő építette föl, tetőzte be, és állította a helyükre ajtajait, kapupántjait és zárait. A Selah-tó kőfalát a király kertje felé egészen a lépcsőkig, melyek Dávid városából vezetnek alája.
+16
+#0601505801#1300902601#1302600601#1401100701#1600100101
+Utána Nehemjá, Azbúk fia, Bét-Cúr fél kerületének vezetője javítgatott Dávid sírjaival szemközt az újonnan készült tóig meg a vitézek házáig.
+17
+#0601504401#0902300101#1300401901#1500200201#1600900501
+Utána a léviták javítgattak: Rehúm, Báni fia, mellette Hasabjá, Keílá fél kerületének a vezetője, tartománya lakosaival együtt.
+18
+#1600302401
+Utána testvérei javítgattak: Bavvaj, Hénádád fia, Keílá másik fél kerületének a vezetője.
+19
+Mellette javítgatott Ézer, Jésúa fia, Micpá vezetője a várfal egy másik darabján, a fegyvertár följáratával szemben lévő szögletig.
+20
+#1500200901#1501002801
+Utána Bárúk, Zakkaj fia javítgatta buzgón a várfal egy másik darabját, a szöglettől Eljásib főpap házának ajtajáig.
+21
+#1500803301#1600300401
+Utána Merémót, Úrijjá fia, Hakkóc unokája javítgatott egy másik darabon, Eljásib házának ajtajától Eljásib házának végéig.
+22
+#1601202801
+Utána a Jordán völgyéből való papok javítgattak.
+23
+#1500200601#1600302401
+Ezek után Benjámin és Hassúb javítgatott, a házukkal szemben, utánuk pedig Azarjá, Maaszéjá fia, Anánjá unokája javítgatott a maga háza mellett.
+24
+#1600301801#1601000901
+Utánuk Binnúj, Hénádád fia javítgatott egy másik darabon, Azarjá házától egészen a sarokig és a szögletig.
+25
+#1500200301#2403200201#2403200801#2403201201#2403300101#2403702101#2403800601#2403801301#2403802801#2403901401
+Továbbá Pálál, Úzaj fia, a szöglettel és a felső toronnyal szemben, amely a király palotájából ugrik ki a tömlöc udvaránál. Utána pedig Pedájá, Parós fia.
+26
+#1402700301#1403301401#1600800101#1600800301#1600801601#1601203602#1601204001
+A léviták szolgái pedig, akik az Ófelben laktak, kelet felé a Vízi-kapuig és a kiugró toronyig javítgattak.
+27
+#1600300501#1600302501
+Utánuk a tekóabeliek javítgattak egy másik darabon a kiugró nagy toronytól az Ófel kőfaláig.
+28
+#1202301101#2403104001
+A Lovak kapuján felül a papok javítgattak, mindegyik a saját házával szemben.
+29
+#1302600601#1500203701#1500801601
+Utánuk Cádók, Immér fia javítgatott a maga házával szemben, és őutána Semajá, Sekanjá fia, a keleti kapu őre javítgatott.
+30
+#1600300401#1600300801#1600601801#2403500401#2403601001
+Utána Hananjá, Selemjá fia és Hánún, Cáláf hatodik fia javítgatott egy másik darabon. Utánuk Mesullám, Berekjá fia javítgatott saját lakásával szemben.
+31
+#2604302101
+Utána az egyik ötvös, Malkijjá javítgatott a léviták szolgáinak és a kereskedőknek a házáig, a Mifkád-kapuval szemben, a sarkon lévő felső szobáig.
+32
+A sarki felső szoba és a Juh-kapu között pedig az ötvösök és a kereskedők javítgattak.

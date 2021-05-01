@@ -1,0 +1,67 @@
+24
+!A Jordán mindkét oldalán legyőzőtt harmincegy király
+1
+#0402101301
+Ezek pedig ama földnek királyai, akiket levertek Izráelnek fiai, és akiknek földjét birtokba vették a Jordánon túl, napkelet felé, az Arnon pataktól fogva a Hermon hegyéig, és az egész mezőséget kelet felől:
+2
+#0103202201#0500203601#0500300801#0500301601
+Szíhon, az Emoreusok királya, aki lakik vala Hesbonban, aki uralkodik vala Aróertől fogva, amely van az Arnon patak partján, és a patak közepétől és a Gileád felétől a Jabbok patakig, az Ammon fiainak határáig.
+3
+#0403401101
+És a mezőségtől a Kinneróth tengerig napkelet felé, és a puszta tengeréig, a Sóstengerig napkelet felé, a Béth-Jesimothi útig, és délfelé a Piszga hegyoldalainak aljáig.
+4
+#0500100401
+És Ógnak, a Básán királyának tartománya, aki Refaim maradékai közül való, aki Astarotban és Edreiben lakozik vala.
+5
+És uralkodik vala Hermon hegyén, Szalkhában és az egész Básánban, a Gesurnak és Maakhátnak határáig, és a fél Gileádon, Szíhonnak, Hesbon királyának határáig.
+6
+#0402102304#0402103303#0503203301
+Mózes, az Úrnak szolgája és Izráelnek fiai verték le őket, és oda adta azt a földet Mózes, az Úrnak szolgája örökségül a Rúben és Gád nemzetségeknek és a Manassé nemzetség felének.
+7
+#0601004002#0601101701
+Ezek pedig ama földnek királyai, akiket levertek vala Józsué és az Izráelnek fiai a Jordán másik oldalán napnyugat felé, Baál-Gádtól fogva, amely van a Libánon völgyében, egészen a kopasz hegyig, amely Szeír felé emelkedik. És oda adá azt Józsué örökségül az Izráel nemzetségeinek, az ő osztályrészeik szerint:
+8
+#0601004001#0601100301
+A hegységben és a síkságon, a mezőségen és a hegyoldalakon, a pusztán és a déli vidéken, a Khittheus, Emoreus, Kananeus, Perizeus, Khivveus és Jebuzeusok földjét.
+9
+#0600600201#0600802901
+Jérikhónak királya egy; Ainak, amely oldalra vala Béthel felé, királya egy;
+10
+#0601000101#0601000301#0601002305
+Jeruzsálemnek királya egy, Hebronnak királya egy;
+11
+#0601000301
+Jármutnak királya egy, Lákisnak királya egy;
+12
+#0601000301#0601002601#0601003301
+Eglonnak királya egy, Gézernek királya egy;
+13
+#0601003802
+Debirnek királya egy, Gédernek királya egy;
+14
+Hormáhnak királya egy, Aradnak királya egy;
+15
+#0601002902
+Libnának királya egy; Adullámnak királya egy;
+16
+#0601002801
+Makkedának királya egy, Béthelnek királya egy;
+17
+Tappuáhnak királya egy, Héfernek királya egy;
+18
+Afeknek királya egy, Lassáronnak királya egy;
+19
+#0601100101#0601101001
+Mádonnak királya egy, Hásornak királya egy;
+20
+#0601100101
+Simron Meronnak királya egy, Aksáfnak királya egy;
+21
+Taanáknak királya egy, Megiddónak királya egy;
+22
+Kedesnek királya egy, a Kármelen levő Jokneámnak királya egy;
+23
+#0601100201
+A Dór magaslatán levő Dórnak királya egy, a Gilgál népeinek királya egy;
+24
+Tircának királya egy; összesen harmincegy király.

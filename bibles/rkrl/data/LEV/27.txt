@@ -1,0 +1,73 @@
+34
+!A fogadással igért dolgok közül mit kell megváltani a pap becsüje szerint, mit nem lehet
+1
+Szóla ismét az Úr Mózesnek, mondván:
+2
+Szólj Izráel fiainak, és mondd meg nékik: Ha valaki fogadásul a te becslésed szerint való személyeket szentel az Úrnak:
+3
+Akkor, ha férfit kell becslened, húsz esztendőstől hatvan esztendősig ötven ezüst siklusra becsüljed, a szent siklus szerint.
+4
+Ha pedig asszony-személy az, harminc siklusra becsüljed.
+5
+Ha pedig öt esztendőstől húsz esztendősig való, akkor a fiúgyermeket húsz siklusra becsüljed, a leányt pedig tíz siklusra.
+6
+Ha pedig egy hónapostól öt esztendősig való, akkor a fiút öt ezüst siklusra becsüld, a leányt pedig három ezüst siklusra.
+7
+Ha pedig hatvan esztendős és azon felül való, ha férfi, akkor becsüljed tizenöt siklusra, az asszony-személyt pedig tíz siklusra.
+8
+Ha pedig szegényebb az, mint te becsülted, akkor állassák a pap elé, és becsülje meg azt a pap; aszerint becsülje azt a pap, amilyen módja van a fogadást tevőnek.
+9
+Ha pedig olyan barom az, amiből áldozni szoktak az Úrnak: mindaz, amit az eféléből ád valaki az Úrnak, szent legyen.
+10
+Ne adjon mást helyette, és ki ne cserélje azt: jót hitványért, vagy hitványat jóért; de ha mégis kicserélne barmot barommal: mind ez, mind az, amivel kicserélte, szent legyen.
+11
+Ha pedig valamely tisztátalan barom az, amelyből nem vihetnek áldozatot az Úrnak: állassák azt a barmot a pap elé.
+12
+És becsülje meg azt a pap akár jó, akár hitvány, és amint becsüli a pap, úgy legyen.
+13
+Ha pedig meg akarja váltani, adja hozzá annak ötödrészét a te becsléseden felül.
+14
+És ha valaki az ő házát szenteli az Úrnak szentségül, azt is becsülje meg a pap: akár jó, akár hitvány, és amennyire a pap becsüli azt, úgy maradjon.
+15
+Ha pedig az, aki odaszentelte, megváltja az ő házát: akkor adja ahhoz a te becslésed szerint való árnak ötödrészét, és legyen az övé.
+16
+És ha valaki az ő mezei birtokából szentel valamit az Úrnak, akkor a mag szerint becsüld meg, amely abba megy: egy hómer árpa-mag után ötven ezüst siklusra.
+17
+Ha a kürtölésnek esztendejétől szenteli oda az ő mezejét, amint becsülted, úgy maradjon.
+18
+Ha pedig a kürtölés esztendeje után szenteli oda az ő mezejét, a pap számítsa fel néki az árt az esztendők száma szerint, amelyek hátra vannak a kürtölés esztendejéig, és szállíttassék le a te becslésed.
+19
+És ha meg akarja váltani a mezőt az, aki odaszentelte, akkor adja ahhoz az általad becsült árnak ötödrészét, és maradjon az övé.
+20
+Ha pedig nem váltja meg azt a mezőt, és ha eladja azt a mezőt más valakinek, többé meg nem válthatja azt.
+21
+És az a föld, mikor a kürtölésnek esztendejében felszabadul, az Úrnak szenteltessék, mint valamely néki szentelt mező, papok birtokává legyen az.
+22
+Ha pedig pénzen vett mezejét, ami nem az ő birtokának mezejéből való, valaki az Úrnak szenteli:
+23
+Akkor számolja fel néki a pap a te becslésed szerint való összeget a kürtölés esztendejéig, és adja oda azt, amire te becsülted, azon a napon szentségül az Úrnak.
+24
+A kürtölésnek esztendejében visszaszáll a mező arra, akitől vette azt, akinek birtoka volt az a föld.
+25
+#0203001301
+Minden becslésed pedig a szent siklus szerint legyen; húsz géra legyen a siklus.
+26
+#0201300201
+Csak elsőszülöttet, amely elsőszülött úgyis az Úré, azt ne szenteljen a baromféléből senki; akár borjú akár bárány, az Úré az.
+27
+Ha pedig tisztátalan baromból való az, váltsa meg a te becslésed szerint, és adja hozzá annak ötödrészét; ha pedig nem váltják meg, adassék el a te becslésed szerint.
+28
+#0401801401#0600601901
+De semmi, amit valaki teljesen az Úrnak szentelt, mind abból amije van, akár ember vagy barom, akár mezei birtokából való, el ne adassék, és meg se váltassék; minden, ami teljesen néki szenteltetett, igen szentséges az Úrnak.
+29
+Senki, aki teljesen az Úrnak szenteltetett az emberek közül, meg ne váltassék, hanem halálra adassék bizonynyal.
+30
+A földnek minden tizede, a föld vetéséből, a fa gyümölcséből az Úré; szentség az az Úrnak.
+31
+És ha valaki meg akar valamit váltani az ő tizedéből: adja hozzá annak ötödrészét.
+32
+És minden tizede a baromnak és juhnak, mindabból, ami a vessző alatt átmegy, a tizedik az Úrnak legyen szentelve.
+33
+Ne tudakozódjék, ha jó-e vagy hitvány, és el se cserélje azt; de ha mégis elcseréli azt, akkor az, és amit cserébe adott azért, szent legyen, és meg se váltassék.
+34
+Ezek azok a parancsolatok, amelyeket Mózes által parancsolt az Úr Izráel fiainak a Sinai hegyen.

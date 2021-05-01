@@ -1,0 +1,48 @@
+47
+Égőáldozatok törvénye*1*1*17
+Ételáldozatok törvénye*2*1*16
+Hálaáldozatok törvénye*3*1*17
+Bűnért való áldozatok törvénye*4*1*35
+Folytatás, a bűnért való áldozatról*5*1*13
+Vétekért való áldozat törvénye*5*14*6
+A vétekért való áldozat törvényének folytatása*6*1*7
+Az égőáldozatról*6*8*6
+Az ételáldozatról*6*14*10
+A bűnért való áldozatról*6*24*7
+További áldozati törvény*7*1*38
+A papok felszentelése*8*1*36
+Áron első áldozatát mennyei tűz emészti meg*9*1*24
+Nádáb és Abihu megég*10*1*20
+Különbség a tiszta és tisztátlan állatok között*11*1*47
+Gyermekágyas asszony törvénye*12*1*8
+Az emberen fakadt poklosság megismerése*13*1*46
+A ruhán lévő poklosság megismerése*13*47*13
+Az emberi poklosság megtisztítása*14*1*32
+A ház poklosságának megtisztítása*14*33*25
+Testi tisztátlanságról*15*1*33
+Évenkénti engesztelési ünnep*16*1*34
+Csak a szent helyen szabad áldozni*17*1*9
+Vért és döghúst enni tilos*17*10*7
+Közeli rokonok házassága és más nagy bűnök tiltatnak*18*1*30
+A tíz parancsolat magyarázata*19*1*37
+Némely nagy bűnök büntetése*20*1*27
+A papok szentek legyenek*21*1*15
+A papok hibátlanok legyenek*21*16*9
+Az áldozatokból ki ehetik*22*1*16
+Az áldozati állatok fogyatkozás nélkül valók legyenek*22*17*17
+A nagy ünnepekről*23*1*14
+Pünköst*23*15*8
+Újév*23*23*3
+Engesztelési ünnep*23*26*7
+Sátoros ünnep*23*33*12
+A mécsesekről és szent kenyerekről való törvény*24*1*9
+Az istenkáromló megköveztetik*24*10*7
+Az emberölés és testi sértés bűntetése*24*17*7
+A szombatévről*25*1*7
+A kürtölés éve (jubileumi év)*25*8*16
+A birtokvisszaváltásról*25*24*11
+Az uzsora és szolgák sanyargatása tiltatik*25*35*21
+Áldás a szófogadóknak*26*1*13
+Átok a szófogadatlanoknak*26*14*26
+Majdan a megtérőknek bocsánat*26*40*7
+A fogadással igért dolgok közül mit kell megváltani a pap becsüje szerint, mit nem lehet*27*1*34

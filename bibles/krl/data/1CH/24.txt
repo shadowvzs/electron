@@ -1,0 +1,71 @@
+31
+!A huszonnégy papi rend főemberei
+1
+Áron fiainak rendje. Áron fiai: Nádáb, Abíhú, Eleázár és Ítámár.
+2
+#0400300201#0400300401
+Nádáb és Abíhú még apjuk előtt meghaltak, és mivel nem voltak fiaik, ezért Eleázár és Ítámár viselte a papságot.
+3
+#1000801701
+Dávid beosztotta Eleázár fiai közül Cádókot, Ítámár fiai közül pedig Ahimeleket tisztük szerinti szolgálatra.
+4
+Mivel Eleázár fiai között több főember volt található, mint Ítámár fiai között, Eleázár fiai közül tizenhat családfőt osztottak be, Ítámár fiai közül pedig nyolcat.
+5
+Sorsolással osztották be őket, válogatás nélkül ezeket is, meg azokat is. Így lettek a szent hely elöljárói és Isten fejedelmei az Eleázár és az Ítámár fiai közül valók egyaránt.
+6
+#1000801701#1302701701
+Semajá, Netanél fia, a Lévi nemzetségéből való kancellár írta fel őket a király és a fejedelmek előtt, Cádók pap és Ahimelek, Ebjátár fia előtt, továbbá a papok és a léviták családfői előtt. Egy családot sorsoltak ki Eleázárnak, majd még egyet, és egyet Ítamár nemzetségéből.
+7
+Az első sorshúzás Jehójáribra esett, a második Jedajára,
+8
+a harmadik Hárimra, a negyedik Szeórimra,
+9
+az ötödik Malkijjára, a hatodik Mijjáminra,
+10
+#4200100501
+a hetedik Hakkócra, a nyolcadik Abijjára,
+11
+a kilencedik Jésúára, a tizedik Sekanjáhúra,
+12
+a tizenegyedik Eljásibra, a tizenkettedik Jákimra,
+13
+a tizenharmadik Huppára, a tizennegyedik Jesebábra,
+14
+a tizenötödik Bilgára, a tizenhatodik Immérre,
+15
+a tizenhetedik Hézírre, a tizennyolcadik Happiccécre,
+16
+a tizenkilencedik Petahjára, a huszadik Jehezkélre,
+17
+a huszonegyedik Jákínra, a huszonkettedik Gámúlra,
+18
+a huszonharmadik Delájáhúra, a huszonnegyedik Maazjáhúra.
+19
+Ezek tiszte volt szolgálatukban, hogy bejárjanak az ÚR házába sorban atyjuk, Áron rendelése szerint, amint az ÚR, Izráel Istene megparancsolta neki.
+!A Léviták főemberei
+20
+Lévi többi fiai ezek voltak: Amrám fia volt Súbáél, Súbáél fia Jehdejáhú.
+21
+Aki Rehabjáhútól származott: Jissijjá, Rehabjáhú első fia.
+22
+Jicháritól származott Selómót, Selómót fia volt Jahat.
+23
+#1302301901
+Hebrón fiai közül Jerijjáhú volt az első, Amarjáhú a második, Jahaziél a harmadik, Jekamám a negyedik.
+24
+Uzzíél fia volt Míká, Míká fia Sámír.
+25
+Míká testvére Jissijjá volt, Jissijjá fia pedig Zekarjáhú.
+26
+Merári fia volt Mahli és Músi. Jaazijjáhú fia Benó volt.
+27
+Merári fiai voltak: Jaazijjáhútól, fiától származott Sóham, Zakkúr és Ibri.
+28
+#1302302101
+Mahlitól volt Eleázár, neki nem voltak fiai.
+29
+Kístől származott Jerahmeél, Kís fia.
+30
+Músi fiai voltak: Mahli, Éder és Jerimót. Ezek a léviták családjaik szerint.
+31
+Ezekre is ugyanúgy sorsot vetettek, mint testvéreikre, Áron fiaira Dávid király, Cádók és Ahimelek, továbbá a papok és a léviták családfői előtt a családfőkre ugyanúgy, mint legkisebb testvérükre.

@@ -1,0 +1,58 @@
+{
+  "name": "Bible",
+  "version": "1.0.0",
+  "description": "Simple Bible desktop app",
+  "main": "main.js",
+  "url": "https://github.com/shadowvzs/biblia",
+  "homepage": "https://github.com/shadowvzs/biblia",
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/shadowvzs/biblia.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "package": "rm -rf dist && npm run build && cp ./src/package.json ./dist/ && cp -ar bibles dist && cd dist",
+    "start": "npm run build && electron ./dist/main.js",
+    "make-all": "npm run package && electron-packager dist bible --all --overwrite --out=release",
+    "make-win32": "npm run package && electron-packager dist bible --platform=win32 --arch=ia32 --overwrite --out=release",
+    "make-linux": "npm run package && electron-packager dist bible --platform=linux --arch=x64 --overwrite --out=release && /home/shadowvzs/projects/electron/release/bible-linux-x64/bible"
+  },
+  "keywords": [],
+  "author": "Varga Zsolt",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "copy-webpack-plugin": "^8.1.1",
+    "electron": "^12.0.4",
+    "html-webpack-plugin": "^5.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@material-ui/styles": "^4.11.3",
+    "@types/react-toggle": "^4.0.2",
+    "classnames": "^2.3.1",
+    "electron-packager": "^15.2.0",
+    "mobx": "^6.2.0",
+    "mobx-react-lite": "^3.2.0",
+    "react-toggle": "^4.1.2"
+  },
+  "build": {
+    "appId": "com.example.electron-boilerplate",
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extends": null,
+    "directories": {
+      "buildResources": "assets"
+    },
+    "publish": null
+  }
+}

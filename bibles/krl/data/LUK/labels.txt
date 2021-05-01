@@ -1,0 +1,104 @@
+103
+Előszó*1*1*4
+Angyal adja hírül Keresztelő János születését*1*5*21
+Krisztus születését adja hírül Gábriel*1*26*13
+Mária látogatása Erzsébetnél*1*39*7
+Mária éneke*1*46*11
+János születése és körülmetélése*1*57*10
+Zakariás éneke*1*67*14
+Krisztus születése*2*1*20
+Jézust körülmetélik, bemutatják az Úrnak. Simeon és Anna*2*21*20
+Jézus a templomban tizenkétéves korában. Názáreti ifjúsága*2*41*12
+Keresztelő János megtérést prédikál, Krisztusról bizonyságot tesz*3*1*20
+Jézus megkeresztelkedése és nemzetségi táblázata*3*21*18
+Jézus megkisértetik*4*1*13
+Krisztus megkezdi tanítói hivatalát és prédikál Názáretben*4*14*17
+Jézus Kapernaumban prédikál, ördöndőst gyógyít meg*4*31*7
+Jézus meggyógyítja Péter napát és sok beteget*4*38*7
+Péter csodálatos halfogása*5*1*11
+A bélpoklos meggyógyítása*5*12*5
+A gutaütött meggyógyítása*5*17*10
+Máté elhívatása*5*27*6
+Jézus magyarázata a bőjtről*5*33*7
+A szombatnapi kalásztépés és a száradt kezű meggyógyítása igazoltatik*6*1*11
+Tizenkét apostol választása*6*12*5
+Krisztus mezei prédikácziója*6*17*33
+A százados szolgájáról*7*1*10
+A naini özvegy fiáról*7*11*7
+Keresztelő János követei*7*18*18
+A bűnös nő Jézus lábait megkeni*7*36*15
+Krisztus női követői*8*1*3
+Példázat a magvetőről*8*4*15
+Kik a Krisztus atyjafiai*8*19*3
+A háborgó tenger lecsendesítése*8*22*4
+Ördöngős meggyógyítása*8*26*14
+Jézus feltámasztja Jairus leányát, meggyógyítja a vérfolyásos asszonyt*8*40*17
+A tizenkét apostol kiküldetése*9*1*9
+Ötezer férfi jóltartása*9*10*8
+Péter vallástétele. Jézus először jelenti szenvedéseit*9*18*10
+Jézus megdicsőülése*9*28*10
+Ördöngős meggyógyítása. Jézus másodszor jelenti szenvedéseit*9*38*8
+A tanítványok rangvitája*9*46*5
+A tanítványok hevessége*9*51*6
+Jézus követése*9*57*6
+A hetven tanítvány kiküldetése és visszajövetele*10*1*20
+Jézus hálaimája*10*21*4
+Példázat az irgalmas samaritánusról*10*25*13
+Mária és Mártha: egy a szükséges dolog*10*38*5
+Krisztus imádkozni tanít*11*1*13
+Jézus néma ördögöt űz ki*11*14*15
+Jónás jele*11*29*8
+Feddő beszéd a farizeusok és írástudók gonoszsága és képmutatása ellen*11*37*18
+Óvás képmutatástól és kishitűségtől*12*1*12
+Óvás telhetetlenségtől és aggódástól*12*13*22
+Intés vigyázásra és békességre*12*35*19
+Idők jelei*12*54*6
+Jézus megtérésre intő beszéde a galileaiak megöletéséről*13*1*9
+Tizennyolcz esztendős betegség meggyógyítása szombatnapon*13*10*8
+Példázatok és beszédek Isten országáról*13*18*13
+Heródes áskálódásai. Fájó sóhajtás Jeruzsálem felett*13*31*5
+Vízkóros meggyógyítása szombatnapon*14*1*6
+Intés alázatosságra és jótékonyságra*14*7*8
+Példázat a nagy vacsoráról*14*15*10
+Önmegtagadás*14*25*11
+Példázat az elveszett juhról, drakhmáról, és a tékozló fiúról*15*1*32
+Példázat a hamis sáfárról*16*1*18
+A gazdagról és Lázárról*16*19*13
+Botránkozások; megbocsátás; hit; cselekedetek*17*1*10
+Tíz bélpoklos meggyógyítása*17*11*9
+Isten országának eljövetele*17*20*18
+Hamis bíróról és özvegy asszonyról*18*1*8
+A farizeus és a vámszedő imája*18*9*6
+Jézus magához hívja a gyermekeket*18*15*3
+A gazdagság veszélyei*18*18*13
+Jézus harmadszor jelenti szenvedéseit*18*31*4
+Vak meggyógyítása*18*35*9
+Zákeus*19*1*10
+Példázat a gírákról (rev. minákról)*19*11*18
+Jézus bevonulása Jeruzsálembe*19*29*12
+Jézus sír Jeruzsálem felett*19*41*4
+Jézus megtisztítja a templomot*19*45*4
+Jézus teljhatalmát védi*20*1*8
+Példázat a gonosz szőlőmívesekről*20*9*11
+Az adófizetésről*20*20*7
+Halottak feltámadásáról*20*27*14
+Krisztus Dávidnak fia és ura*20*41*4
+Óvás az írástudóktól*20*45*3
+A szegény özvegy két fillére*21*1*4
+Jézus beszéde Jeruzsálem pusztulásáról és az ő eljöveteléről*21*5*34
+Júdás Krisztus elárulja*22*1*6
+Húsvéti bárány és úrvacsorája*22*7*17
+A tanítványok nagyravágyása*22*24*15
+Jézus szenvedése az Olajfák hegyén*22*39*8
+Elfogatás*22*47*7
+Péter megtagadja Jézust*22*54*9
+Jézus szenvedése Kajafás előtt*22*63*9
+Krisztus szenvedése és megcsúfoltatása Pilátus és Heródes előtt*23*1*12
+Jézus elítéltetése*23*13*13
+Jézus a fájdalomútján*23*26*7
+Jézus megfeszíttetése és halála*23*33*17
+Jézus temetése*23*50*8
+Krisztus feltámadása*24*1*12
+Jézus megjelenik az Emmausba menő tanítványoknak*24*13*23
+Jézus megjelenik az apostoloknak*24*36*14
+Jézus mennybe menetele*24*50*4

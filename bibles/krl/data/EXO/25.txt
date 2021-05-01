@@ -1,0 +1,93 @@
+40
+!Ajándék-szedés a szent sátorra
+1
+Ekkor így szólt az ÚR Mózeshez:
+2
+Mondd meg Izráel fiainak, hogy gyűjtsenek nekem ajándékokat. Gyűjtsenek nekem ajándékokat mindenkitől, akit a szíve erre indít.
+3
+Ilyen ajándékokat gyűjtsetek tőlük: aranyat, ezüstöt és rezet.
+4
+Kék, bíborpiros, karmazsin színű lenfonalat és kecskeszőrt.
+5
+Vörösre festett kosbőröket, borzbőröket és akácfát.
+6
+Mécsesbe való olajat, kenetolajhoz való balzsamot és füstöléshez való fűszereket.
+7
+Ónixköveket és foglalatba való köveket az éfódhoz és a hósenhez.
+8
+Készítsenek nekem szent hajlékot, hogy közöttük lakjam.
+9
+Pontosan úgy csináljátok a hajléknak és minden edényének a formáját, ahogy megmutatom neked.
+!A frigyláda
+10
+#0203700101
+Készítsenek egy két és fél könyök hosszú, másfél könyök széles és másfél könyök magas ládát akácfából.
+11
+Borítsd be azt tiszta arannyal, belül is, kívül is borítsd be, és készíts rá körben arany szegélyt.
+12
+Önts hozzá aranyból négy karikát, és illeszd azokat a négy sarkára, egyik oldalára is két karikát, a másik oldalára szintúgy.
+13
+Csinálj rudakat is akácfából, és borítsd be arannyal.
+14
+A rudakat dugd a láda oldalain levő karikákba, hogy azokkal hordozzák majd a ládát.
+15
+A rudak a láda karikáiban legyenek, és ne vegyék ki őket onnan.
+16
+#0203101801#1100800901
+Tedd a ládába a bizonyságot, amelyet neked adok.
+!Kegyelem táblája
+17
+#0203700601
+Készíts két és fél könyök hosszú és másfél könyök széles fedelet is színaranyból.
+18
+Készíts két kerúbot is aranyból, vert aranyból készítsd őket a fedél két végére.
+19
+Az egyik kerúbot az egyik végére készítsd, a másik kerúbot a másikra. A fedél két végéből formázzátok ki a kerúbokat.
+20
+A kerúbok pedig terjesszék ki a szárnyaikat fölfelé, betakarva szárnyukkal a fedelet. Arcuk egymás felé legyen. A kerúbok arca a fedél felé forduljon.
+21
+#5800900402
+A fedelet helyezd a ládára, a ládába pedig tedd bele a bizonyságot, amelyet adok neked.
+22
+Ott jelenek meg neked a fedél tetejénél, a két kerúb között, amelyek a bizonyság ládája fölött vannak, ott szólok hozzád mindazokról, amiket általad parancsolok Izráel fiainak.
+!A szent kenyerek asztala*#0203701007
+23
+#0203701001
+Készíts két könyök hosszú, egy könyök széles és másfél könyök magas asztalt is akácfából.
+24
+Borítsd be színarannyal, és készíts rá körben aranyszegélyt.
+25
+Készíts rá körben egy tenyérnyi keretet, a keretre pedig készíts körben aranyszegélyt.
+26
+Négy aranykarikát is készíts hozzá, és illeszd a karikákat a négy láb négy végére.
+27
+A rúdtartó karikák a keret mellett legyenek, hogy hordozható legyen az asztal.
+28
+A rudakat is akácfából készítsd, és arannyal borítsd be; velük hordozzák az asztalt.
+29
+Készítsd el a tálait is, csészéit is, kancsóit is, kelyheit is, amelyekkel italáldozatot áldoznak. Színaranyból csináld őket!
+30
+Tégy az asztalra szent kenyeret, hogy az mindig előttem legyen.
+!Az arany gyertyatartó*#0203701708
+31
+#0203701701
+Csinálj mécsestartót is színaranyból. Vert aranyból készüljön a mécsestartó. Szára, ága, csészéi, bimbói és virágai egy darabból legyenek.
+32
+Hat ág jöjjön ki az oldalaiból, három mécsestartó ág az egyik és három a másik oldalból.
+33
+Mandulavirág formájú három csésze legyen az egyik ágon, bimbóval és virággal, és mandulavirág formájú három csésze a másik ágon is, bimbóval és virággal. Ilyen legyen a mécsestartóból kijövő mind a hat ág.
+34
+A mécsestartón pedig négy mandulavirág formájú csésze legyen, bimbókkal és virágokkal.
+35
+Bimbó legyen a belőle kijövő két ág alatt és szintén bimbó a belőle kijövő két ág alatt és úgyszintén bimbó a belőle kijövő két ág alatt is: így legyen a mécsestartóból kijövő mind a hat ág alatt.
+36
+Bimbóik és ágaik vele egy darabból legyenek. Egy darab színaranyból legyen kiverve az egész.
+37
+Készíts hozzá hét mécsest is, és úgy rakják föl a mécseseit, hogy bevilágítsák az előtte levő teret.
+38
+A koppantói és hamutálai is színaranyból legyenek.
+39
+Egy talentum színaranyból készítsék az egész felszerelést.
+40
+#4400704401#5800800501
+Vigyázz, hogy a szerint a minta szerint készíttesd el, amelyet a hegyen mutattam neked.

@@ -1,0 +1,135 @@
+56
+!A hadi szállások felsorolása
+1
+Ezek Izráel fiainak szállásai, akik kijövének Égyiptom földéből az ő seregeik szerint Mózes és Áron vezetése alatt.
+2
+(Megírá pedig Mózes az ő kijövetelöket az ő szállásaik szerint, az Úrnak rendeletére.) Ezek az ő szállásaik, az ő kijövetelök szerint.
+3
+#0201203701
+Elindulának Rameszeszből az első hónapban, az első hónap tizenötödik napján. A páskha után való napon jövének ki Izráel fiai felemelt kézzel, az egész Égyiptom láttára.
+4
+#0201201201
+(Az égyiptombeliek pedig temetik vala azokat akiket megölt vala az Úr ő közöttök, minden elsőszülöttjöket; az isteneiken is ítéletet tartott vala az Úr.)
+5
+És elindulának Izráel fiai Rameszeszből, és tábort ütének Szukkótban.
+6
+#0201302001
+És elindulának Szukkótból, és tábort ütének Ethámban, amely van a pusztának szélén.
+7
+#0201400201
+És elindulának Ethámból, és fordulának Pihahiróth felé, amely van Baál-Cefon előtt, és tábort ütének Migdol előtt,
+8
+#0201502301
+És elindulának Pihahiróthból, és átmenének a tenger közepén a pusztába; és menének három napi járásnyira az Ethám pusztáján; és tábort ütének Márában.
+9
+#0201502701
+És elindulának Márából, és jutának Élimbe; Élimben pedig vala tizenkét kútfő és hetven pálmafa; és tábort ütének ott.
+10
+És elindulának Élimből, és tábort ütének a Veres tenger mellett.
+11
+#0201600101
+És elindulának a Veres tengertől, és tábort ütének a Szin pusztájában.
+12
+És elindulának a Szin pusztájából, és tábort ütének Dofkában.
+13
+És elindulának Dofkából, és tábort ütének Álúsban.
+14
+#0201700101
+És elindulának Álúsból, és tábort ütének Refidimben, de nem vala ott a népnek inni való vize.
+15
+#0201900101
+És elindulának Refidimből, és tábort ütének a Sinai pusztájában.
+16
+#0401103402
+És elindulának a Sinai pusztájából, és tábort ütének Kibrót-Thaavában.
+17
+#0401103501
+És elindulának Kibrót-Thaavából, és tábort ütének Haserótban.
+18
+És elindulának Haserótból, és tábort ütének Rithmában.
+19
+És elindulának Rithmából, és tábort ütének Rimmon-Pérecben.
+20
+És elindulának Rimmon-Pérecből, és tábort ütének Libnában.
+21
+És elindulának Libnából, és tábort ütének Risszában.
+22
+És elindulának Risszából, és tábort ütének Kehélátban.
+23
+És elindulának Kehélátból, és tábort ütének a Séfer hegyénél.
+24
+És elindulának a Séfer hegyétől és tábort ütének Haradában.
+25
+És elindulának Haradából, és tábort ütének Makhélótban.
+26
+És elindulának Makhélótból, és tábort ütének Tháhátban.
+27
+És elindulának Tháhátból, és tábort ütének Thárakhban.
+28
+És elindulának Thárakhból, és tábort ütének Mitkában.
+29
+És elindulának Mitkából, és tábort ütének Hasmonában.
+30
+És elindulának Hasmonából, és tábort ütének Moszérótban.
+31
+És elindulának Moszérótból, és tábort ütének Bené-Jaakánban.
+32
+És elindulának Bené-Jaakánból, és tábort ütének Hór-Hagidgádban.
+33
+És elindulának Hór-Hagidgádból, és tábort ütének Jotbathában.
+34
+És elindulának Jotbathából, és tábort ütének Abronában.
+35
+És elindulának Abronából, és tábort ütének Ecjon-Geberben.
+36
+#0402000101
+És elindulának Ecjon-Geberből, és tábort ütének Cin pusztájában; ez Kádes.
+37
+#0402902208
+És elindulának Kádesből, és tábort ütének a Hór hegyénél, az Edom földének szélén.
+38
+Felméne pedig Áron, a pap, a Hór hegyére az Úr rendelése szerint, és meghala ott a negyvenedik esztendőben, Izráel fiainak Égyiptom földéből való kijövetelök után, az ötödik hónapban, a hónap elsején.
+39
+Áron pedig száz és huszonhárom esztendős vala, mikor meghala a Hór hegyén.
+40
+#0402100101
+Hallott pedig a Kananeus, Arad királya (ez pedig dél felől lakozik vala a Kanaán földén) Izráel fiainak jövetele felől.
+41
+És elindulának a Hór hegyétől, és tábort ütének Calmonában.
+42
+És elindulának Calmonából, és tábort ütének Púnonban.
+43
+És elindulának Púnonból, és tábort ütének Obothban.
+44
+#0402101002
+És elindulának Obothból, és tábort ütének Ijé-Abárimban, a Moáb határán.
+45
+És elindulának Ijé-Abárimból, és tábort ütének Dibon-Gádban.
+46
+És elindulának Dibon-Gádból, és tábort ütének Almon-Diblathaimban.
+47
+#0503204902
+És elindulának Almon-Diblathaimból, és tábort ütének az Abarim hegységnél, Nébó ellenében.
+48
+És elindulának az Abarim hegységétől, és tábort ütének a Moáb mezőségén, a Jordán mellett, Jérikhó ellenében.
+49
+#0600200101
+Tábort ütének pedig a Jordán mellett, Beth-Hajjesimóthtól Abel-Hassittimig, a Moáb mezőségén.
+!Utasítás a kananeusok kiűzésére
+50
+És szóla az Úr Mózesnek a Moáb mezőségén, a Jordán mellett, Jerikhó ellenében, mondván:
+51
+Szólj Izráel fiainak, és mondd meg nékik: Mikor átmentek ti a Jordánon a Kanaán földére:
+52
+#0500700202#0500700501#0502001603
+Űzzétek ki akkor a földnek minden lakosát a ti színetek elől, és veszessétek el minden írott képeiket, és minden ő öntött bálványképeiket is elveszessétek, és minden magaslataikat rontsátok el!
+53
+Űzzétek ki a földnek lakóit, és lakozzatok abban; mert néktek adtam azt a földet, hogy bírjátok azt.
+54
+#0402605402
+Azt a földet pedig sorsvetés által vegyétek birtokotokba a ti nemzetségeitek szerint. A nagyobb számúnak nagyobbítsátok az ő örökségét, a kisebb számúnak kisebbítsd az ő örökségét. Ahová a sors esik valaki számára, az legyen az övé. A ti atyáitoknak törzsei szerint vegyétek át birtokotokat.
+55
+#0203401205#0602301301
+Ha pedig nem űzitek ki annak a földnek lakosait a ti színetek elől, akkor, akiket meghagytok közülök, szálkákká lesznek a ti szemeitekben, és tövisekké a ti oldalaitokban, és ellenségeitek lesznek néktek a földön, amelyen lakoztok.
+56
+És akkor amiképpen gondoltam, hogy cselekszem azokkal, úgy cselekszem majd veletek.

@@ -1,0 +1,68 @@
+﻿25
+!Krisztus nemzetségi táblázata (József)*#4200302316
+1
+#4200302316
+Jézus Krisztusnak, Dávid fiának, Ábrahám fiának nemzetségéről való könyv.
+2
+#0102100310#0102502601#0102903501#0104901001
+Ábrahám nemzé Izsákot; Izsák nemzé Jákóbot; Jákób nemzé Júdát és testvéreit;
+3
+#0103802902#0800401805
+Júda nemzé Fárest és Zárát Támártól; Fáres nemzé Esromot; Esrom nemzé Arámot;
+4
+Arám nemzé Aminádábot; Aminádáb nemzé Naássont; Naásson nemzé Sálmónt;
+5
+Sálmón nemzé Boázt Ráhábtól; Boáz nemzé Obedet Ruthtól; Obed nemzé Isait;
+6
+#0800401805#1001202401
+Isai nemzé Dávid királyt; Dávid király nemzé Salamont az Uriás feleségétől;
+7
+#1300301007
+Salamon nemzé Roboámot; Roboám nemzé Abiját; Abija nemzé Asát;
+8
+Asa nemzé Josafátot; Josafát nemzé Jórámot; Jórám nemzé Uzziást;
+9
+#1201500732#1201602001
+Uzziás nemzé Jóathámot; Joathám nemzé Ákházt; Ákház nemzé Ezékiást;
+10
+#1202002101#1202101801#1202102301#1202102601
+Ezékiás nemzé Manassét; Manassé nemzé Ámont; Ámon nemzé Jósiást;
+11
+#1300301503
+Jósiás nemzé Jekoniást és testvéreit a babilóni fogságra vitelkor.
+12
+#1300301701#1500300201
+A babilóni fogságravitel után pedig Jekoniás nemzé Saláthielt; Saláthiel nemzé Zorobábelt;
+13
+Zorobábel nemzé Abiudot; Abiud nemzé Eliákimot; Eliákim nemzé Azort;
+14
+Azor nemzé Sádokot; Sádok nemzé Akimot; Akim nemzé Eliudot;
+15
+Eliud nemzé Eleázárt; Eleázár nemzé Matthánt; Matthán nemzé Jákóbot;
+16
+#4002701706
+Jákób nemzé Józsefet, férjét Máriának, akitől született Jézus, aki Krisztusnak neveztetik.
+17
+Az összes nemzetség tehát Ábrahámtól Dávidig tizennégy nemzetség, és Dávidtól a babilóni fogságravitelig tizennégy nemzetség, és a babilóni fogságraviteltől Krisztusig tizennégy nemzetség.
+!Krisztus fogantatása, neve, születése
+18
+#4200103501
+A Jézus Krisztus születése pedig így vala: Mária, az ő anyja, eljegyeztetvén Józsefnek, mielőtt egybekeltek volna, viselősnek találtaték a Szent Lélektől.
+19
+József pedig, az ő férje, mivelhogy igaz ember vala és nem akará őt gyalázatba keverni, el akarta őt titkon bocsátani.
+20
+#4000101801
+Mikor pedig ezeket magában elgondolta: ímé az Úrnak angyala álomban megjelenék néki, mondván: József, Dávidnak fia, ne félj magadhoz venni Máriát, a te feleségedet, mert ami benne fogantatott, a Szent Lélektől van az.
+21
+#4200103101#4400401201
+Szűl pedig fiat, és nevezd annak nevét Jézusnak, mert <b> ő szabadítja meg az ő népét annak bűneiből.</b>
+22
+Mindez pedig azért lőn, hogy beteljesedjék, amit az Úr mondott volt a próféta által, aki így szól:
+23
+#2300701401
+Ímé a szűz fogan méhében és szűl fiat, és annak nevét Immanuelnek nevezik, ami azt jelenti: Velünk az Isten.
+24
+József pedig az álomból felserkenvén, úgy tőn, amint az Úr angyala parancsolta vala néki, és feleségét magához vevé.
+25
+#4200200701
+És nem ismeré őt, míg meg nem szülé az ő elsőszülött fiát; és nevezé annak nevét Jézusnak.

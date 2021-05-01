@@ -1,0 +1,48 @@
+﻿15
+!Különböző állapotúak intése
+1
+#5400101001
+Te pedig azt hirdesd, ami egyezik az egészséges tanítással,
+2
+#5600100801#5600101301#5600200502#5600201201#5400300201#5400500101
+hogy az idős emberek józanok legyenek, tisztességesek, mértékletesek, a hitben, szeretetben, állhatatosságban egészségesek.
+3
+#5400300801#5400301101
+Hasonlóképpen az idős asszonyok szentekhez illő magaviseletűek legyenek, nem patvarkodók, nem rabjai a sok bornak, hanem jóra oktatók.
+4
+#5400500201#6000300302
+Neveljék józanságra a fiatal asszonyokat, hogy szeressék férjüket és gyermekeiket,
+5
+#5600100801#5600200201#5600200601#5600201201#5400501401#4900502201#5400600101#5800401201#6000300102#6100201201
+legyenek mértékletesek, tiszták, háziasak, jók, férjüknek engedelmesek, hogy az Isten beszédét miattuk ne káromolják.
+6
+#5600200201#5600200501#5600201201#5400500101#5600100801
+Az ifjakat ugyanígy intsd, hogy legyenek mértékletesek.
+7
+#5400401201#5600201401
+Mindenben te magadat állítsd mintaképül a jó cselekedetekben, a romlatlan tanításban, a méltóságban,
+8
+#6000201201
+az egészséges, feddhetetlen beszédben, hogy az ellenfél megszégyenüljön, és ne tudjon semmi rosszat mondani rólunk.
+9
+#4900600501
+A szolgák engedelmeskedjenek mindenben uraiknak, kedvüket keressék, ne ellenkezzenek,
+10
+#4000501601#4200104701
+ne lopjanak, hanem teljesen igaz hűséget tanúsítsanak, hogy a mi megtartó Istenünk tanítását mindenben ékesítsék.
+!Az üdvözítő, fegyelmező kegyelem
+11
+#4300301601#4500302401#5400200401#5500101001
+<b>Mert Isten üdvözítő kegyelme megjelent minden embernek,</b>
+12
+#5600100801#5600200201#5600200502#5600300301#5500301201
+<b>s ez arra tanít minket, hogy megtagadva az istentelenséget és a világi kívánságokat, mértékletesen, igazságosan és istenfélően éljünk a jelenvaló világon,</b>
+13
+#4600100701#5000302001#5400601401#6100100101
+<b>várva áldott reménységünket és a mi nagy Istenünk és üdvözítő Jézus Krisztusunk dicsőségének megjelenését,</b>
+14
+#0201900501#0500402001#0501400201#1913500401#2001600701#3900301701#4000102101#4000501601#4002002801#5600200701#5600300101#5600300801#5600301401#4700802101#4800100401#4900201001#5800100301#6000201201#6000201501#6000301301#6200100701#6200200901
+<b>aki önmagát adta értünk, hogy megváltson minket minden gonoszságtól, és hogy önmaga számára megtisztítsa saját népét, hogy jó cselekedetekre igyekezzen.</b>
+15
+#4000702901#4100102201#4100102701#5500400201
+Ezeket szóld, ints és feddj teljes méltósággal. Senki téged meg ne vessen!

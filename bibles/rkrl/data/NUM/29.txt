@@ -1,0 +1,88 @@
+40
+!Újévi áldozat
+1
+#0302302401
+A hetedik hónapban pedig a hónapnak első napján szent gyülekezésetek legyen néktek. Semmi robota munkát ne végezzetek; kürt zengésének napja legyen az néktek.
+2
+És készítsetek el kedves illatul egészen égőáldozatot az Úrnak, egy fiatal tulkot, egy kost, esztendős ép bárányt hetet.
+3
+És azokhoz ételáldozatul olajjal elegyített három tized efa lisztlángot a tulok mellé, két tizedrészt a kos mellé;
+4
+És egy-egy tizedrészt egy-egy bárány mellé, a hét bárány szerint;
+5
+És egy kecskebakot bűnért való áldozatul, hogy engesztelés legyen értetek,
+6
+Az újhold egészen égőáldozatján és annak ételáldozatján kivül, és a szüntelen való egészen égőáldozaton és annak ételáldozatján, és azoknak italáldozatjokon kivül, az ő rendjök szerint, kedves illatú tűzáldozatul az Úrnak.
+!Engesztelő-ünnepi áldozat
+7
+#0301602905
+E hetedik hónapnak tizedik napján is szent gyülekezésetek legyen néktek; és sanyargassátok meg magatokat, semmi munkát ne végezzetek;
+8
+És vigyetek az Úrnak kedves illatú egészen égőáldozatul: egy fiatal tulkot, egy kost, esztendős bárányt hetet, épek legyenek;
+9
+És azoknak ételáldozatául olajjal elegyített három tized efa lisztlángot a tulok mellé; két tizedrészt az egy kos mellé;
+10
+Egy-egy tizedrészt egy-egy bárány mellé, a hét bárány szerint.
+11
+Egy kecskebakot bűnért való áldozatul, az engesztelésre való bűnáldozaton kivül, és a szüntelen való egészen égőáldozaton, annak ételáldozatán és azoknak italáldozatjokon kivül.
+!Sátoros ünnepi áldozat
+12
+#0302303401#0302304301
+A hetedik hónapnak tizenötödik napján is szent gyülekezésetek legyen néktek; semmi robota munkát ne végezzetek, és az Úrnak ünnepét hét napon ünnepeljétek.
+13
+És vigyetek az Úrnak egészen égőáldozatot, kedves illatú tűzáldozatul: tizenhárom fiatal tulkot, két kost, esztendős bárányt tizennégyet, épek legyenek.
+14
+És azoknak ételáldozatául olajjal elegyített lisztlángból három tizedrész efát egy-egy tulok mellé, a tizenhárom tulok szerint, két tizedrészt egy-egy kos mellé, a két kos szerint.
+15
+És egy-egy tizedrészt minden bárány mellé, a tizennégy bárány szerint.
+16
+És egy kecskebakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton, annak ételáldozatján és italáldozatján kívül.
+17
+Másodnapon pedig tizenkét fiatal tulkot, két kost, tizennégy ép bárányt, esztendősöket.
+18
+És azoknak ételáldozatjokat és italáldozatjokat, a tulkok mellé, a kosok mellé, a bárányok mellé, az ő számok szerint, a szokás szerint.
+19
+És egy kecskebakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton, annak ételáldozatján és azoknak italáldozatjokon kivül.
+20
+Harmadnap pedig tizenegy fiatal tulkot, két kost, tizennégy ép bárányt, esztendősöket.
+21
+És azoknak ételáldozatjokat és italáldozatjokat, a tulkok mellé, a kosok mellé és a bárányok mellé, az ő számok szerint, a szokás szerint;
+22
+És egy kecskebakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton és annak ételáldozatján és italáldozatján kivül.
+23
+Negyednapon pedig tíz fiatal tulkot, két kost, tizennégy ép bárányt, esztendősöket.
+24
+Azoknak ételáldozatjokat és italáldozatjokat a tulkok mellé, a kosok mellé és a bárányok mellé, az ő számok szerint, a szokás szerint;
+25
+És egy kecskebakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton, annak ételáldozatján és italáldozatján kívül.
+26
+És ötödnapon kilenc fiatal tulkot, két kost, tizennégy ép bárányt, esztendősöket:
+27
+És azoknak ételáldozatjokat és italáldozatjokat, a tulkok mellé, a kosok mellé és a bárányok mellé, azoknak számok szerint, a szokás szerint.
+28
+És egy bakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton, annak ételáldozatján és italáldozatján kívül.
+29
+És hatodnapon nyolc tulkot, két kost, tizennégy ép bárányt, esztendősöket.
+30
+És azoknak ételáldozatjokat és italáldozatjokat a tulkok mellé, a kosok mellé és a bárányok mellé, az ő számok szerint, a szokás szerint;
+31
+És egy bakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton kívül, annak ételáldozatján és italáldozatján kívül.
+32
+És hetedik napon hét tulkot, két kost, tizennégy ép bárányt, esztendősöket;
+33
+És azoknak ételáldozatjokat és italáldozatjokat a tulkok mellé, a kosok mellé és a bárányok mellé, az ő számok szerint, a szokás szerint;
+34
+És egy bakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton kívül, annak ételáldozatján és italáldozatján kívül.
+35
+#0302303601
+Nyolcadnapon bezáró ünnepetek legyen néktek, semmi robota munkát ne végezzetek;
+36
+Hanem vigyetek az Úrnak egészen égőáldozatot, kedves illatú tűzáldozatul: egy tulkot, egy kost, hét ép bárányt, esztendősöket;
+37
+Azoknak ételáldozatjokat és italáldozatjokat, a tulok mellé, a kos mellé, és a bárányok mellé, az ő számok szerint, a szokás szerint;
+38
+És egy bakot bűnért való áldozatul, a szüntelen való egészen égőáldozaton, annak ételáldozatján és italáldozatján kívül.
+39
+Ezeket áldozzátok az Úrnak a ti ünnepeiteken, azokon kívül, amiket fogadásból, és szabad akaratból áldoztok, a ti egészen égőáldozataitokul, ételáldozataitokul, italáldozataitokul, és hálaáldozataitokul.
+40
+És megmondá Mózes Izráel fiainak mind azokat, amelyeket az Úr parancsolt vala Mózesnek.

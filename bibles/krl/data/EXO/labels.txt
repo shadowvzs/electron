@@ -1,0 +1,107 @@
+106
+Izráel fiainak gyarapodása és elnyomatása Egyiptomban*1*1*22
+Mózes születése*2*1*4
+Mózes csudálatos megmenekülése és neveltetése*2*5*10
+Mózes futása és házassága*2*15*11
+Mózes elhívatása*3*1*22
+Mózes csudatévő erővel ruháztatik fel*4*1*17
+Mózes visszatér Egyiptomba*4*18*14
+A Faraó elutasítja Mózest*5*1*5
+A népet még jobban elnyomják*5*6*18
+Újonnan küldetik Mózes*6*1*13
+Nemzetségi táblázat*6*14*17
+Mózes és Áron csudát tesznek a Faraó előtt*7*1*13
+Első csapás: a vizek vérré válnak*7*14*12
+Fenyegetés a második csapással*8*1*4
+Második csapás: a békák*8*5*11
+Harmadik csapás: a tetvek (tipolyok)*8*16*4
+Negyedik csapás: bogarak (bőgölyök)*8*20*13
+Ötödik csapás: dögvész*9*1*7
+Hatodik csapás: hólyagos fekély (fekete himlő)*9*8*5
+Hetedik csapás: jégeső*9*13*23
+Nyolczadik csapás: sáskák*10*1*20
+Kilenczedik csapás: setétség*10*21*9
+Készüljön a nép a szabadulásra*11*1*3
+Fenyegetés a tizedik csapással*11*4*7
+A húsvéti bárány elrendelése*12*1*28
+Tizedik csapás: az elsőszülöttek halála*12*29*5
+Megkezdődik a kivonulás*12*34*9
+A páskha rendtartása*12*43*9
+Minden elsőszülött az Úré*13*1*2
+A kovásztalan kenyér elrendelése*13*3*8
+Hogyan kell az elsőszülötteket az Úrnak szentelni*13*11*6
+A kivonulás folytatása*13*17*4
+A felhő- és tűzoszlop*13*21*2
+A kivonulás végbe megy*14*1*18
+Az üldöző egyiptomiak a tengerbe vesznek*14*19*13
+Mózes dicsérő éneke*15*1*21
+A keserű víz megédesíttetik*15*22*6
+Fürjek és manna*16*1*36
+A kősziklából víz ered*17*1*7
+Az amálekiták legyőzetnek*17*8*9
+Jethró látogatása Mózesnél*18*1*12
+Mózes bírákat választ a népnek*18*13*15
+Izráel a Sinai hegyénél*19*1*9
+Előkészület a törvény meghallgatására*19*10*6
+Isten megjelenik a Sinai hegyén*19*16*10
+A tíz parancsolat*20*1*21
+Milyen legyen az oltár*20*22*5
+Rabszolgákról való törvény*21*1*11
+Emberölésről való törvény*21*12*6
+Testi sértésekről szóló törvény*21*18*19
+Kártételekről szóló törvények*22*1*20
+Emberiességi törvények*22*21*11
+Igazságról, felebaráti szeretetről és ünnepek megtartásáról való törvények*23*1*19
+Igéret és parancs a kananeusok kiűzésére*23*20*14
+A szövetség megkötése a fentebbi törvények alapján*24*1*8
+A papok és a hetven vének látják az Urat*24*9*3
+Mózes ismét felmegy a hegyre*24*12*7
+Ajándék-szedés a szent sátorra*25*1*9
+A frigyláda*25*10*7
+Kegyelem táblája*25*17*6
+A szent kenyerek asztala*25*23*8
+Az arany gyertyatartó*25*31*10
+A szent hajlék kárpitjai és takarói*26*1*14
+A szent hajlék álló deszkái*26*15*11
+A keresztrudak*26*26*5
+A két superlát (ajtó-függöny)*26*31*7
+Égőáldozati oltár*27*1*8
+Pitvar*27*9*11
+Világító olaj*27*20*2
+Áron és fiai papokká választatnak*28*1*3
+A papi ruhák*28*4*2
+Az efód (melledző)*28*6*9
+A hósen (mellre való táblácska)*28*15*16
+A selyem (bíbor) felöltő*28*31*8
+A szoros alsóruha (hosszú fehérkoczkás köntös); süveg; öv és alsó ruhák (imegmások)*28*39*5
+A papszentelés módja és az oltáré*29*1*37
+Mindennapi áldozat*29*38*9
+Illattételre való oltár*30*1*10
+Templomadó*30*11*6
+Rézmedencze*30*17*5
+Szent kenet*30*22*12
+Füstölő szer*30*34*5
+Bésaléel és Aholiáb mesterek elhívatása*31*1*11
+A szombatot meg kell tartani*31*12*6
+Törvénytáblák*31*18*1
+Az aranyborjú*32*1*18
+Mózes felhevül az Úrért*32*19*11
+Mózes közbenjár a népért*32*30*6
+Mózes könyörög a népért*33*1*17
+Mózes az Úr dicsőségét óhajtja látni*33*18*6
+Új törvénytáblák*34*1*4
+Az Úr megjelenése*34*5*5
+A szövetség megújítása*34*10*19
+Mózes arczának fénye*34*29*7
+Szombat*35*1*3
+Adakozás a szent hajlékra*35*4*26
+Bésaléel és Aholiáb megbízatása*35*30*7
+A nép bőkezűsége*36*1*6
+A szent hajlék építése*36*7*31
+A szent hajlék felszerelése*37*1*29
+A pitvar és felszerelése*38*1*20
+A felhasznált arany, ezüst és réz összege*38*21*11
+Papi öltözetek csináltatnak*39*1*31
+Mózes megáldja a kész művet*39*32*12
+Felállíttatik a sátor, és felszenteltetik*40*1*33
+Az Úr dicsősége betölti a hajlékot*40*34*5

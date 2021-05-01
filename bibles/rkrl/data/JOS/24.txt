@@ -1,0 +1,91 @@
+33
+!Józsué utolsó országgyűlése
+1
+#0602300201
+Józsué pedig összegyűjté Izráelnek minden nemzetségét Síkembe, és előhívá Izráelnek véneit, fejeit, biráit és felügyelőit, és oda állának az Úr elébe,
+2
+#0101102603#0101103101
+És monda Józsué az egész népnek: Ezt mondja az Úr, Izráelnek Istene: A folyóvizen túl lakoztak régenten a ti atyáitok: Tháré, Ábrahámnak atyja és Nákhórnak atyja, és idegen isteneknek szolgáltak vala.
+3
+#0101103101#0101200101#0101700701#1600900701#5800100801
+De áthozám a ti atyátokat, Ábrahámot a folyóvíz túlsó oldaláról, és elhordozám őt az egész Kanaán földén, és megsokasítám az ő magvát; és adám néki Izsákot.
+4
+#0102502106#0104600126#
+Izsáknak pedig adám Jákóbot és Ézsaut. És Ézsaunak a Szeír hegyét adám birtokul, Jákób pedig és az ő fiai alámenének Égyiptomba.
+5
+#0200301001#0200401402
+Majd elküldém Mózest és Áront, és megverém Égyiptomot úgy, ahogy cselekedtem vala közöttök; azután pedig kihoztalak vala titeket.
+6
+#0201303301#0201400109
+És kihoztam a ti atyáitokat Égyiptomból, és jutátok a tengerhez, és űzék az égyiptomiak a ti atyáitokat szekerekkel és lovasokkal a Veres tengerig.
+7
+#0200701001#0201201903#0201401001#0201501911
+Akkor az Úrhoz kiáltának, és homályt vete ti közétek és az égyiptomiak közé, és rájok vivé a tengert és elborítá őket. Szemeitek is látták azt, amit cselekedtem vala az égyiptomiakkal; ti pedig sok ideig lakoztatok a pusztában.
+8
+#0402102105#0402103303
+Majd elhozálak titeket az Emoreusok földére, akik túl laktak vala a Jordánon, és hadakozának ellenetek; de kezetekbe adám őket, és bírátok az ő földüket, őket pedig eltörlém a ti orcátok elől.
+9
+Majd felkele Bálák, a Cippor fia, Moábnak királya, és hadakozék Izráellel, és elkülde és hivatá Bálámot, a Beór fiát, hogy átkozzon meg titeket.
+10
+#0402200403#0402201202#0402300803#0402301803#0502300501#6600201401
+De nem akarám meghallgatni Bálámot, ezért áldva áldott vala titeket, és megszabadítálak titeket az ő kezéből.
+11
+#0600301404#0600600101#0602002101
+Majd általjövétek a Jordánon, és jutátok Jérikhóba, és hadakozának veletek Jérikhónak urai: az Emoreus, Perizeus, Kananeus, Khittheus, Girgazeus, Khivveus és Jebuzeus; de kezetekbe adám őket.
+12
+#0202302702#0500702001#1904400401
+Mert elbocsátám előttetek a darázsokat, és űzék azokat előletek: az Emoreusok két királyát, de nem a te fegyvered által, de nem a te kézíved által!
+13
+#0500601002
+És adék néktek földet, amelyben nem munkálkodtál, és városokat, amelyeket nem építettetek vala, mégis bennök laktok; szőlőket és olajfákat, amelyeket nem ti ültettetek, de esztek azokról.
+14
+#0202000302#2101201502#2602000702
+Azért hát féljétek az Urat, és szolgáljatok néki tökéletességgel és hűséggel; és hányjátok el az isteneket, akiknek szolgáltak a ti atyáitok túl a folyóvizen és Égyiptomban, szolgáljatok az Úrnak.
+15
+#0602400201
+Hogyha pedig rossznak látjátok azt, hogy szolgáljatok az Úrnak: válasszatok magatoknak még ma, akit szolgáljatok; akár azokat az isteneket, akiknek a ti atyáitok szolgáltak, amíg túl valának a folyóvizen, akár az Emoreusok isteneit, akiknek földjén lakoztok:<b> én azonban és az én házam az Úrnak szolgálunk.</b>
+16
+A nép pedig felele, és monda: Távol legyen tőlünk, hogy elhagyjuk az Urat, szolgálván idegen isteneknek!
+17
+Sőt inkább az Úr, a mi Istenünk az, aki felhozott minket és atyáinkat Égyiptom földéből, a szolgák házából, és aki ezeket a nagy jeleket tette a mi szemeink előtt, és megtartott minket minden útunkban, amelyen jártunk, és mind ama népek között, amelyek között általjöttünk;
+18
+És kiűzött az Úr minden népet, az Emoreust is, e földnek lakóját, a mi orcánk elől: Mi is szolgálunk az Úrnak, mert ő a mi Istenünk!
+19
+Józsué pedig monda a népnek: Nem szolgálhattok az Úrnak, mert szent Isten ő, féltőn szerető Isten ő; nem bocsátja meg a ti vétkeiteket és bűneiteket;
+20
+#0602301502
+Hogyha elhagyjátok az Urat, és szolgáltok idegen isteneknek: akkor elfordul és rosszal illet benneteket, és megemészt titeket, minekutána jól cselekedett veletek.
+21
+Akkor monda a nép Józsuénak: Nem, mert mi az Úrnak szolgálunk!
+22
+Józsué pedig monda a népnek: Bizonyságok vagytok magatok ellen, hogy ti választottátok magatoknak az Urat, hogy néki szolgáljatok. És mondának: Bizonyságok!
+23
+#0103500201#0103500401#0900700301
+Most azért hányjátok el az idegen isteneket, akik köztetek vannak, és hajtsátok sziveteket az Úrhoz, Izráelnek Istenéhez.
+24
+És monda a nép Józsuénak: Az Úrnak, a mi Istenünknek szolgálunk, és az ő szavára hallgatunk.
+25
+Szerze azért Józsué szövetséget a néppel e napon, és ada eleibe rendelést és végzést Síkemben.
+26
+#0700900601
+És beírá Józsué e dolgokat az Isten törvényének könyvébe, és vőn egy nagy követ, és oda helyhezteté azt a cserfa alá, amely vala az Úrnak szent házában.
+27
+#0103104401#0103104801#0602202602
+És monda Józsué az egész népnek: Ímé ez a kő lesz ellenünk bizonyságul; mert ez hallotta az Úrnak minden beszédét, amelyet szólott vala nékünk; és lesz ellenetek bizonyságul, hogy ne hazudjatok a ti Istenetek ellen.
+28
+#0700200601
+És elbocsátá Józsué a népet, kit-kit a maga örökségébe.
+!Józsué és Eleázár halála. József csontjainak eltemetése
+29
+#0105002601#0700200802
+És lőn e dolgok után, hogy meghala Józsué, a Nún fia, az Úrnak szolgája, száztíz esztendős korában,
+30
+És eltemeték őt az ő örökségének határában Timnat-Szerában, amely az Efraim hegyén van, a Gaas hegytől észak felé.
+31
+#0700200701
+Izráel pedig az Urat szolgálta vala Józsuénak minden idejében, és a véneknek is minden idejökben, akik hosszú ideig éltek Józsué után, és akik tudják vala minden cselekedetét az Úrnak, amelyet cselekedett vala Izráellel.
+32
+#0105002501#0201301901#0103301802
+A József csontjait pedig, amelyeket felhoztak vala Izráel fiai Égyiptomból, eltemették Síkemben, a mezőnek abban a részében, amelyet szerzett vala Jákób Hámornak, a Síkem atyjának fiaitól száz pénzén; és lőnek a József fiainak örökségévé.
+33
+Meghala Eleázár is, Áronnak fia, és eltemeték őt Gibeathban, az ő fiának Fineásnak városában, amely néki adatott az Efraim hegyén.

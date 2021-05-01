@@ -1,0 +1,127 @@
+54
+!Az ősatyák nemzetségi táblázata Ádámtól Izsákig
+1
+#0100500301
+Ádám, Séth, Énós.
+2
+Kénán, Mahalálél, Járed.
+3
+Énókh, Methuséláh, Lámekh.
+4
+Noé, Sém, Khám és Jáfet.
+5
+#0101000201
+Jáfetnek fiai: Gómer, Mágog, Madai, Jáván, Thubál, Mésekh és Thirász.
+6
+#0101000301
+A Gómer fiai pedig: Askhenáz, Rifáth és Tógármah.
+7
+Jávánnak pedig fiai: Elisah, Thársis, Kitthim és Dodánim.
+8
+#0101000601
+Khámnak fiai: Khús, Micráim, Pút és Kanaán.
+9
+Khúsnak fiai: Széba, Hávilah, Szábthah, Rahmáh és Szabthékah; Rahmáhnak pedig fiai: Séba és Dédán.
+10
+#0101000805
+Khús nemzé Nimródot is; ez kezde hatalmassá lenni a földön.
+11
+#0101001302
+Micráim pedig nemzé Lúdimot, Anámimot, Lehábimot és Naftukhimot.
+12
+Pathruszimot és Kaszlukhimot, akiktől a Filiszteusok származtak, és Kafthorimot.
+13
+#0101001501#0101002001
+Kanaán pedig nemzé Cídont, az ő elsőszülöttét és Khétet,
+14
+És Jebuzeust, Emorreust és Girgazeust.
+15
+Khivveust, Harkeust és Szineust.
+16
+Arvadeust, Cemareust és Hamatheust.
+17
+Sémnek fiai: Élám és Assur, Arpaksád, Lúd, Arám, Úc, Húl, Gether és Mesek.
+18
+Arpaksád pedig nemzé Séláht és Séláh nemzé Hébert.
+19
+#0101002105
+Hébernek is lett két fia, az egyiknek neve Péleg, mivelhogy az ő idejében osztatott el a föld; testvérének neve pedig Joktán.
+20
+Joktán pedig nemzé Almodádot és Sélefet, Hacarmávethet és Jerákhot,
+21
+Hadórámot, Úzált és Diklát,
+22
+És Ebált, Abimáelt és Sébát,
+23
+Ofirt, Havilát és Jóbábot. Ezek mind Joktán fiai.
+24
+#0101101003
+Sém, Arpaksád, Séláh.
+25
+Héber, Péleg, Réu.
+26
+Sérug, Nákhor, Tháré.
+27
+Abrám, ez az Ábrahám.
+28
+#0101601501#0102100202
+Ábrahám fiai: Izsák és Ismáel.
+29
+#0102501205
+Ezeknek nemzetségei pedig ezek: Ismáel elsőszülötte Nebájót és Kédar, Adbeél és Mibszám.
+30
+Misma és Dúmah, Massza, Hadad és Théma.
+31
+Jétur, Náfis és Kedmah; ezek az Ismáel fiai.
+32
+#0102500104
+Keturának pedig, az Ábrahám ágyasának fiai, kiket szüle, ezek: Zimrán, Joksán, Médán, Midián, Isbák és Suakh. És a Joksán fiai: Séba és Dédán.
+33
+És a Midián fiai: Éfah, Héfer, Hánok, Abida és Eldáh. Mindezek a Keturáh fiai.
+34
+#0102501908
+Ábrahám pedig nemzé Izsákot; Izsák fiai pedig ezek: Ézsau és Izráel.
+!Ézsau fiai és az edomita királyok
+35
+#0103600906
+Ézsaunak fiai: Elifáz, Réhuél, Jéhus, Jahlám és Korakh.
+36
+Elifáz fiai: Thémán, Omár, Cefi, Gahtám, Kenáz és Timna és Amálek.
+37
+Réhuél fiai: Nakhath, Zérakh, Samma és Mizza.
+38
+Széir fiai: Lótán és Sóbál, Cibhón, Haná, Disón, Ecer és Disán.
+39
+Lótán fiai pedig: Hóri és Hómám: Lótánnak huga pedig Timna.
+40
+Sóbál fiai: Alján és Mánakháth, Hébál, Sefi és Onám; Cibhón fiai pedig: Aja és Haná.
+41
+Haná fia: Disón, Disón fiai pedig: Hamrán és Esbán, Ithrán és Kherán.
+42
+Ecer fiai: Bilhán és Zahaván, Jakán. Disán fiai: Húc és Arán.
+43
+#0103603101
+Ezek pedig a királyok, akik uralkodának Edom földén, mielőtt az Izráel fiai között király uralkodott volna: Bela, Behor fia, az ő városának neve Dinhába vala.
+44
+Bela meghalván, uralkodék helyette Jóbáb, a Bocrából való Zerakh fia.
+45
+És hogy Jóbáb meghala, uralkodék helyette a Témán földéből való Khusám.
+46
+Meghala Khusám is, és uralkodék helyette Hadád, a Bédád fia, ki megveré a Midiánitákat a Moáb mezején; és az ő városának neve Hávit vala.
+47
+Hadád is, hogy meghala, uralkodék helyette a Masrekából való Szamlá.
+48
+Szamlá holta után uralkodék helyette Saul, a folyóvíz mellett való Rékhobóthból.
+49
+Saul is meghala, és uralkodék helyette Báhál-Khanán, az Akhbór fia.
+50
+#0103603901
+Báhál-Khanán holta után uralkodék helyette Hadád; és az ő városának neve Páhi, feleségének pedig neve Mehetábéel, ki Mézaháb leányának Matrédnak volt a leánya.
+51
+Hadád halála után Edom fejedelmei valának: Timná fejedelem, Halvá fejedelem, Jetéth fejedelem,
+52
+Ohólibámá fejedelem, Éla fejedelem és Pinon fejedelem,
+53
+Kenáz fejedelem, Témán fejedelem és Mibcár fejedelem,
+54
+Magdiél fejedelem és Hirám fejedelem. Ezek voltak Edom fejedelmei.

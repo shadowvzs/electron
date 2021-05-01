@@ -1,0 +1,185 @@
+89
+!A törzsfők ajándékai a szent sátor felszentelésekor
+1
+#0204000133
+És lőn, hogy amely napon elvégezé Mózes a sátor felállítását, és felkené azt, és megszentelé azt, minden edényével egybe, és az oltárt és annak minden edényét; és felkené és megszentelé azokat:
+2
+Akkor előjövének az Izráel fejedelmei, az ő atyjok házának fejei; ezek a törzsek fejedelmei, és ezek a megszámláltattak felügyelői:
+3
+És vivék az ő áldozatukat az Úr elé: hat borított szekeret, és tizenkét ökröt; egy-egy szekeret két-két fejedelemért, és mindenikért egy-egy ökröt; és odavivék azokat a sátor elébe.
+4
+És szóla az Úr Mózesnek, mondván:
+5
+Vedd el ő tőlök, és legyenek azok felhasználva a gyülekezet sátorának szolgálatában; és add azokat a lévitáknak, mindeniknek az ő szolgálata szerint.
+6
+Elvevé azért Mózes a szekereket és ökröket, és adá azokat a lévitáknak.
+7
+Két szekeret és négy ökröt ada a Gerson fiainak, az ő szolgálatuk szerint.
+8
+Négy szekeret pedig és nyolc ökröt ada a Mérári fiainak, az ő szolgálatuk szerint, Ithamárnak, Áron pap fiának keze alá.
+9
+A Kéhát fiainak pedig semmit nem ada; mert a szentség szolgálata illette vala őket, amelyet vállon hordoznak vala.
+10
+Vivének pedig a fejedelmek az oltár felszentelésére valókat azon napon, amelyen az felkenetett, és vivék a fejedelmek az ő áldozatukat az oltár elébe.
+11
+És monda az Úr Mózesnek: Egyik napon egyik fejedelem, másik napon másik fejedelem vigye az ő áldozatát az oltár felszentelésére.
+12
+És vivé első napon az ő áldozatát Naasson, az Amminádáb fia, Júda nemzetségéből.
+13
+#0203001301
+Vala pedig az ő áldozata, egy ezüst tál, száz és harminc siklus súlyú, egy ezüst medence hetven siklus súlyú, a szent siklus szerint, és mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+14
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+15
+Egy fiatal tulok, egy kos, egy esztendős bárány egészen égőáldozatul.
+16
+Egy kecskebak bűnért való áldozatul.
+17
+Hálaadó áldozatul pedig két ökör, öt kos, öt kecskebak, öt bárány, esztendősök. Ez Naassonnak, Amminádáb fiának áldozata.
+18
+Másodnapon vivé Néthanéel, Suárnak fia, Izsakhár nemzetségének fejedelme.
+19
+#0203001301
+Vive az ő áldozatául egy ezüst tálat, száz és harminc siklus súlyút, egy ezüst medencét, hetven siklus súlyút, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+20
+Egy arany csészét, tíz siklus súlyút, füstölő szerekkel telve.
+21
+Egy fiatal tulkot, egy kost, egy esztendős bárányt egészen égőáldozatul.
+22
+Egy kecskebakot bűnért való áldozatul.
+23
+Hálaadó áldozatul pedig két ökröt, öt kost, öt bakot, öt bárányt, esztendősöket. Ez Néthanéelnek a Suár fiának áldozata.
+24
+Harmadik napon a Zebulon fiainak fejedelme: Eliáb, Hélon fia.
+25
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+26
+Egy arany csésze, tíz siklus súlyú füstölő szerekkel telve.
+27
+Egy fiatal tulok, egy kos, egy esztendős bárány, egészen égőáldozatul.
+28
+Egy kecskebak, bűnért való áldozatul.
+29
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Eliábnak, Hélon fiának áldozata.
+30
+Negyedik napon a Rúben fiainak fejedelme: Elisúr, Sedeúrnak fia.
+31
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+32
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+33
+Egy fiatal tulok, egy kos, egy esztendős bárány, egészen égőáldozatul.
+34
+Egy kecskebak bűnért való áldozatul.
+35
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Elisúrnak, Sedeúr fiának áldozata.
+36
+Ötödnapon a Simeon fiainak fejedelme: Selúmiel, Surisaddai fia.
+37
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+38
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+39
+Egy fiatal tulok, egy kos, egy esztendős bárány, egészen égőáldozatul.
+40
+Egy kecskebak, bűnért való áldozatul.
+41
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Selúmielnek, Surisaddai fiának áldozata.
+42
+Hatodnapon a Gád fiainak fejedelme: Éliásáf, a Dehuél fia.
+43
+#0400304701
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+44
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+45
+Egy fiatal tulok, egy kos, egy esztendős bárány, egészen égőáldozatul.
+46
+Egy kecskebak bűnért való áldozatul.
+47
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Eliásáfnak, Dehuél fiának áldozata.
+48
+Hetednapon az Efraim fiainak fejedelme: Elisáma, az Ammihúd fia.
+49
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+50
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+51
+Egy fiatal tulok, egy kos, egy esztendős bárány, egészen égőáldozatul.
+52
+Egy kecskebak bűnért való áldozatul.
+53
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Elisámának, Ammihúd fiának áldozata.
+54
+Nyolcadnapon a Manasse fiainak fejedelme: Gamliél, Pédasúr fia.
+55
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+56
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+57
+Egy fiatal tulok, egy kos, egy esztendős bárány egészen égőáldozatul.
+58
+Egy kecskebak bűnért való áldozatul.
+59
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Gámliélnek, a Pédasúr fiának áldozata.
+60
+Kilencednapon a Benjámin fiainak fejedelme: Abidán, a Gideóni fia.
+61
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+62
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+63
+Egy fiatal tulok, egy kos, egy esztendős bárány egészen égőáldozatul.
+64
+Egy kecskebak bűnért való áldozatul.
+65
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Abidánnak, Gideóni fiának áldozata.
+66
+Tizedik napon a Dán fiainak fejedelme: Ahiézer, az Ammisaddai fia.
+67
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+68
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+69
+Egy fiatal tulok, egy kos, egy esztendős bárány egészen égőáldozatul.
+70
+Egy kecskebak bűnért való áldozatul.
+71
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Ahiézernek, az Ammisaddai fiának áldozata.
+72
+Tizenegyedik napon az Áser fiainak fejedelme: Págiel, Okrán fia.
+73
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+74
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+75
+Egy fiatal tulok, egy kos, egy esztendős bárány egészen égőáldozatul.
+76
+Egy kecskebak bűnért való áldozatul.
+77
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Págielnek, Okrán fiának áldozata.
+78
+Tizenkettedik napon a Nafthali fiainak fejedelme: Ahira, Enán fia.
+79
+Az ő áldozata volt egy ezüst tál, száz harminc siklus súlyú, egy ezüst medence, hetven siklus súlyú, a szent siklus szerint, mind a kettő telve vala olajjal elegyített lisztlánggal, ételáldozatul.
+80
+Egy arany csésze, tíz siklus súlyú, füstölő szerekkel telve.
+81
+Egy fiatal tulok, egy kos, egy esztendős bárány egészen égőáldozatul.
+82
+Egy kecskebak bűnért való áldozatul.
+83
+Hálaadó áldozatul pedig két ökör, öt kos, öt bak, öt bárány, esztendősök. Ez Ahirának, az Enán fiának áldozata.
+84
+Ez volt az áldozat az oltár felszentelésére, a napon, amelyen felkenetett, az Izráelnek fejedelmeitől. Tizenkét ezüst tál, tizenkét ezüst medence, tizenkét arany csésze.
+85
+Száz és harminc siklus súlyú vala egy ezüst tál, egy ezüst medence pedig hetven siklus súlyú; az edények minden ezüstje: kétezer négyszáz siklus, a szent siklus szerint;
+86
+Tizenkét arany csésze, füstölő szerekkel, tíz-tíz siklus súlyú vala egy-egy csésze, a szent siklus szerint: A csészéknek minden aranya: száz húsz siklus.
+87
+Az egészen égőáldozatra való minden barom: tizenkét tulok, tizenkét kos, esztendős bárány tizenkettő, a hozzájok való ételáldozatokkal, és tizenkét kecskebak bűnért való áldozatul.
+88
+A hálaadó áldozatra való minden barom pedig: huszonnégy tulok, hatvan kos, hatvan bak, esztendős bárány hatvan. Ez volt az oltár felszentelésére való áldozat, minekutána felkenetett volt.
+89
+#0202502201
+Mikor pedig bemegy vala Mózes a gyülekezet sátorába, hogy szóljon ő vele, hallja vala annak szavát, aki szól vala vele a fedél felől, amely van a bizonyság ládáján, a két Kérub közül; és szól vala vele.

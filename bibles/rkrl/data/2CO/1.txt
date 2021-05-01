@@ -1,0 +1,75 @@
+﻿24
+!Beköszöntő
+1
+#4600100101
+Pál, Jézus Krisztus apostola az Isten akaratjából, és Timótheus az atyafi, az Isten gyülekezetének, amely Korinthusban van, mindama szentekkel egybe, akik egész Akhájában vannak:
+2
+#4500100701#4600100301#4900100202
+Kegyelem néktek és békesség Istentől a mi Atyánktól és az Úr Jézus Krisztustól.
+!Az apostol hálája a nyomorúságok közt való isteni vigaszért
+3
+#4900100301#6000100301#4501500501
+Áldott az Isten és a mi Urunk Jézus Krisztusnak Atyja, az irgalmasságnak atyja és minden vígasztalásnak Istene;
+4
+#2304901301#2305101201#2306601301#4700700602#4700701301#5100102401
+Aki megvígasztal minket minden nyomorúságunkban, hogy mi is megvígasztalhassunk bármely nyomorúságba esteket azzal a vígasztalással, amellyel Isten vígasztal minket.
+5
+#1903402001#1909401901#4500801701#4700401001#4800601701#5000301001#5100102401#6000401301
+Mert amint bőséggel kijutott nékünk a Krisztus szenvedéseiből, úgy bőséges a mi vígasztalásunk is Krisztus által.
+6
+#4700401501#4700401701
+De akár nyomorgattatunk, a ti vígasztalástokért és üdvösségtekért van az, mely hathatós ugyanazon szenvedések elviselésére, amelyeket mi is szenvedünk; akár megvígasztaltatunk, a ti vígasztalástokért és üdvösségtekért van az. És a mi reménységünk erős felőletek.
+7
+#4700100501#4500801701#5300100401#5300100701
+Tudván, hogy amiképpen társaink vagytok a szenvedésben, azonképpen a vígasztalásban is.
+8
+#4501102501#4601503201#4400200901#4401902301
+Mert nem akarjuk, hogy ne tudjatok atyámfiai a mi nyomorúságunk felől, amely Ázsiában esett rajtunk, hogy felette igen, erőnk felett megterheltettünk, úgy hogy életünk felől is kétségben valánk:
+9
+#2401700501#2401700701#4300502101
+Sőt magunk is halálra szántuk magunkat, hogy ne bizakodnánk mi magunkban, hanem Istenben, aki feltámasztja a holtakat:
+10
+#4501503101#5400401001#4601503101#5500401801
+Aki ilyen nagy halálból megszabadított és szabadít minket: akiben reménykedünk, hogy ezután is meg fog szabadítani;
+11
+#4501503001#5000101901#4700401501#4700901101
+Velünk együtt munkálkodván ti is az érettünk való könyörgésben, hogy a sokak által nékünk adatott kegyelmi ajándék sokak által háláltassék meg mi érettünk.
+12
+#4402300101#5200201001#4700201701#5801301801#4001001601#4600101701#4600200101#460020040146002201301
+Mert a mi dicsekedésünk ez, lelkiismeretünk bizonysága, hogy isteni őszinteséggel és tisztasággal, nem testi bölcseséggel, hanem Isten kegyelmével forgolódtunk a világon, kiváltképpen pedig ti köztetek.
+13
+Mert nem egyebet írunk néktek, hanem amit olvastok, vagy el is ismertek, sőt reménylem, hogy el is fogtok ismerni mindvégig;
+14
+#4600100801#4700501201#5000201601
+Aminthogy némi részben el is ismertétek rólunk, hogy dicsekvéstek vagyunk, amiképpen ti is nékünk az Úr Jézus napján.
+!Védekezés az állhatatlanság vádja ellen
+15
+#4600401901#4500101101#4500101301#4501502901
+És ezzel a bizodalommal akartam előbb hozzátok menni, hogy másodízben nyerjetek kegyelmet;
+16
+#4601600503#4401600901#4601601101#6400100601#4401902101
+És köztetek általmenni Macedóniába, és Macedóniából ismét hozzátok térni vissza, és tőletek elkísértetni Júdeába.
+17
+#4701000202#4701101801
+Hát ezt akarva, vajjon könnyelműen cselekedtem-é? vagy amit akarok, test szerint akarom-é, hogy nálam az igen igen, és a nem nem legyen?
+18
+#4600100901
+De hű az Isten, hogy a mi beszédünk hozzátok nem volt igen és nem.
+19
+#4000400301#4401502201#4401600101#5801300801
+Mert az Isten Fia Jézus Krisztus, akit köztetek mi hirdettünk, én és Silvánus és Timótheus, nem volt igen és nem, hanem az igen lett ő benne.
+20
+#4501500801#4601401601#4501500901
+<b>Mert Istennek valamennyi igérete ő benne lett igenné és ő benne lett Ámenné az Isten dicsőségére mi általunk.</b>
+21
+#4600100801#4601601301#6000501001#6200202001#6200202701
+Aki pedig minket ti veletek egybe Krisztusban megerősít és megken minket, az Isten az;
+22
+#0103801801#2600900401#3700202301#4500801601#4700500501#4900101401
+Aki el is pecsételt minket, és a léleknek zálogát adta a mi szíveinkbe.
+23
+#4500100901#4800102001#4600402101#4700200101#4700200301#4701300201#4701301001
+Én pedig az Istent hívom bizonyságul az én lelkemre, hogy titeket kímélve nem mentem el eddig Korinthusba.
+24
+#6000500301#4600300501#4501102001#4601500101
+Nem hogy uralkodnánk a ti hiteteken, hanem munkatársai vagyunk a ti örömeteknek; mert hitben állotok.

@@ -1,0 +1,72 @@
+34
+!A táborjárás rendje
+1
+És szóla az Úr Mózesnek és Áronnak, mondván:
+2
+Az Izráel fiai, kiki az ő zászlója alatt, az ő atyáik háznépének jeleivel járjon tábort, a gyülekezet sátora körül járjon tábort annak oldalai felől.
+3
+Így járjanak pedig tábort: Keletre naptámadat felől Júda táborának zászlója az ő seregeivel; és Júda fiainak fejedelme Naasson, Amminádáb fia.
+4
+Az ő serege pedig, vagyis az ő megszámláltjaik: hetvennégy ezer és hatszáz.
+5
+Mellette pedig tábort járjon Izsakhár törzse, és Izsakhár fiainak fejedelme Néthánéel, Suárnak fia.
+6
+Az ő serege pedig, vagyis az ő megszámláltjaik: ötvennégy ezer és négyszáz.
+7
+Zebulon törzse, és Zebulon fiainak fejedelme Eliáb, Hélon fia.
+8
+Az ő serege pedig, vagyis az ő megszámláltjaik: ötvenhét ezer és négyszáz.
+9
+Mindnyájan, akik megszámlálva voltak Júda táborában: száz nyolcvanhat ezer és négyszáz, az ő seregeik szerint. Ezek induljanak előre.
+10
+Rúben táborának zászlója legyen dél felől az ő seregeivel, és Rúben fiainak fejedelme Elisúr, Sedeúr fia.
+11
+Az ő serege pedig, vagyis az ő megszámláltjaik: negyvenhat ezer és ötszáz.
+12
+Mellette pedig tábort járjon Simeon törzse, és Simeon fiainak fejedelme: Selúmiel, Surisaddai fia.
+13
+Az ő serege pedig, vagyis az ő megszámláltjaik: ötvenkilenc ezer és háromszáz.
+14
+Azután Gád törzse, és Gád fiainak fejedelme: Eliásáf, a Réuel fia.
+15
+Az ő serege pedig, vagyis az ő megszámláltjaik: negyvenöt ezer és hatszáz ötven.
+16
+Mindnyájan, akik megszámlálva voltak Rúben táborában: száz ötvenegy ezer és négyszáz ötven az ő seregeik szerint. Ezek másodszorra induljanak.
+17
+Azután induljon a gyülekezet sátora, a léviták táborával, a táboroknak közepette: amiképpen tábort járnak, akképpen induljanak, kiki az ő helyén, az ő zászlója mellett.
+18
+Efraim táborának zászlója az ő seregeivel nyugot felé legyen, és Efraim fiainak fejedelme: Elisáma, Ammihud fia.
+19
+Az ő serege pedig, vagyis az ő megszámláltjaik: negyven ezer és ötszáz.
+20
+És ő mellette legyen Manasse törzse, és Manasse fiainak fejedelme Gámliel, Pédasur fia.
+21
+Az ő serege pedig, vagyis az ő megszámláltjaik, harminckét ezer és hétszáz.
+22
+Azután legyen Benjámin törzse és Benjámin fiainak fejedelme: Abidám, Gideóni fia.
+23
+Az ő serege pedig, vagyis az ő megszámláltjaik: harmincöt ezer és négyszáz.
+24
+Mindnyájan akik megszámlálva voltak Efraim táborában, száz nyolcezer és száz az ő seregeik szerint. Ezek harmadszorra induljanak.
+25
+Dán táborának zászlója legyen észak felől az ő seregeivel, és a Dán fiainak fejedelme: Ahiézer, Ammisaddai fia.
+26
+Az ő serege pedig, vagyis az ő megszámláltjaik: hatvankét ezer és hétszáz.
+27
+Mellette pedig tábort járjon Áser törzse, és Áser fiainak fejedelme: Págiel, az Okhrán fia.
+28
+Az ő serege pedig, vagyis az ő megszámláltjaik: negyvenegy ezer és ötszáz.
+29
+Azután legyen Nafthali törzse, és Nafthali fiainak fejedelme: Akhira, Enán fia.
+30
+Az ő serege pedig, vagyis az ő megszámláltjaik: ötvenhárom ezer és négyszáz.
+31
+Mindnyájan, akik megszámlálva voltak Dán táborában, száz ötvenhét ezer és hatszáz; utóljára induljanak az ő zászlóik szerint.
+32
+#0203802601#0400104601
+Ezek Izráel fiainak megszámláltjai az ő atyáiknak háznépei szerint; mindnyájan, akik megszámlálva voltak táboronként, az ő seregeik szerint: hatszáz háromezer ötszáz és ötven.
+33
+#0400104802
+De a léviták nem voltak számba véve Izráel fiai között, amint megparancsolta volt az Úr Mózesnek.
+34
+És cselekedének Izráel fiai mind aszerint, amint parancsolta volt az Úr Mózesnek: akképpen járának tábort, az ő zászlóik szerint, és úgy indulának, kiki az ő nemzetsége szerint, az ő atyáiknak háznépe szerint.

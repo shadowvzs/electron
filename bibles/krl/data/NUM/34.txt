@@ -1,0 +1,66 @@
+29
+!A Kanaán földének határai
+1
+Azután így szólt az ÚR Mózeshez:
+2
+Parancsold meg Izráel fiainak, és mondd meg nekik: Ha bementek Kánaán földjére az a föld, tudniillik Kánaán földje, jut nektek örökségül a következő határok szerint:
+3
+#0601500102
+déli határotok a Cin-pusztától fogva Edóm határáig húzódjék, majd a Sós-tenger végétől kelet felé.
+4
+#0601500301
+Kerülje meg a határ dél felől az Akrabbim-hágót, és menjen Cin felé, és Kádés-Barneától délre végződjék. Haladjon tovább Hacar-Addárig, és menjen át Acmón felé.
+5
+#0101501801
+Azután a határ Acmóntól forduljon Egyiptom patakjáig, és a tengernél végződjék.
+6
+Nyugati határotok a nagy tenger legyen. Ez legyen a nyugati határotok.
+7
+Északi határotok pedig ez legyen: a nagy tengertől fogva húzzatok határt a Hór-hegy felé.
+8
+A Hór-hegy felé húzzatok határt a hamáti útig. A határ vége pedig Cedádnál legyen.
+9
+Majd haladjon tovább a határ Zifrón felé, és Hacar-Énánnál legyen a vége. Ez legyen az északi határotok.
+10
+A keleti határt pedig Hacar-Énántól Sefámig húzzátok meg.
+11
+Sefámtól menjen le a határ Riblának, Aintól keletre, és ereszkedjék tovább kelet felé, míg el nem éri a Kinneret-tó partját.
+12
+Azután haladjon a határ a Jordán felé, és a Sós-tengernél végződjék. Ez legyen országotok határa körös-körül.
+13
+Azután ezt a parancsot adta Mózes Izráel fiainak: Ezt a földet osszátok fel sorsvetéssel, amint megparancsolta az ÚR, és adjátok oda a kilenc és fél törzsnek.
+14
+Mert Rúben fiainak törzse atyáik háza szerint, Gád fiainak törzse atyáik háza szerint és Manassé törzsének fele megkapták már örökségüket.
+15
+#0403200529
+Két és fél törzs megkapta örökségét a Jordánon túl, Jerikóval szemben, kelet felé.
+!Kik osszák fel az országot
+16
+Azután így szólt az ÚR Mózeshez:
+17
+#0601400101
+Név szerint ezek a férfiak osszák föl örökségül azt a földet: Eleázár, a pap és Józsué, Nún fia.
+18
+Vegyetek magatok mellé törzsenként egy-egy fejedelmet a földnek örökségül való elosztására.
+19
+Név szerint ezeket a férfiakat: Júda törzséből Káléb, Jefunne fia.
+20
+Simeon fiainak törzséből Semúél, Ammihúd fia.
+21
+Benjámin törzséből Elidád, Kiszlón fia.
+22
+Dán fiainak törzséből Bukki fejedelem, Jogli fia.
+23
+József fiai közül Manassé fiainak a törzséből Hanniél fejedelem, Éfód fia.
+24
+Efraim fiainak törzséből pedig Kemúél fejedelem, Siftán fia.
+25
+Zebulon fiainak törzséből Elicáfán fejedelem, Parnak fia.
+26
+Issakár fiainak törzséből Paltiél fejedelem, Azzan fia.
+27
+Ásér fiainak törzséből Ahihúd fejedelem, Selómi fia.
+28
+És Naftáli fiainak törzséből Pedahél fejedelem, Ammihúd fia.
+29
+Ezek azok, akiknek megparancsolta az ÚR, hogy osszák ki az örökséget Izráel fiainak Kánaán földjén.

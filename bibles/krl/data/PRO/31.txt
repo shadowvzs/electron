@@ -1,0 +1,74 @@
+31
+!Anyai oktatás király számára
+1
+Lemúél király beszédei, prófécia, melyre anyja tanította.
+2
+Mit mondjak, fiam, méhem gyermeke, fogadalmam fia?
+3
+#2101001701
+Erődet ne add az asszonyoknak, és útjaidat a királyok vesztére törőknek.
+4
+#2002000101
+Távol legyen a királyoktól, ó, Lemúél, távol legyen a királyoktól a borivás és az uralkodóktól a részegítő ital kívánása.
+5
+Mert amikor iszik, elfelejtkezik a törvényekről, és elferdíti a nyomorult igazságát.
+6
+#1910401501
+Adjátok a részegítő italt a veszendőnek és a bort a megkeseredett szívűeknek!
+7
+Igyék, hogy megfeledkezzék szegénységéről, és nyavalyájára ne emlékezzék többé.
+8
+#1802901202
+Nyisd meg szádat a némáért és azokért, akik veszedelemben vannak.
+9
+#0301901501
+Nyisd meg szádat, igazságosan ítélj, és képviseld a szegény és szűkölködő ügyét!
+!Derék asszony dicsérete
+10
+#2001200301
+Derék asszonyt kicsoda találhat? Értéke fölülmúlja az igazgyöngyét.
+11
+Bízik benne férjének szíve, és vagyona nem fogy el.
+12
+Javát keresi, nem pedig a kárát élete minden napján.
+13
+Előteremti a gyapjút vagy a lent, és jókedvűen dolgozik keze.
+14
+Hasonló a kereskedők hajóihoz, jó messziről is elhozza az eledelt.
+15
+Fölkel még éjjel, enni ad háza népének, és szolgálóleányainak is a maguk részét.
+16
+Mező után néz, és megveszi, keze munkájával szőlőt ültet.
+17
+Derekát erővel övezi föl, és megerősíti karjait.
+18
+Látja, hogy hasznos a munkája, éjjel sem alszik el lámpása.
+19
+Kezét a fonókerékre teszi, és kezével az orsót fogja.
+20
+Tenyerét megnyitja a szegény előtt, és kezét nyújtja a szűkölködőnek.
+21
+Nem félti háza népét a hótól, mert egész háza népe meleg gyapjúba öltözött.
+22
+Szőnyegeket sző magának, patyolat és bíbor az öltözete.
+23
+Ismerik férjét a kapukban, mikor együtt ül a tartomány véneivel.
+24
+Gyolcsot sző és eladja, és övet is ad el a kereskedőnek.
+25
+#1800502201
+Erő és ékesség a ruhája; vidáman néz a holnap elé.
+26
+Szája bölcsességre nyílik, és kedves tanítás van a nyelvén.
+27
+#2002102501#2002401402
+Vigyáz háza népe dolgaira, és nem eszi a lustaság kenyerét.
+28
+Fölkelnek a fiai, és boldognak mondják, férje is dicséri őt:
+29
+Sok leány végez derék munkát, de te felülmúlod mindnyájukat!
+30
+<b>Csalárd a kedvesség és hiábavaló a szépség, de az URat félő asszony dicséretet szerez magának!</b>
+31
+#2003102802
+Ismerjétek el keze munkájának gyümölcsét, és tettei dicsérjék őt a kapukban.

@@ -1,0 +1,276 @@
+{
+    "TESTAMENT":{
+        "NEW":"Noul Testament",
+        "OLD":"Vechiul Testament"
+    },
+    "BOOKS":{
+        "GEN":{
+            "NAME":"Geneza",
+            "SHORT_NAME":"Ge"
+        },
+        "EXO":{
+            "NAME":"Exodul",
+            "SHORT_NAME":"Exod"
+        },
+        "LEV":{
+            "NAME":"Leviticul",
+            "SHORT_NAME":"Lev"
+        },
+        "NUM":{
+            "NAME":"Numeri",
+            "SHORT_NAME":"Num"
+        },
+        "DEU":{
+            "NAME":"Deuteronomul",
+            "SHORT_NAME":"Deut"
+        },
+        "JOS":{
+            "NAME":"Iosua",
+            "SHORT_NAME":"Ios"
+        },
+        "JDG":{
+            "NAME":"Judecătorii",
+            "SHORT_NAME":"Jud"
+        },
+        "RUT":{
+            "NAME":"Rut",
+            "SHORT_NAME":"Rut"
+        },
+        "1SM":{
+            "NAME":"1. Samuel",
+            "SHORT_NAME":"1Sam"
+        },
+        "2SM":{
+            "NAME":"2. Samuel",
+            "SHORT_NAME":"2Sam"
+        },
+        "1KN":{
+            "NAME":"1. Împăraţi",
+            "SHORT_NAME":"1Împ"
+        },
+        "2KN":{
+            "NAME":"2. Împăraţi",
+            "SHORT_NAME":"2Împ"
+        },
+        "1CH":{
+            "NAME":"1. Cronici",
+            "SHORT_NAME":"1Cron"
+        },
+        "2CH":{
+            "NAME":"2. Cronici",
+            "SHORT_NAME":"2Cron"
+        },
+        "EZR":{
+            "NAME":"Ezra",
+            "SHORT_NAME":"Ezra"
+        },
+        "NEH":{
+            "NAME":"Neemia",
+            "SHORT_NAME":"Neem"
+        },
+        "EST":{
+            "NAME":"Estera",
+            "SHORT_NAME":"Est"
+        },
+        "JOB":{
+            "NAME":"Iov",
+            "SHORT_NAME":"Iov"
+        },
+        "PSM":{
+            "NAME":"Psalmii",
+            "SHORT_NAME":"Ps"
+        },
+        "PRO":{
+            "NAME":"Proverbe",
+            "SHORT_NAME":"Prov"
+        },
+        "ECC":{
+            "NAME":"Eclesiastul",
+            "SHORT_NAME":"Ecl"
+        },
+        "SOS":{
+            "NAME":"Cântarea cântărilor",
+            "SHORT_NAME":"Cânt"
+        },
+        "ISA":{
+            "NAME":"Isaia",
+            "SHORT_NAME":"Isa"
+        },
+        "JER":{
+            "NAME":"Ieremia",
+            "SHORT_NAME":"Ier"
+        },
+        "LAM":{
+            "NAME":"Plângerile",
+            "SHORT_NAME":"Plâng"
+        },
+        "EZE":{
+            "NAME":"Ezechiel",
+            "SHORT_NAME":"Ezec"
+        },
+        "DAN":{
+            "NAME":"Daniel",
+            "SHORT_NAME":"Dan"
+        },
+        "HOS":{
+            "NAME":"Osea",
+            "SHORT_NAME":"Osea"
+        },
+        "JOE":{
+            "NAME":"Ioel",
+            "SHORT_NAME":"Ioel"
+        },
+        "AMS":{
+            "NAME":"Amos",
+            "SHORT_NAME":"Amos"
+        },
+        "OBA":{
+            "NAME":"Obadia",
+            "SHORT_NAME":"Obad"
+        },
+        "JON":{
+            "NAME":"Iona",
+            "SHORT_NAME":"Iona"
+        },
+        "MIC":{
+            "NAME":"Mica",
+            "SHORT_NAME":"Mic"
+        },
+        "NAH":{
+            "NAME":"Naum",
+            "SHORT_NAME":"Naum"
+        },
+        "HAB":{
+            "NAME":"Habacuc",
+            "SHORT_NAME":"Hab"
+        },
+        "ZEP":{
+            "NAME":"Ţefania",
+            "SHORT_NAME":"Ţef"
+        },
+        "HAG":{
+            "NAME":"Hagai",
+            "SHORT_NAME":"Hag"
+        },
+        "ZEC":{
+            "NAME":"Zaharia",
+            "SHORT_NAME":"Zah"
+        },
+        "MAL":{
+            "NAME":"Maleahi",
+            "SHORT_NAME":"Mal"
+        },
+        "MAT":{
+            "NAME":"Matei",
+            "SHORT_NAME":"Mat"
+        },
+        "MRK":{
+            "NAME":"Marcu",
+            "SHORT_NAME":"Mar"
+        },
+        "LUK":{
+            "NAME":"Luca",
+            "SHORT_NAME":"Luc"
+        },
+        "JHN":{
+            "NAME":"Ioan",
+            "SHORT_NAME":"Ioan"
+        },
+        "ACT":{
+            "NAME":"Faptele apostolilor",
+            "SHORT_NAME":"Fap"
+        },
+        "RMN":{
+            "NAME":"Romani",
+            "SHORT_NAME":"Rom"
+        },
+        "1CO":{
+            "NAME":"1. Corinteni",
+            "SHORT_NAME":"1Cor"
+        },
+        "2CO":{
+            "NAME":"2. Corinteni",
+            "SHORT_NAME":"2Cor"
+        },
+        "GAL":{
+            "NAME":"Galateni",
+            "SHORT_NAME":"Gal"
+        },
+        "EPH":{
+            "NAME":"Efeseni",
+            "SHORT_NAME":"Efes"
+        },
+        "PHL":{
+            "NAME":"Filipeni",
+            "SHORT_NAME":"Filip"
+        },
+        "COL":{
+            "NAME":"Coloseni",
+            "SHORT_NAME":"Col"
+        },
+        "1TH":{
+            "NAME":"1. Tesaloniceni",
+            "SHORT_NAME":"1Thes"
+        },
+        "2TH":{
+            "NAME":"2. Tesaloniceni",
+            "SHORT_NAME":"2Thes"
+        },
+        "1TM":{
+            "NAME":"1. Timotei",
+            "SHORT_NAME":"1Tim"
+        },
+        "2TM":{
+            "NAME":"2. Timotei",
+            "SHORT_NAME":"2Tim"
+        },
+        "TIT":{
+            "NAME":"Tit",
+            "SHORT_NAME":"Tit"
+        },
+        "PHM":{
+            "NAME":"Filimon",
+            "SHORT_NAME":"Filem"
+        },
+        "HEB":{
+            "NAME":"Evrei",
+            "SHORT_NAME":"Evr"
+        },
+        "JMS":{
+            "NAME":"Iacov",
+            "SHORT_NAME":"Iac"
+        },
+        "1PT":{
+            "NAME":"1. Petru",
+            "SHORT_NAME":"1Pet"
+        },
+        "2PT":{
+            "NAME":"2. Petru",
+            "SHORT_NAME":"2Pet"
+        },
+        "1JN":{
+            "NAME":"1. Ioan",
+            "SHORT_NAME":"1Ioan"
+        },
+        "2JN":{
+            "NAME":"2. Ioan",
+            "SHORT_NAME":"2Ioan"
+        },
+        "3JN":{
+            "NAME":"3. Ioan",
+            "SHORT_NAME":"3Ioan"
+        },
+        "JUD":{
+            "NAME":"Iuda",
+            "SHORT_NAME":"Iuda"
+        },
+        "REV":{
+            "NAME":"Apocalipsa",
+            "SHORT_NAME":"Apoc"
+        }
+    },
+    "COMMON": {
+        "BACK": "Spate",
+        "BOOK_SCHEME": "-"        
+    }
+}

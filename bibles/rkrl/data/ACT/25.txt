@@ -1,0 +1,80 @@
+﻿27
+!Pál Festus tiszttartó előtt a császárra appellál
+1
+#4402402701#4400804001
+Festus tehát, miután bement a tartományba, három nap mulva felméne Jeruzsálembe Cézáreából.
+2
+#4402501501#4402400101
+Panaszt tőnek pedig néki a főpap és a zsidók főemberei Pál ellen, és kérék őt,
+3
+#4402301501#4402000301
+Kérvén magok számára jóindulatát ő ellene, hogy hozassa át őt Jeruzsálembe, lest vetvén, hogy megölhessék őt az úton.
+4
+#4402402301#4400804001
+Festus azonban azt felelé, hogy Pált Cézáreában őrzik, ő maga pedig csakhamar ki fog menni:
+5
+Akik azért köztetek, úgymond, főemberek, velem alájővén, ha valami gonoszság van abban a férfiúban, emeljenek vádat ellene.
+6
+#4402501701#4402501001
+Miután pedig tíz napnál tovább időzött közöttük, lemenvén Cézáreába, másnap ítélőszékibe üle, és Pált előhozatá.
+7
+#4101500301#4202300201#4202301001#4402400502#4402401301
+Mikor pedig az megjelent, körülállák a zsidók, kik alámentek vala Jeruzsálemből, sok és súlyos vádat hozván fel Pál ellen, melyeket nem bírtak bebizonyítani;
+8
+#4400601301#4402401201#4402801701
+Mivelhogy ő a maga mentségére ezt feleli vala: Sem a zsidók törvénye ellen, sem a templom ellen, sem a császár ellen semmit sem vétettem.
+9
+#4402402701#4401200301#4402502001
+Festus pedig a zsidóknak kedveskedni akarván, felelvén Pálnak, monda: Akarsz-é Jeruzsálembe felmenni és ott ítéltetni meg ezekről én előttem?
+10
+#4402500801
+Pál azonban monda: A császár ítélőszéke előtt állok, itt kell nékem megítéltetnem. A zsidóknak semmit sem vétettem, miként te is jól tudod.
+11
+#4402502101#4402502501#4402603201#4402801901
+Mert ha vétkes vagyok és valami halálra méltót cselekedtem, nem vonakodom a haláltól; ha azonban semmi sincs azokban, amikkel ezek vádolnak engem, senki sem ajándékozhat oda engem azoknak. A császárra appellálok!
+12
+#4401902101#4402301101
+Akkor Festus tanácsával értekezvén, felele: A császárra appelláltál, a császár elé fogsz menni!
+!Pált Agrippa zsidó király elé állítják
+13
+#4400804001
+Néhány nap elmúltával pedig Agrippa király és Bernicé érkezék Cézáreába, hogy köszöntsék Festust.
+14
+#4402402701
+Mikor pedig több napig időztek ott, Festus elébe adá a királynak a Pál dolgát, mondván: Van itt egy férfiú, kit Félix hagyott fogva.
+15
+#4402500201#4402400101
+Ki felől, mikor Jeruzsálembe mentem, jelentést tőnek a főpapok és a zsidóknak vénei, kérve ő ellene ítéletet.
+16
+#4402500402#4402303001
+Kiknek azt felelém, hogy nem szokásuk a rómaiaknak, hogy valamely embert halálra adjanak, mielőtt a vádlott szembe nem állíttatik vádlóival, és alkalmat nem nyer a vád felől való mentségére.
+17
+#4402500601#4402501001
+Mikor azért ők ide gyűltek, minden haladék nélkül másnap az ítélőszékbe ülvén, előhozatám azt a férfiút,
+18
+Ki ellen, mikor vádlói előálltak, semmi bűnt nem hoztak fel azok közül, amiket én sejtettem:
+19
+#4401801501#4402302901#4401702201
+Hanem valami vitás kérdéseik valának ő vele az ő tulajdon babonaságuk felől, és bizonyos megholt Jézus felől, kiről Pál azt állítja vala, hogy él.
+20
+#4402500901
+Én pedig bizonytalanságban lévén az e felől való vitára nézve, kérdém, vajjon akar-é Jeruzsálembe menni, és ott ítéltetni meg ezek felől.
+21
+#4402501102
+Pál azonban appellálván, hogy ő Augustus döntésére tartassék fenn, parancsolám, hogy tartassék fogva, míg őt a császárhoz nem küldhetem.
+22
+#4400901501
+Agrippa pedig monda Festusnak: Szeretném magam is azt az embert hallani. Ő pedig monda: Holnap meg fogod őt hallani.
+23
+#4402501301#4402603001
+Másnap tehát eljővén Agrippa és Bernicé nagy pompával, és bemenvén a kihallgatási terembe az ezredesekkel és a város főfőpolgáraival együtt, Festus parancsolatjára előhozák Pált.
+24
+#4402500202#4402500701#4402202201
+És monda Festus: Agrippa király, és ti férfiak mindnyájan, kik velünk egybe itt vagytok! Látjátok őt, ki felől a zsidóknak egész sokasága megkeresett engem, mind Jeruzsálemben, mind itt, azt kiáltva, hogy nem kell néki tovább élnie.
+25
+#4402300901#4402501101
+Én pedig, ámbár megértém, hogy semmi halálra méltó dolgot sem cselekedett, de mivel éppen ő maga appellált Augustusra, elvégeztem, hogy elküldöm őt.
+26
+Ki felől nem tudok valami bizonyost írni az én uramnak. Ezért hoztam őt előtökbe, és kiváltképpen te elődbe, Agrippa király, hogy a kihallgatás megtörténtével tudjak mit írni.
+27
+Mert esztelen dolognak látszik nékem, hogy aki foglyot küld, az ellene való vádakat is meg ne jelentse.

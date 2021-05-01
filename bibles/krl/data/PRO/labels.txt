@@ -1,0 +1,41 @@
+40
+A bölcseség barátságos hívása*1*1*9
+Csábítás ellen való óvás*1*10*10
+Az engedetlenek büntetése*1*20*14
+Intés a bölcseségnek igaz keresésére és a csábítóktól az által való óvakodásra*2*1*22
+Az istenfélelem és bölcseség áldása*3*1*35
+Atyai emlékeztetés a bölcseség tanításának követésére*4*1*27
+Erkölcstelen élettől való óvás*5*1*23
+Kezességtől való óvás*6*1*5
+Restségtől való óvás*6*6*6
+Álnokságtól való óvás*6*12*8
+Házasságtöréstől való óvás*6*20*16
+A paráznaságra való csábításnak és szomorú következményének leírása*7*1*27
+Hívogatása és igérete a bölcseségnek, mely öröktől fogva Istennél van*8*1*36
+A bölcseség barátságos hívása*9*1*18
+Az igazság áldása, a bűn átka*10*1*32
+A kegyes ember szerencséje, a gonosznak szerencsétlensége*11*1*31
+A bölcsnek és bolondnak magaviselete*11*32*1
+A bölcsnek és bolondnak magaviselete*12*1*27
+A bölcs és bolond magaviselet folytatólagos leírása*13*1*25
+Az emberi életbe vágó igaz bölcseség dicsérete*14*1*35
+Bölcseség üdvre vezet, bolondság csak kárhozatot hoz*15*1*33
+Az Isten látja az emberek dolgait*16*1*33
+Bölcseség és bolondság, különösen a beszédben*17*1*28
+Barátság és békeszeretés*18*1*24
+Kegyes szegénység. A bolondság, restség és csúfolódás káros volta*19*1*29
+Dobzódástól és hevességtől való óvás*20*1*30
+Isten gondviselése igazgatja az emberek szívét és útait*21*1*31
+A jó hírről, mint szerzik és mint vész az el*22*1*29
+Az életbölcseség és kegyesség tanításai*23*1*35
+Intések különösen türelemre és békességre*24*1*34
+Igaz tisztesség a bölcseség jutalma*25*1*28
+Bolond, rest és hamis emberek nem méltók tisztességre*26*1*28
+Óvás dicsekvéstől és elbizakodottságtól*27*1*27
+A kegyesség és becsületesség áldása, az istentelenség átka*28*1*28
+Bölcseség áldást hoz, bolondság és bűn romlást szerez*29*1*27
+Agur vallomása*30*1*6
+Agur kérése*30*7*3
+Agur bölcs mondásai*30*10*24
+Anyai oktatás király számára*31*1*9
+Derék asszony dicsérete*31*10*22

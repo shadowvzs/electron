@@ -1,0 +1,50 @@
+21
+!Égőáldozati oltár*#0203800107
+1
+#0203800101
+Az oltárt akácfából készítsd, öt könyök legyen a hossza és öt könyök a szélessége. Négyszögű legyen az oltár, a magassága három könyök.
+2
+Szarvakat is készíts a négy sarkára, vele egy darabból, és borítsd be rézzel.
+3
+Készíts hozzá fazekakat is a hamujának, hozzá való lapátokat, medencéket, villákat és serpenyőket. Minden hozzá való edényt rézből készíts.
+4
+Készíts hozzá hálószerű rézrostélyt is, és a háló négy sarkára csinálj rézkarikát.
+5
+Tedd az oltár pereme alá alulról úgy, hogy a háló az oltár közepéig érjen.
+6
+Készíts az oltárhoz akácfa rudakat is, és borítsd be őket rézzel.
+7
+Dugják a rudakat a karikákba, és legyenek azok a rudak az oltár két oldalán, amikor hordozzák.
+8
+Üresre csináld azt deszkából úgy, ahogy a hegyen mutattam neked.
+!Pitvar*#0203800912
+9
+#0203800901
+Készíts udvart is a hajléknak. Az udvar déli oldalához csinálj szőnyegeket sodrott lenből. Száz könyök legyen a hossza minden oldalának.
+10
+Húsz oszlopa és húsz réztalpa is legyen, és az oszlopok horgai és átkötői ezüstből legyenek.
+11
+Ugyanúgy készíts az északi oldalon, hosszában száz könyök hosszú szőnyeget, ahhoz húsz oszlopot, ezekhez húsz réztalpat és az oszlopok horgait és átkötőit ezüstből.
+12
+Az udvar nyugat felőli szélességéhez pedig ötven könyök szőnyeget, ahhoz tíz oszlopot és ezekhez tíz talpat.
+13
+Az udvar szélessége kelet felől is ötven könyök.
+14
+Tizenöt könyök szőnyeg legyen az egyik oldalról, ehhez három oszlop, ezekhez pedig három talp.
+15
+A másik oldalról is tizenöt könyök szőnyeg, ehhez három oszlop és ezekhez három talp.
+16
+Az udvar kapuján pedig húszkönyöknyi függöny legyen, kék, bíborpiros, karmazsinszínű és sodrott lenből hímezve, ehhez négy oszlop, ezekhez pedig négy talp legyen.
+17
+Az udvar minden oszlopát ezüst átkötők vegyék körül, horgaik ezüstből, talpaik pedig rézből legyenek.
+18
+Az udvar hossza száz könyök, a szélessége ötven-ötven, a magassága pedig öt könyök. Takarói sodrott lenből, talpai pedig rézből legyenek.
+19
+A hajlék minden edénye, amelyet bármilyen szolgálatban használnak, és minden szöge és az udvar minden szöge rézből legyen.
+!Világító olaj
+20
+#0302400201
+Te pedig parancsold meg Izráel fiainak, hogy hozzanak neked tiszta faolajat, amelyet a világításhoz sajtoltak, hogy szünet nélkül égő lámpát gyújthassanak.
+21
+#0302400301
+A gyülekezet sátrában, a függönyön kívül, amely a bizonyság előtt van, gondozzák azt Áron és fiai, estétől reggelig az ÚR előtt. Örök rendtartás legyen ez minden nemzedéknél Izráel fiai között.
