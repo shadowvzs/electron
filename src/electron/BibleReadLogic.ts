@@ -25,7 +25,7 @@ export function getChapterVerses({ bibleId, bookId, chapterId }: Pick<BibleQuery
         const firstChar = line[0];
         if (firstChar === "!") {
             const rawContent = line.substr(1).split('*');
-            const footNotes = rawContent[1] && rawContent[1].split('#') || [];
+            const footNotes = rawContent[1] && rawContent[1].split('#').slice(1) || [];
             vers = { 
                 content: rawContent[0], 
                 contentFootnotes: footNotes

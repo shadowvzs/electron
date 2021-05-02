@@ -1,5 +1,6 @@
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
-import { ParallelBibleList, ParallelBibleListProps } from "../componensts/Layout/VersContainer";
+import { ParallelBibleList, ParallelBibleListProps } from "../componensts/Modal/ParallelBibleList";
+
 import { Bible, Vers } from "../models/Bible";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
 import { BaseTranslatorRepository, IAvailableLanguage, ITranslation } from "../services/BaseTranslatorRepository";
@@ -70,6 +71,39 @@ export class GlobalStore {
 
     public get availableLanguages() {
         return this.translatorService.availableLanguages;
+    }
+
+    public get usedBibles() {
+        return [this.baseBible, ...this.parallelBibles];
+    }
+
+    @computed
+    public get isBibleLoading() {
+        return this.usedBibles.some(x => x.isLoading);
+    }
+
+    @computed
+    public get allVerses(): Vers[] {
+        const verses: Vers[] = [];
+        let vers: Vers;
+
+        if (this.isBibleLoading) {
+            return [];
+        }
+        
+        const maxVerses = Math.max(...this.usedBibles.map(x => x.verses.length));
+        const bibles = this.usedBibles;
+        for (let i = 0; i < maxVerses; i++) {
+            bibles.forEach(b => {
+                vers = b.verses[i];
+                if (vers) {
+                    vers.$contentFootnotes = b.getFootNoteInfo(vers.contentFootnotes || []);
+                    vers.$footNotes = b.getFootNoteInfo(vers.footNotes || []);
+                }
+                verses.push(vers);
+            });
+        }
+        return verses;
     }
 
     constructor() {

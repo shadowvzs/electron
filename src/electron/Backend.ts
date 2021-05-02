@@ -13,7 +13,6 @@ export class Backend {
     private chapterCache: Record<string, any> = {};
     private getBibleRoot = () => `${app.getAppPath()}/bibles/`;
     private getBibleDetailPath = (id: string) => `${app.getAppPath()}/bibles/${id}/index.json`;
-    // private getBibleDbPath = (id: string) => `${app.getAppPath()}/bibles/${id}/sql.json`;
     private getLocaleRoot = () => `${app.getAppPath()}/assets/locale/`;
     private getLocale = (name: string) => `${app.getAppPath()}/assets/locale/${name}`;
 

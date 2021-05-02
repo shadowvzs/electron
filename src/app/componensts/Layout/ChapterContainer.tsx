@@ -1,8 +1,9 @@
-import { AppContext } from '@/app/global/AppProvider';
-import { translate } from '@/app/global/GlobalStore';
+import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { observer } from 'mobx-react-lite';
-import React, { useContext } from 'react';
+
+import { AppContext } from '@/app/global/AppProvider';
+import { translate } from '@/app/global/GlobalStore';
 
 const useStyle = makeStyles({
     chapterContainer: {
@@ -38,7 +39,7 @@ export const ChapterContainer = observer(() => {
     const chapters = new Array(book[1]).fill(1);
     return (
         <section className={classes.chapterContainer}>
-            <h1>{translate(`BOOKS.${currentBook}.NAME`)}</h1>
+            <h1>{baseBible.getBookName()}</h1>
             <div>
                 <nav>{translate(`COMMON.BACK`)}</nav>
                 {currentLanguage === 'hu' && <nav>{translate(`COMMON.BOOK_SCHEME`)}</nav>}

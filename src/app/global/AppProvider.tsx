@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import { GlobalStore } from './GlobalStore';
  
 export const AppContext = React.createContext<GlobalStore>(undefined!);

@@ -1,8 +1,9 @@
-import { AppContext } from '@/app/global/AppProvider';
-import { translate } from '@/app/global/GlobalStore';
+import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { observer } from 'mobx-react-lite';
-import React, { useContext } from 'react';
+
+import { AppContext } from '@/app/global/AppProvider';
+import { translate } from '@/app/global/GlobalStore';
 
 const useStyle = makeStyles({
     bookContainer: {
@@ -46,7 +47,7 @@ export const BookContainer = observer(() => {
                             key={book.name}
                             onClick={() => setCurrentBook(book.name)}
                         >
-                            {translate(`BOOKS.${book.name}.NAME`)}
+                            {baseBible.getBookName(book.name)}
                         </nav>
                     ))}
                 </div>
@@ -57,7 +58,7 @@ export const BookContainer = observer(() => {
                             key={book.name}
                             onClick={() => setCurrentBook(book.name)}
                         >
-                            {translate(`BOOKS.${book.name}.NAME`)}
+                            {baseBible.getBookName(book.name)}
                         </nav>
                     ))}
                 </div>

@@ -17,7 +17,7 @@ export abstract class BaseTranslatorRepository {
     public translate(key: string, params?: Record<string, string>, languageOverride?: IAvailableLanguage): string {
         const keyArr = key.split('.');
         const lastKey = keyArr.pop() as string;
-        console.log(key, languageOverride)
+        
         try {
             let data: Record<string, any> = this.translations[languageOverride || this.currentLanguage];
             for (const k of keyArr) {

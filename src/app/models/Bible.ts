@@ -1,4 +1,5 @@
-import { action, makeObservable, observable, runInAction, transaction } from "mobx";
+import { action, makeObservable, observable, runInAction } from "mobx";
+
 import { translate } from "../global/GlobalStore";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
 import { IAvailableLanguage } from "../services/BaseTranslatorRepository";
@@ -23,6 +24,14 @@ export class Bible {
     }
 
     @observable
+    public isLoading: boolean = false;
+    
+    @action.bound
+    public setIsLoading(status: boolean) {
+        this.isLoading = status;
+    }
+
+    @observable
     public currentBook: string = '';
 
     @action.bound
@@ -42,17 +51,44 @@ export class Bible {
             return;
         }
 
+        this.setIsLoading(true);
         return this.bibleService.getChapterVerses(this.id, this.currentBook, currentChapter)
             .then(verses => {
                 runInAction(() => {
                     this.verses = verses;
                     this.currentChapter = currentChapter;
                 })
+            })
+            .finally(() => {
+                this.setIsLoading(false);
             });
     }
 
-    public getFootNoteInfo(rawFootNotes: string[]) {
+    public getFootNoteInfo(rawFootNotes?: string[]): { id: string, text: string }[] {
+        if (!rawFootNotes || rawFootNotes.length === 0) {
+            return [];
+        }
+        const footNotes = rawFootNotes.map(rawFootNote => {
+            const obj = this.bibleService.rawFootNoteToObject(rawFootNote);
+            const bookId = this.books[obj.bookIndex][0];
+            return {
+                id: rawFootNote,
+                text: `${this.getBookName(bookId, true)} ${obj.chapterId}:${obj.versId}-${obj.versId + obj.length}`
+            };
+        });
 
+        if (footNotes.length > 1) {
+            footNotes.push({
+                id: 'all',
+                text: `[${translate('ALL').toUpperCase()}]`
+            });
+        }
+
+        return footNotes;
+    }
+
+    public getBookName(bookId?: string, shortName?: boolean) {
+        return translate(`BOOKS.${bookId || this.currentBook}.${shortName ? 'SHORT_NAME' : 'NAME'}`, {}, this.lang);
     }
 
     public get bookIndex(): number {
@@ -83,7 +119,7 @@ export class Bible {
             info.chapterId++;
         }
 
-        info.title = translate(`BOOKS.${info.bookId}.NAME`, {}, this.lang) + ` ${info.chapterId}`;
+        info.title = `${this.getBookName(info.bookId)} ${info.chapterId}`;
 
         return info;
     }
@@ -109,7 +145,7 @@ export class Bible {
             info.chapterId--;
         }
 
-        info.title = translate(`BOOKS.${info.bookId}.NAME`, {}, this.lang) + ` ${info.chapterId}`;
+        info.title = `${this.getBookName(info.bookId)} ${info.chapterId}`;
 
         return info;
     }
@@ -149,7 +185,9 @@ export interface Vers {
     $origin?: string;
     content?: string;
     contentFootnotes?: string[];
+    $contentFootnotes?: { id: string; text: string }[];
     id: number;
     footNotes?: string[];
+    $footNotes?: { id: string; text: string }[];
     text: string;
 }

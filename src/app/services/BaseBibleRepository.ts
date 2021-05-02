@@ -13,6 +13,17 @@ export abstract class BaseBibleRepository {
     public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<Vers[]> {
         throw new Error('Method not implemented.');
     }
+
+    public rawFootNoteToObject(footNote: string) {
+        return {
+            bookIndex: parseInt(footNote.substr(0, 2)) - 1,
+            bookId: '',
+            chapterId: parseInt(footNote.substr(2, 3)),
+            versId: parseInt(footNote.substr(5, 3)),
+            length: parseInt(footNote.substr(7, 2))
+        }
+
+    }
   
     // public getChapter(bookId: string, chapterId: string): Promise<boolean> {
     //     throw new Error('Method not implemented.');

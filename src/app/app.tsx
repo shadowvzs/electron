@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { AppProvider } from './global/AppProvider';
 import { GlobalStore } from './global/GlobalStore';
 import MainPage from './views/MainPage/MainPage';
