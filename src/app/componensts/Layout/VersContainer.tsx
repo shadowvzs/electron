@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/styles';
 import { observer } from 'mobx-react-lite';
 
 import { AppContext } from '@/app/global/AppProvider';
-import { Bible } from '@/app/models/Bible';
+import { Bible } from '@/model/Bible';
 
 const useStyle = makeStyles({
     versContainer: {
@@ -151,7 +151,7 @@ export const VersContainer = observer(() => {
                                 {v.$footNotes && onlyBase && v.$footNotes.map((footNote, fnIdx) => (
                                     <span 
                                         className={classes.versFootNote}
-                                        children={`${footNote.text} ${(v.$footNotes!.length - 1) > fnIdx && ','}`}
+                                        children={`${footNote.text} ${(v.$footNotes!.length - 1) > fnIdx ? ',' : ''}`}
                                         key={`${idx} ${fnIdx} ${footNote.id}`} 
                                         onClick={() => alert(footNote.id)}
                                     /> 

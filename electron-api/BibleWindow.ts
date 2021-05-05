@@ -33,7 +33,7 @@ export class BibleWindow {
     window.webContents.openDevTools()
 
     // create handler for backend events like get data from db
-    this._backend = new Backend();
+    this._backend = new Backend(app.getAppPath());
 
     // Load our index.html
     window.loadURL(`file://${app.getAppPath()}/index.html`);

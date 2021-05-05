@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 
 import { GlobalStore, translate } from '@/app/global/GlobalStore';
-import { Bible } from '@/app/models/Bible';
+import { Bible } from '@/model/Bible';
 
 const useModalStyle = makeStyles({
     root: {

@@ -1,0 +1,20 @@
+{
+  "name": "@gyozelem/bible",
+  "version": "0.1.2",
+  "description": "Bible utility pack",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "utility",
+    "bible",
+    "string",
+    "date",
+    "object"
+  ],
+  "author": "Varga Zsolt",
+  "license": "ISC"
+}

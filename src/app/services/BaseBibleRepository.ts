@@ -1,4 +1,4 @@
-import { Bible, Vers } from "../models/Bible";
+import { Bible, Vers } from "../../model/Bible";
 
 export abstract class BaseBibleRepository {
 

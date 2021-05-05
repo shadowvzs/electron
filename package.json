@@ -1,21 +1,23 @@
 {
-  "name": "Bible",
+  "name": "bible",
   "version": "1.0.0",
   "description": "Simple Bible desktop app",
   "main": "main.js",
   "url": "https://github.com/shadowvzs/biblia",
   "homepage": "https://github.com/shadowvzs/biblia",
   "repository": {
-     "type": "git",
-     "url": "https://github.com/shadowvzs/biblia.git"
+    "type": "git",
+    "url": "https://github.com/shadowvzs/biblia.git"
   },
   "scripts": {
     "build": "webpack",
     "package": "rm -rf dist && npm run build && cp ./src/package.json ./dist/ && cp -ar bibles dist && cd dist",
-    "start": "npm run build && electron ./dist/main.js",
+    "start": "npm run package && cd node-api && npm start",
     "make-all": "npm run package && electron-packager dist bible --all --overwrite --out=release",
     "make-win32": "npm run package && electron-packager dist bible --platform=win32 --arch=ia32 --overwrite --out=release",
-    "make-linux": "npm run package && electron-packager dist bible --platform=linux --arch=x64 --overwrite --out=release && /home/shadowvzs/projects/electron/release/bible-linux-x64/bible"
+    "make-win64": "npm run package && electron-packager dist bible --platform=win32 --arch=x64 --overwrite --out=release",
+    "make-linux32": "npm run package && electron-packager dist bible --platform=linux --arch=ia32 --overwrite --out=release && /home/shadowvzs/projects/electron/release/bible-linux-x64/bible",
+    "make-linux64": "npm run package && electron-packager dist bible --platform=linux --arch=x64 --overwrite --out=release && /home/shadowvzs/projects/electron/release/bible-linux-x64/bible"
   },
   "keywords": [],
   "author": "Varga Zsolt",
@@ -34,16 +36,15 @@
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
+    "@gyozelem/bible": "^0.1.2",
     "@material-ui/styles": "^4.11.3",
-    "@types/react-toggle": "^4.0.2",
     "classnames": "^2.3.1",
     "electron-packager": "^15.2.0",
     "mobx": "^6.2.0",
-    "mobx-react-lite": "^3.2.0",
-    "react-toggle": "^4.1.2"
+    "mobx-react-lite": "^3.2.0"
   },
   "build": {
-    "appId": "com.example.electron-boilerplate",
+    "appId": "bible",
     "files": [
       "dist/**/*",
       "node_modules/**/*",

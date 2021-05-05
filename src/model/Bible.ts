@@ -1,8 +1,8 @@
 import { action, makeObservable, observable, runInAction } from "mobx";
 
-import { translate } from "../global/GlobalStore";
-import { BaseBibleRepository } from "../services/BaseBibleRepository";
-import { IAvailableLanguage } from "../services/BaseTranslatorRepository";
+import { translate } from "../app/global/GlobalStore";
+import { BaseBibleRepository } from "../app/services/BaseBibleRepository";
+import { IAvailableLanguage } from "../app/services/BaseTranslatorRepository";
 
 export class Bible {
     public id: string;

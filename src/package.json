@@ -7,5 +7,8 @@
   "keywords": [],
   "author": "Varga Zsolt",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "tslint": "^6.1.3"
+  }
 }

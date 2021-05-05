@@ -1,19 +1,22 @@
 import { BaseBibleRepository } from "../BaseBibleRepository";
-import { Bible, Vers } from "../../models/Bible";
+import { Bible, Vers } from "../../../model/Bible";
+import { REMOTE_URL } from "@/app/global/Const";
 
 export class RemoteBibleRepository extends BaseBibleRepository {
 
     public async getInstalledBibles(): Promise<Bible[]> {
-        // make request for getting bibles
-        return [new Bible(this)];
+        const result = await fetch(REMOTE_URL + 'api/get-installed-bibles');
+        const bibles: Bible[] = await result.json();
+        return bibles.map(x => Object.assign(new Bible(this), x));
     }
 
     public async getBible(bibleId: string): Promise<Bible> {
-        // make request for getting bibles
-        return new Bible(this);
+        const result = await fetch(REMOTE_URL + 'api/get-bible/' + bibleId);
+        return Object.assign(new Bible(this), await result.json());
     }
 
     public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<Vers[]> {
-        throw new Error('Method not implemented.');
+        const result = await fetch(`${REMOTE_URL}api/get-chapter-verses?bibleId=${bibleId}&bookId=${bookId}&chapterId=${chapterId}`);
+        return await result.json();
     }
 }

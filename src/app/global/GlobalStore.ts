@@ -1,16 +1,16 @@
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
 import { ParallelBibleList, ParallelBibleListProps } from "../componensts/Modal/ParallelBibleList";
 
-import { Bible, Vers } from "../models/Bible";
+import { Bible, Vers } from "../../model/Bible";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
 import { BaseTranslatorRepository, IAvailableLanguage, ITranslation } from "../services/BaseTranslatorRepository";
 import { ModalService } from "../services/ModalService";
 import { serviceFactory } from "../services/ServiceFactory";
 
 const defaultLanguage = 'hu';
+export const REMOTE_API = 'http://localhost:3333/';
 
 export let translate: (key: string, params?: Record<string, string>, languageOverride?: IAvailableLanguage) => string;
-
 export class GlobalStore {
 
     public bibleService: BaseBibleRepository;

@@ -1,6 +1,6 @@
-import { app, BrowserWindow } from 'electron';
-import { appManager } from '@/electron/AppManager';
-import { BibleWindow } from '@/electron/BibleWindow';
+import { app } from 'electron';
+import { appManager } from '../electron-api/AppManager';
+import { BibleWindow } from '../electron-api/BibleWindow';
 
 
 app.on('ready', () => {

@@ -159,7 +159,6 @@ export const BibleBookMenu = observer(() => {
 });
 
 export const ToolbarMenu = observer(() => {
-    const { currentLanguage, availableLanguages } = useContext(AppContext);
     const classes = useStyle();
 
     return (

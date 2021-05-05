@@ -1,4 +1,4 @@
-import { Bible, Vers } from "../../models/Bible";
+import { Bible, Vers } from "../../../model/Bible";
 import { BaseBibleRepository } from "../BaseBibleRepository";
 
 export class ElectronBibleRepository extends BaseBibleRepository {

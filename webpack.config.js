@@ -8,14 +8,15 @@ const electronConfiguration = {
   target: 'electron-main',
   resolve: {
     alias: {
-      ['@']: path.resolve(__dirname, 'src')
+      ['@']: path.resolve(__dirname, 'src'),
+      ['@global']: path.resolve(__dirname, 'src/global')
     },
     extensions: ['.tsx', '.ts', '.js'],
   },
   module: {
     rules: [{
       test: /\.ts$/,
-      include: /src/,
+      include: [/src/, /electron-api/],
       use: [{ loader: 'ts-loader' }]
     }]
   },
