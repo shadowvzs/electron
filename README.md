@@ -3,15 +3,33 @@
 ## <ins>Documentation</ins>
 
 ### <ins>Intro</ins>
-#### Subject
-This is a bible project, where we can read bible (2x hu, 1x ro,1x en version) with several options which help in reading
 
-#### Technical
-This project can work like a normal website or can compile same code to desktop application aswell for windows/linux(/mac) platform
+#### Goal
+A bible web site which can be compiled to normal desktop application (windows/linux/mac), can be used normal mode (like a web site) or in PWA mode (offline website)
+
+
+#### Basic commands:
+
+   * npm run start      = build project and run like a normal web site and serve built files with express
+   * npm run make-all   = create application for every known platform (use win32/win64/linux32/linux64 instead of all if you want create app for specific platform)
+
+   * npm run build      = build 
+   * npm run package    = build and handle the file dependencies
+
+
 
 #### Technologies
- * Backend: typescript + nodejs - packages: express, @gyozelem/bible (for common & abstract logic between electron and nodejs)
- * Frontend: typescript, react, mobx, electron, webpack, @gyozelem/bible (latest version from everything)
+ * Backend: 
+      * typescript
+      * nodejs - packages: express, @gyozelem/bible (for common & abstract logic between electron and nodejs)
+      * electron
+ * Frontend: 
+      * typescript
+      * react
+      * mobx,
+      * jss
+      * cacheStorage, localStorage
+      * electron, webpack, @gyozelem/bible (latest version from everything)
 
 ### <ins>Folder structure</ins>
 
