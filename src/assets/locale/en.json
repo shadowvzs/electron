@@ -1,8 +1,48 @@
 {
+    "ABOUT": {
+        "ABOUT": "About",
+        "ARTICLES": "Articles",
+        "CHANGELOG": "Changelog"
+    },
     "ALL": "All",
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "FOOTNOTE": {
+        "NAME": "Footnote"
+    },
+    "LANGUAGE": "Language",
+    "MENU": "Menu",
+    "SEARCH": {
+        "CASE_SENSITIVE": "case sensitive",
+        "STRICT_CHARACTER": "special characters",
+        "NAME": "search",
+        "WORD_TYPE": {
+            "WHOLE_WORD": "whole word",
+            "START_WITH": "start with",
+            "END_WITH": "end with",
+            "PART_WORD": "part word"
+        }
+    },
+    "SETTINGS": {
+        "ABOUT": "About",
+        "SEARCH": "Search",
+        "SETTINGS": "Settings"
+    },        
+    "OFFLINE": {
+        "MODAL": {
+            "HEADER_TEXT": "Info: we need to download in order to able use in offline mode",
+            "TITLE": "Download bibles",
+            "TOTAL_PROGRESS": "Total progress"
+        }
+    },
     "TESTAMENT":{
         "NEW":"New Testament",
         "OLD":"Old Testament"
+    },
+    "BIBLES": {
+        "PARALLEL": {
+            "SET": "Set parallel bibles"
+        }
     },
     "BOOKS":{
         "GEN":{

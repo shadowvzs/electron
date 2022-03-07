@@ -1,0 +1,1 @@
+export function classAutobind<T>(t: T, exclude: string[]): void;

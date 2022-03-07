@@ -1,12 +1,20 @@
+import { OfflineService } from "./OfflineService";
+
 export type ITranslation = Record<'hu' | 'en' | 'ro', Record<string, any | string>>;
 export type IAvailableLanguage = keyof ITranslation;
 
 export abstract class BaseTranslatorRepository {
+    public static $name = 'translatorRepository' as const;
+
     public translations: ITranslation;
     public availableLanguages: IAvailableLanguage[];
     public currentLanguage: IAvailableLanguage;
+    protected offlineService?: OfflineService;
 
-    constructor() {
+    constructor(
+        offlineService?: OfflineService
+    ) {
+        this.offlineService = offlineService;
         this.translate = this.translate.bind(this);
     }
 
@@ -17,7 +25,7 @@ export abstract class BaseTranslatorRepository {
     public translate(key: string, params?: Record<string, string>, languageOverride?: IAvailableLanguage): string {
         const keyArr = key.split('.');
         const lastKey = keyArr.pop() as string;
-        
+
         try {
             let data: Record<string, any> = this.translations[languageOverride || this.currentLanguage];
             for (const k of keyArr) {
@@ -25,7 +33,7 @@ export abstract class BaseTranslatorRepository {
             }
             const translation = data[lastKey];
             return translation || key;
-        } catch(err) {
+        } catch (err) {
             console.warn(`translation missing: ${key}`);
             return key;
         }

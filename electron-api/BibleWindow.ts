@@ -1,7 +1,8 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, protocol, session } from 'electron';
 import { Backend } from './Backend';
+import * as remoteMain from '@electron/remote/main';
 
-const path = require('path')
+remoteMain.initialize();
 
 export class BibleWindow {
   private _window: BrowserWindow;
@@ -10,6 +11,7 @@ export class BibleWindow {
   constructor() {
     this._window = this.createWindow();
     app.on('activate', this.onActivate);
+    app.on('ready', this.onActivate);
     app.on('window-all-closed', this.onClose);
   }
 
@@ -22,8 +24,9 @@ export class BibleWindow {
       icon: `file://${app.getAppPath()}/assets/favicon.png`,
       webPreferences: {
         nodeIntegration: true,
+        nodeIntegrationInWorker: true,
         contextIsolation: false,
-        enableRemoteModule: true
+        webSecurity: false,
       }
     });
 

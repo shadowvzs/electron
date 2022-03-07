@@ -9,5 +9,4 @@ export class Backend extends BaseBackend {
         this.getLocaleRoot = () => `${basePath}/dist/assets/locale/`;
         this.getLocale = (name: string) => `${basePath}/dist/assets/locale/${name}`;
     }
-
 }

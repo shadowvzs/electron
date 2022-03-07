@@ -1,27 +1,82 @@
-import { action, computed, makeObservable, observable, runInAction } from "mobx";
-import { ParallelBibleList, ParallelBibleListProps } from "../componensts/Modal/ParallelBibleList";
+import { action, computed, makeObservable, observable } from "mobx";
+import di from '@gyozelem/utility/dep-injector';
 
-import { Bible, Vers } from "../../model/Bible";
+import { ParallelBibleList, ParallelBibleListProps } from "../components/Modal/ParallelBibleList";
+
+import { About, Bible, Vers } from "../model/Bible";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
 import { BaseTranslatorRepository, IAvailableLanguage, ITranslation } from "../services/BaseTranslatorRepository";
 import { ModalService } from "../services/ModalService";
-import { serviceFactory } from "../services/ServiceFactory";
+import { serviceFactory, SourceType } from "../services/ServiceFactory";
+import { SidebarService } from "../services/SidebarService";
+import { renderFootNoteList } from "../components/Sidebar/FootNoteList";
+
+
+import { OfflineService } from "../services/OfflineService";
+import { OfflineDataModal, OfflineDataModalProps } from "../components/Modal/OfflineDataModal";
 
 const defaultLanguage = 'hu';
 export const REMOTE_API = 'http://localhost:3333/';
 
-export let translate: (key: string, params?: Record<string, string>, languageOverride?: IAvailableLanguage) => string;
+export let translate: (key: string, params?: Record<string, string>, languageOverride?: IAvailableLanguage) => string = (key) => key;
+
+@di.InjectableSingleton("IToast1")
+class A {
+    getName() {
+        return Math.random();
+    }
+}
+
+@di.InjectableSingleton("IToast2")
+class B {
+    getType() {
+        return Math.random();
+    }
+}
+
+@di.InjectableClass()
+class C {
+
+    @di.InjectProperty("IToast1")
+    public toast1: A;
+
+    @di.InjectProperty("IToast2")
+    public toast2: B;
+
+    constructor(public valami: number) { }
+}
+
+const c = new C(1);
+(window as any)['aaa'] = c;
+console.log(c, c.toast1.getName(), c.toast2.getType(), c.valami);
+
+type BibleParams = { bibleId: string, bookId: string, chapterId: number, versId: number, limit: number };
+
+enum ServiceMode {
+    Normal,
+    Offline
+}
+
 export class GlobalStore {
 
     public bibleService: BaseBibleRepository;
     public translatorService: BaseTranslatorRepository;
     public modalService: ModalService;
+    public sidebarService: SidebarService;
+    public offlineService: OfflineService;
+    public about: About;
 
     @observable
     public loading: boolean = false;
 
     @action.bound
     public setLoading(loading: boolean) { this.loading = loading; }
+
+    @observable
+    public mode: ServiceMode = ServiceMode.Normal;
+
+    @action.bound
+    public setMode(mode: ServiceMode) { this.mode = mode; };
 
     @observable
     public bibles: Bible[] = [];
@@ -33,21 +88,29 @@ export class GlobalStore {
     public parallelBibles: Bible[] = [];
 
     @action.bound
-    public setParallelBibles(bibles: Bible[]) { 
+    public setParallelBibles(bibles: Bible[]) {
         bibles.forEach(b => {
             b.setCurrentBook(this.baseBible.currentBook);
             b.setCurrentChapter(this.baseBible.currentChapter);
         })
-        this.parallelBibles = bibles; 
+        this.parallelBibles = bibles;
     }
 
-    @action.bound
-    public onAddBibles() {   
+    public onAddBibles = () => {
         this.modalService.open<ParallelBibleListProps, Bible[]>(ParallelBibleList, {
-            title: 'ADD.PARALLEL.BIBLES',
+            title: translate('BIBLES.PARALLEL.SET'),
             data: { globalStore: this }
         }).then(bibleIds => {
             this.setParallelBibles(this.bibles.filter(x => bibleIds.includes(x)));
+        });
+    };
+
+    public onOfflineData = () => {
+        this.modalService.open<OfflineDataModalProps, any>(OfflineDataModal, {
+            title: translate('OFFLINE.MODAL.TITLE'),
+            data: { globalStore: this }
+        }).then(() => {
+            // cool
         });
     };
 
@@ -61,12 +124,19 @@ export class GlobalStore {
     public setCurrentLanguage(language: IAvailableLanguage) {
         this.currentLanguage = language;
         this.translatorService.currentLanguage = language;
-        const bible = this.bibles.find(x => x.lang === language) || this.bibles[0];
         if (this.baseBible) {
-            bible.setCurrentBook(this.baseBible.currentBook);
-            bible.setCurrentChapter(this.baseBible.currentChapter);
+            const newBaseBibleId = this.getCurrentBible().id;
+            let path = `/?bibleId=${newBaseBibleId}`;
+            if (this.baseBible.currentBook) {
+                path += `&bookId=${this.baseBible.currentBook}`;
+                if (this.baseBible.currentChapter) { path += `&chapterId=${this.baseBible.currentChapter}`; }
+            }
+            this.navigate(path);
         }
-        this.baseBible = bible;
+    }
+
+    public getCurrentBible = () => {
+        return this.bibles.find(x => x.lang === this.currentLanguage) || this.bibles[0];
     }
 
     public get availableLanguages() {
@@ -90,7 +160,9 @@ export class GlobalStore {
         if (this.isBibleLoading) {
             return [];
         }
-        
+
+        // x.verses is undefined
+        // another problem is the maxChapter
         const maxVerses = Math.max(...this.usedBibles.map(x => x.verses.length));
         const bibles = this.usedBibles;
         for (let i = 0; i < maxVerses; i++) {
@@ -99,6 +171,7 @@ export class GlobalStore {
                 if (vers) {
                     vers.$contentFootnotes = b.getFootNoteInfo(vers.contentFootnotes || []);
                     vers.$footNotes = b.getFootNoteInfo(vers.footNotes || []);
+                    vers.$bible = b;
                 }
                 verses.push(vers);
             });
@@ -106,30 +179,146 @@ export class GlobalStore {
         return verses;
     }
 
+    public setFootNoteSidebar = async (bible: Bible, id: string) => {
+        const versIds = id.startsWith('all_') ? id.split('_')[1].split('#') : [id];
+        const footNotes = versIds.map(i => BaseBibleRepository.rawFootNoteToObject(i, bible));
+        const verses = await this.bibleService.getFootNotes(footNotes, bible.id)
+        this.sidebarService.setData({
+            title: translate('FOOTNOTE.NAME'),
+            content: renderFootNoteList(verses, this.setFootNoteSidebar)
+        });
+    }
+
+    public _navigate: (path: string, state?: unknown) => void;
+    public navigate = (path: string, state?: unknown) => {
+        this._navigate(path, state);
+        this.navigateTo(this.extractBibleUrlParams(path));
+    };
+
+    public extractBibleUrlParams = (path: string): BibleParams => {
+        const params = {
+            bibleId: this.getCurrentBible().id,
+            bookId: '',
+            chapterId: 0,
+            versId: 0,
+            limit: 0
+        };
+        const newParams = (path.split('?').pop() || '').split('&').reduce((t, c) => {
+            const [k, v] = c.split('=');
+            if (t.hasOwnProperty(k)) { return t; }
+            if (k === 'bibleId' || k === 'bookId') {
+                t[k] = v;
+            } else if (['chapterId', 'versId', 'limit'].includes(k)) {
+                t[k as 'chapterId' | 'versId' | 'limit'] = parseInt(v);
+            }
+            return t;
+        }, {} as typeof params);
+        return { ...params, ...newParams };
+    }
+
+    @action.bound
+    public navigateTo({ bibleId, bookId, chapterId, versId, limit }: Partial<BibleParams>) {
+        if (!this.baseBible) {
+            this.baseBible = this.bibles.find(x => x.id === bibleId)!;
+        }
+        const allBible = [this.baseBible, ...this.parallelBibles];
+        const bible = bibleId && this.bibles.find(x => x.id === bibleId);
+        if (bible && this.baseBible !== bible) {
+            const oldBaseBible = this.baseBible;
+            if (!bookId) { bookId = oldBaseBible?.currentBook; }
+            if (!chapterId) { chapterId = oldBaseBible?.currentChapter; }
+            if (!versId) { versId = oldBaseBible?.currentVers; }
+            if (!limit) { limit = oldBaseBible?.limit; }
+            const idx = this.parallelBibles.findIndex(x => x.id === bible.id);
+            this.baseBible = bible;
+            if (!allBible.some(x => x.id === bible.id)) { allBible.push(bible); }
+            if (idx >= 0) {
+                const bList = this.parallelBibles;
+                bList.splice(idx, 1, oldBaseBible);
+                this.setParallelBibles([...bList]);
+            }
+        }
+
+        allBible.forEach(bible => {
+            if (typeof bookId !== 'undefined') { bible.setCurrentBook(bookId); }
+            if (typeof chapterId !== 'undefined') {
+                bible.currentChapter = chapterId;
+                bible.setCurrentChapter(chapterId);
+            }
+            if (typeof versId !== 'undefined') { bible.setCurrentVers(versId); }
+            if (typeof limit !== 'undefined') { bible.setLimit(limit); }
+        });
+    }
+
+    @observable.shallow
+    public windowSize: { x: number, y: number } = { x: window.innerWidth, y: window.innerHeight };
+
+    @computed
+    public get currentBreakPoint(): 'xl' | 'lg' | 'md' | 'sm' | 'xs' {
+        const x = this.windowSize.x;
+        if (x > 1920) {
+            return 'xl';
+        } else if (x > 1280) {
+            return 'lg';
+        } else if (x > 960) {
+            return 'md';
+        } else if (x > 600) {
+            return 'sm';
+        } else {
+            return 'xs';
+        }
+    }
+
+    @computed
+    public get isMobile() {
+        return this.currentBreakPoint === 'xs';
+    }
+
     constructor() {
-        makeObservable(this)
-        this.init();
+        makeObservable(this);
+        window.addEventListener('resize', this.onWindowResize);
+        (window as any)['globalStore'] = this;
     }
 
     public async init() {
         this.setLoading(true);
-        
-        this.modalService = new ModalService({ containerSelector: '#modalRoot' });
 
-        this.translatorService = serviceFactory.createTranslatorService();
-        await this.translatorService.getTranslations();
+        if (!this.modalService) {
+            this.modalService = new ModalService({ containerSelector: '#modalRoot' });
+        }
+        // SourceType.Offline
+        const { bibleService, offlineService, translatorService } = serviceFactory.setSourceType().initAllServices();
+        this.offlineService = offlineService!;
+        this.translatorService = translatorService;
+        this.bibleService = bibleService;
+
+        if (!translatorService.translations) {
+            await this.translatorService.getTranslations();
+        }
+
         translate = this.translatorService.translate;
 
-        this.bibleService = serviceFactory.createBibleService();
         this.bibles = await this.bibleService.getInstalledBibles();
-        
-        this.setCurrentLanguage(defaultLanguage);
+        this.about = await this.bibleService.about();
 
+        this.sidebarService = new SidebarService();
+        if (!this.currentLanguage) {
+            this.setCurrentLanguage(defaultLanguage);
+        }
+
+        this.navigateTo({ bibleId: this.getCurrentBible().id });
         this.setLoading(false);
+    }
 
+    @action.bound
+    private onWindowResize() {
+        this.windowSize = { x: window.innerWidth, y: window.innerHeight };
     }
 
     public destroy() {
         // some clean up here
+        window.removeEventListener('resize', this.onWindowResize);
     }
 }
+
+export const globalStore = new GlobalStore();

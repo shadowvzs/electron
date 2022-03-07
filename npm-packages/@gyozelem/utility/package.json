@@ -1,0 +1,24 @@
+{
+  "name": "@gyozelem/utility",
+  "version": "1.2.6",
+  "description": "Utility pack",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "utility",
+    "tree",
+    "string",
+    "date",
+    "object",
+    "class-transformer",
+    "class-validator",
+    "draggable",
+    "dependency-injection"
+  ],
+  "author": "Varga Zsolt",
+  "license": "ISC"
+}

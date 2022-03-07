@@ -17,7 +17,8 @@
   "author": "Varga Zsolt",
   "license": "MIT",
   "dependencies": {
-    "@gyozelem/bible": "^0.1.1",
+    "@gyozelem/bible": "^0.2.5",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1"
   },

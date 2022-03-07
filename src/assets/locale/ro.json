@@ -1,9 +1,49 @@
 {
+    "ABOUT": {
+        "ABOUT": "Despre",
+        "ARTICLES": "Articolele",
+        "CHANGELOG": "Modificări"
+    },
     "ALL": "Toate",
+    "CANCEL": "Renunţă",
+    "CONFIRM": "Confirmă",
+    "FOOTNOTE": {
+        "NAME": "Referinţe"
+    },
+    "LANGUAGE": "Limbă",
+    "MENU": "Meniu",
+    "SEARCH": {
+        "CASE_SENSITIVE": "caz sensibil",
+        "STRICT_CHARACTER": "accent sensibil",
+        "NAME": "căutare",
+        "WORD_TYPE": {
+            "WHOLE_WORD": "cuvânt întreg",
+            "START_WITH": "începe cu",
+            "END_WITH": "se termină cu",
+            "PART_WORD": "cuvânt parţial"
+        }
+    },
+    "SETTINGS": {
+        "ABOUT": "Despre",
+        "SEARCH": "Căutare",
+        "SETTINGS": "Setări"
+    },
+    "OFFLINE": {
+        "MODAL": {
+            "HEADER_TEXT": "Info: we need to download in order to able use in offline mode",
+            "TITLE": "Descărcare",
+            "TOTAL_PROGRESS": "Procent descărcare"
+        }
+    },
     "TESTAMENT":{
         "NEW":"Noul Testament",
         "OLD":"Vechiul Testament"
     },
+    "BIBLES": {
+        "PARALLEL": {
+            "SET": "Citire paralel"
+        }
+    },     
     "BOOKS":{
         "GEN":{
             "NAME":"Geneza",

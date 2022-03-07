@@ -1,4 +1,6 @@
-import { Bible, Vers } from "../../../model/Bible";
+import { FootNoteObj, SearchQueryParams } from "@gyozelem/bible/base-backend";
+import { toJS } from "mobx";
+import { About, Bible, Vers } from "../../model/Bible";
 import { BaseBibleRepository } from "../BaseBibleRepository";
 
 export class ElectronBibleRepository extends BaseBibleRepository {
@@ -27,5 +29,24 @@ export class ElectronBibleRepository extends BaseBibleRepository {
         };
         const chapterVerses = await this.ipcRenderer.invoke('get-chapter-verses', queryParams);
         return chapterVerses;
+    }
+
+    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<Vers[][]> {
+        const result = await this.ipcRenderer.invoke('get-foot-notes', { bibleId, footNotes });
+        return result;
+    }
+
+    public async search(data: SearchQueryParams): Promise<Vers[]> {
+        this.store.setSearchLoading(true);
+        data.books = toJS(data.books);
+        const result = await this.ipcRenderer.invoke('search', data );
+        this.store.setSearchResult(result);
+        this.store.setSearchLoading(false);
+        return result;
+    }
+
+    public async about(): Promise<About> {
+        const result = await this.ipcRenderer.invoke('about', null);
+        return result;
     }
 }

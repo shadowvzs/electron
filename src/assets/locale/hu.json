@@ -1,9 +1,49 @@
 {
+    "ABOUT": {
+        "ABOUT": "Oldalról",
+        "ARTICLES": "Cikkek",
+        "CHANGELOG": "Változtatások"
+    },
     "ALL": "Mind",
+    "CANCEL": "Mégse",
+    "CONFIRM": "Rendben",
+    "FOOTNOTE": {
+        "NAME": "Utalások"
+    },
+    "LANGUAGE": "Nyelv",
+    "MENU": "Menü",
+    "SEARCH": {
+        "CASE_SENSITIVE": "kis-nagybetű érzékeny",
+        "STRICT_CHARACTER": "ékezet érzékeny",
+        "NAME": "keresés",
+        "WORD_TYPE": {
+            "WHOLE_WORD": "egész szó",
+            "START_WITH": "evvel kezdődik",
+            "END_WITH": "evvel végződik",
+            "PART_WORD": "rész szó"
+        }
+    },
+    "SETTINGS": {
+        "ABOUT": "Oldalról",
+        "SEARCH": "Keresés",
+        "SETTINGS": "Beállítások"
+    },    
+    "OFFLINE": {
+        "MODAL": {
+            "HEADER_TEXT": "Info: we need to download in order to able use in offline mode",
+            "TITLE": "Biblia letöltés",
+            "TOTAL_PROGRESS": "Letöltési állapot"
+        }
+    },    
     "TESTAMENT": {
         "NEW": "Újszövetség",
         "OLD": "Ószövetség"
     },
+    "BIBLES": {
+        "PARALLEL": {
+            "SET": "Párhuzamos olvasás"
+        }
+    }, 
     "BOOKS": {
         "GEN": {
             "NAME": "Mózes I. könyve", 
