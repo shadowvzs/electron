@@ -1,18 +1,18 @@
 import React, { useContext } from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
 import { AppContext } from '@/app/global/AppProvider';
 import { observer } from 'mobx-react-lite';
-import { translate } from '@/app/global/GlobalStore';
+import { translate } from '@/app/core/app';
 import { action, makeObservable, observable } from 'mobx';
 import { Article } from '@/app/model/Bible';
 
 const useStyle = makeStyles({
-   root: {
+    root: {
         maxWidth: 700,
         margin: 'auto'
-   },
-   articlesSection: {
+    },
+    articlesSection: {
         textAlign: 'center',
         '& ul': {
             display: 'inline-block',
@@ -66,7 +66,7 @@ export const ArticleContainer = observer(() => {
                         <h3>{translate('ABOUT.ARTICLES')}</h3>
                         <ul className={classes.articlesSection}>
                             {articles.map(({ id, title }, idx) => (
-                                <li key={idx}> 
+                                <li key={idx}>
                                     <span onClick={() => navigate(`/article?id=${id}`)}>{title}</span>
                                 </li>
                             ))}

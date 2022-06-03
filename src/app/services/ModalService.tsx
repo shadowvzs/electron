@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-export interface IModalConfig {
-    containerSelector: string
+export interface IModalConfig<T = any> {
+    app: T;
+    containerSelector: string,
 }
 
 export interface ModalProps<P, R> {
-    onCancel?: () => void,
-    onClose?: () => void;
-    onSuccess?: (result: R) => void;
-    title: string;
+    app?: any;
     data?: P;
+    title?: string;
+    onCancel: () => void,
+    onClose?: () => void;
+    onSuccess: (result: R) => void;
 }
 
 const styles: Record<'overlay' | 'modal' | 'header' | 'close', React.CSSProperties> = {
@@ -60,31 +62,43 @@ const styles: Record<'overlay' | 'modal' | 'header' | 'close', React.CSSProperti
 
 export class ModalService {
     private $container: HTMLElement;
+    private config: IModalConfig;
 
-    constructor(private config: IModalConfig) {
-        const $container = document.querySelector<HTMLElement>(config.containerSelector); 
-        if (!$container) { 
-            throw new Error('Modal container not exist, check the containerSelector config at service init'); 
-        }
-        this.$container = $container;
+    constructor() {
+        this.open = this.open.bind(this);
     }
 
-    private modalFrame<P,R>(Cmp: (props: P & Pick<ModalProps<P, R>, 'onClose' | 'onSuccess'>) => JSX.Element, props: ModalProps<P, R>) {
+    public init(config: IModalConfig) {
+        this.config = config;
+        const $container = document.querySelector<HTMLElement>(config.containerSelector);
+        if (!$container) {
+            throw new Error('Modal container not exist, check the containerSelector config at service init');
+        }
+        this.$container = $container;
+        return this;
+    }
+
+    private modalFrame<P, R>(Cmp: (props: P & Pick<ModalProps<P, R>, 'onClose' | 'onSuccess'>) => JSX.Element, props: ModalProps<P, R>) {
         const { onCancel, onClose, onSuccess } = props;
-        const baseProps = {...props.data, onClose, onSuccess} as P & Pick<ModalProps<P, R>, 'onClose' | 'onSuccess'>;
+        const baseProps = {
+            ...props.data,
+            app: this.config.app,
+            onClose,
+            onSuccess,
+        } as P & Pick<ModalProps<P, R>, 'onClose' | 'onSuccess' | 'app'>;
         return (
             <div
-                className="modal-overlay" 
+                className="modal-overlay"
                 style={styles.overlay}
                 onClick={onCancel}
             >
                 <section className="modal" style={styles.modal}>
                     <header style={styles.header}>
                         <span children={props.title} />
-                        <span 
-                            className="modal-close" 
+                        <span
+                            className="modal-close"
                             style={styles.close}
-                            dangerouslySetInnerHTML={{ __html: '&times;' }} 
+                            dangerouslySetInnerHTML={{ __html: '&times;' }}
                             onClick={onClose}
                         />
                     </header>
@@ -96,7 +110,7 @@ export class ModalService {
         );
     }
 
-    public open<P, R>(Cmp: (props: P & Pick<ModalProps<P, R>, 'onClose' | 'onSuccess'>) => JSX.Element, props: ModalProps<P, R>): Promise<R> {
+    public open<P, R>(Cmp: (props: P & Pick<ModalProps<P, R>, 'onClose' | 'onSuccess'>) => JSX.Element, props: Partial<ModalProps<P, R>>): Promise<R> {
         return new Promise((resolve, reject) => {
             const onCancel = (e: React.MouseEvent<HTMLElement>) => {
                 if (e.currentTarget.className !== 'modal-overlay' || e.target !== e.currentTarget) { return; }
@@ -106,7 +120,7 @@ export class ModalService {
                 ReactDOM.unmountComponentAtNode(this.$container);
                 reject();
             }
-    
+
             const onClose = (e: React.MouseEvent<HTMLElement>) => {
                 e.preventDefault();
                 e.stopPropagation();
@@ -114,14 +128,18 @@ export class ModalService {
                 ReactDOM.unmountComponentAtNode(this.$container);
                 reject();
             }
-    
+
             const onSuccess = (item: R) => {
                 if (typeof props.onSuccess === 'function') { props.onSuccess(item); }
                 ReactDOM.unmountComponentAtNode(this.$container);
                 resolve(item);
             }
 
-            ReactDOM.render(this.modalFrame<P,R>(Cmp, {...props, onCancel, onClose, onSuccess } as ModalProps<P, R>), this.$container);
+            ReactDOM.render(this.modalFrame<P, R>(Cmp, { ...props, onCancel, onClose, onSuccess } as ModalProps<P, R>), this.$container);
         });
     }
 }
+
+const modalService = new ModalService();
+
+export default modalService;

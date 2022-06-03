@@ -1,12 +1,37 @@
 {
-  "name": "@gyozelem/bible",
-  "version": "0.2.5",
-  "description": "Bible utility pack",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "@gyozelem/bible@0.2.5",
+      "/home/shadowvzs/projects/electron"
+    ]
+  ],
+  "_from": "@gyozelem/bible@0.2.5",
+  "_id": "@gyozelem/bible@0.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-6SuebGqoyt+pDLHyFXTaqJuaEoC9iMGGegiHB7qvLCifWUmy1mfFxmhdzVkFcn5bGjADnUp9JqrsbeT0yyNIBA==",
+  "_location": "/@gyozelem/bible",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@gyozelem/bible@0.2.5",
+    "name": "@gyozelem/bible",
+    "escapedName": "@gyozelem%2fbible",
+    "scope": "@gyozelem",
+    "rawSpec": "0.2.5",
+    "saveSpec": null,
+    "fetchSpec": "0.2.5"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@gyozelem/bible/-/bible-0.2.5.tgz",
+  "_spec": "0.2.5",
+  "_where": "/home/shadowvzs/projects/electron",
+  "author": {
+    "name": "Varga Zsolt"
+  },
+  "description": "Bible utility pack",
   "keywords": [
     "array",
     "utility",
@@ -15,6 +40,12 @@
     "date",
     "object"
   ],
-  "author": "Varga Zsolt",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@gyozelem/bible",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "index.d.ts",
+  "version": "0.2.5"
 }

@@ -1,6 +1,6 @@
 import { action, makeObservable, observable, runInAction } from "mobx";
 
-import { translate } from "../global/GlobalStore";
+import { translate } from "../core/app";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
 import { IAvailableLanguage } from "../services/BaseTranslatorRepository";
 
@@ -25,7 +25,7 @@ export class Bible {
 
     @observable
     public isLoading: boolean = false;
-    
+
     @action.bound
     public setIsLoading(status: boolean) {
         this.isLoading = status;
@@ -35,8 +35,8 @@ export class Bible {
     public currentBook: string = '';
 
     @action.bound
-    public setCurrentBook(currentBook: string) { 
-        this.currentBook = currentBook; 
+    public setCurrentBook(currentBook: string) {
+        this.currentBook = currentBook;
         this.setCurrentChapter();
     }
 
@@ -44,7 +44,7 @@ export class Bible {
     public currentChapter: number = 0;
 
     @action.bound
-    public setCurrentChapter(currentChapter?: number) { 
+    public setCurrentChapter(currentChapter?: number) {
         if (!currentChapter) {
             this.verses = [];
             this.currentChapter = 0;
@@ -68,7 +68,7 @@ export class Bible {
     public currentVers: number = 0;
 
     @action.bound
-    public setCurrentVers(currentVers?: number) {  this.currentVers = currentVers || 0; }
+    public setCurrentVers(currentVers?: number) { this.currentVers = currentVers || 0; }
 
     @observable
     public limit: number = 0;
@@ -111,7 +111,7 @@ export class Bible {
         return this.books[this.bookIndex][1];
     }
 
-    public get nextChapter () {
+    public get nextChapter() {
         const info = {
             bookId: this.currentBook,
             chapterId: this.currentChapter,
@@ -136,7 +136,7 @@ export class Bible {
         return info;
     }
 
-    public get prevChapter () {
+    public get prevChapter() {
         const info = {
             bookId: this.currentBook,
             chapterId: this.currentChapter,
@@ -186,8 +186,8 @@ export interface Vers {
 
 export interface Article {
     id: string,
-    title: string; 
-    content: string; 
+    title: string;
+    content: string;
 }
 
 export interface About {

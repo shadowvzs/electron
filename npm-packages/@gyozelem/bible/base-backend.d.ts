@@ -14,6 +14,7 @@ export interface BibleQueryParams {
     versId: number;
     versLimit: number;
 }
+
 export interface FootNoteObj {
     bookIndex: number;
     bookId: string;
@@ -21,10 +22,11 @@ export interface FootNoteObj {
     versId: number;
     length: number;
 }
+
 export interface BaseVers {
     id: number;
     longId: string;
-    content: string; 
+    content: string;
     contentFootnotes: string[];
     footNotes: string[];
     text: string;

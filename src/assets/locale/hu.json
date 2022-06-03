@@ -7,6 +7,7 @@
     "ALL": "Mind",
     "CANCEL": "Mégse",
     "CONFIRM": "Rendben",
+    "CLOSE": "Bezár",
     "FOOTNOTE": {
         "NAME": "Utalások"
     },
@@ -27,14 +28,14 @@
         "ABOUT": "Oldalról",
         "SEARCH": "Keresés",
         "SETTINGS": "Beállítások"
-    },    
+    },
     "OFFLINE": {
         "MODAL": {
             "HEADER_TEXT": "Info: we need to download in order to able use in offline mode",
             "TITLE": "Biblia letöltés",
             "TOTAL_PROGRESS": "Letöltési állapot"
         }
-    },    
+    },
     "TESTAMENT": {
         "NEW": "Újszövetség",
         "OLD": "Ószövetség"
@@ -43,78 +44,78 @@
         "PARALLEL": {
             "SET": "Párhuzamos olvasás"
         }
-    }, 
+    },
     "BOOKS": {
         "GEN": {
-            "NAME": "Mózes I. könyve", 
+            "NAME": "Mózes I. könyve",
             "SHORT_NAME": "1Móz"
         },
         "EXO": {
-            "NAME": "Mózes II. könyve", 
+            "NAME": "Mózes II. könyve",
             "SHORT_NAME": "2Móz"
         },
         "LEV": {
-            "NAME": "Mózes III. könyve", 
+            "NAME": "Mózes III. könyve",
             "SHORT_NAME": "3Móz"
         },
         "NUM": {
-            "NAME": "Mózes IV. könyve", 
+            "NAME": "Mózes IV. könyve",
             "SHORT_NAME": "4Móz"
         },
         "DEU": {
-            "NAME": "Mózes V. könyve", 
+            "NAME": "Mózes V. könyve",
             "SHORT_NAME": "5Móz"
         },
         "JOS": {
-            "NAME": "Józsué könyve", 
+            "NAME": "Józsué könyve",
             "SHORT_NAME": "Józs"
         },
         "JDG": {
-            "NAME": "Bírák könyve", 
+            "NAME": "Bírák könyve",
             "SHORT_NAME": "Bir"
         },
         "RUT": {
-            "NAME": "Ruth könyve", 
+            "NAME": "Ruth könyve",
             "SHORT_NAME": "Ruth"
         },
         "1SM": {
-            "NAME": "Sámuel I. könyve", 
+            "NAME": "Sámuel I. könyve",
             "SHORT_NAME": "1Sám"
         },
         "2SM": {
-            "NAME": "Sámuel II. könyve", 
+            "NAME": "Sámuel II. könyve",
             "SHORT_NAME": "2Sám"
         },
         "1KN": {
-            "NAME": "Királyok I. könyve", 
+            "NAME": "Királyok I. könyve",
             "SHORT_NAME": "1Kir"
         },
         "2KN": {
-            "NAME": "Királyok II. könyve", 
+            "NAME": "Királyok II. könyve",
             "SHORT_NAME": "2Kir"
         },
         "1CH": {
-            "NAME": "Krónikák I. könyve", 
+            "NAME": "Krónikák I. könyve",
             "SHORT_NAME": "1Krón"
         },
         "2CH": {
-            "NAME": "Krónikák II. könyve", 
+            "NAME": "Krónikák II. könyve",
             "SHORT_NAME": "2Krón"
         },
         "EZR": {
-            "NAME": "Ezsdrás könyve", 
+            "NAME": "Ezsdrás könyve",
             "SHORT_NAME": "Ezsd"
         },
         "NEH": {
-            "NAME": "Nehémiás könyve", 
+            "NAME": "Nehémiás könyve",
             "SHORT_NAME": "Neh"
         },
         "EST": {
-            "NAME": "Eszter könyve", 
+            "NAME": "Eszter könyve",
             "SHORT_NAME": "Eszt"
         },
         "JOB": {
-            "NAME": "Jób könyve", 
+            "NAME": "Jób könyve",
             "SHORT_NAME": "Jób"
         },
         "PSM": {
@@ -122,196 +123,196 @@
             "SHORT_NAME": "Zsolt"
         },
         "PRO": {
-            "NAME": "Példabeszédek könyve", 
+            "NAME": "Példabeszédek könyve",
             "SHORT_NAME": "Péld"
         },
         "ECC": {
-            "NAME": "Prédikátor könyve", 
+            "NAME": "Prédikátor könyve",
             "SHORT_NAME": "Préd"
         },
         "SOS": {
-            "NAME": "Énekek éneke", 
+            "NAME": "Énekek éneke",
             "SHORT_NAME": "Énekek"
         },
         "ISA": {
-            "NAME": "Ézsaiás könyve", 
+            "NAME": "Ézsaiás könyve",
             "SHORT_NAME": "Ézs"
         },
         "JER": {
-            "NAME": "Jeremiás könyve", 
+            "NAME": "Jeremiás könyve",
             "SHORT_NAME": "Jer"
         },
         "LAM": {
-            "NAME": "Jeremiás siralmai", 
+            "NAME": "Jeremiás siralmai",
             "SHORT_NAME": "JSir"
         },
         "EZE": {
-            "NAME": "Ezékiel könyve", 
+            "NAME": "Ezékiel könyve",
             "SHORT_NAME": "Ez"
         },
         "DAN": {
-            "NAME": "Dániel könyve", 
+            "NAME": "Dániel könyve",
             "SHORT_NAME": "Dán"
         },
         "HOS": {
-            "NAME": "Hóseás könyve", 
+            "NAME": "Hóseás könyve",
             "SHORT_NAME": "Hós"
         },
         "JOE": {
-            "NAME": "Jóel könyve", 
+            "NAME": "Jóel könyve",
             "SHORT_NAME": "Jóel"
         },
         "AMS": {
-            "NAME": "Ámos könyve", 
+            "NAME": "Ámos könyve",
             "SHORT_NAME": "Ám"
         },
         "OBA": {
-            "NAME": "Abdiás könyve", 
+            "NAME": "Abdiás könyve",
             "SHORT_NAME": "Abd"
         },
         "JON": {
-            "NAME": "Jónás könyve", 
+            "NAME": "Jónás könyve",
             "SHORT_NAME": "Jón"
         },
         "MIC": {
-            "NAME": "Mikeás könyve", 
+            "NAME": "Mikeás könyve",
             "SHORT_NAME": "Mik"
         },
         "NAH": {
-            "NAME": "Náhum könyve", 
+            "NAME": "Náhum könyve",
             "SHORT_NAME": "Náh"
         },
         "HAB": {
-            "NAME": "Habakuk könyve", 
+            "NAME": "Habakuk könyve",
             "SHORT_NAME": "Hab"
         },
         "ZEP": {
-            "NAME": "Sofóniás könyve", 
+            "NAME": "Sofóniás könyve",
             "SHORT_NAME": "Sof"
         },
         "HAG": {
-            "NAME": "Aggeus könyve", 
+            "NAME": "Aggeus könyve",
             "SHORT_NAME": "Agg"
         },
         "ZEC": {
-            "NAME": "Zakariás könyve", 
+            "NAME": "Zakariás könyve",
             "SHORT_NAME": "Zak"
         },
         "MAL": {
-            "NAME": "Malakiás könyve", 
+            "NAME": "Malakiás könyve",
             "SHORT_NAME": "Mal"
         },
         "MAT": {
-            "NAME": "Máté Evangéliuma", 
+            "NAME": "Máté Evangéliuma",
             "SHORT_NAME": "Mt"
         },
         "MRK": {
-            "NAME": "Márk Evangéliuma", 
+            "NAME": "Márk Evangéliuma",
             "SHORT_NAME": "Mk"
         },
         "LUK": {
-            "NAME": "Lukács Evangéliuma", 
+            "NAME": "Lukács Evangéliuma",
             "SHORT_NAME": "Lk"
         },
         "JHN": {
-            "NAME": "János Evangéliuma", 
+            "NAME": "János Evangéliuma",
             "SHORT_NAME": "Jn"
         },
         "ACT": {
-            "NAME": "Apostolok Cselekedetei", 
+            "NAME": "Apostolok Cselekedetei",
             "SHORT_NAME": "ApCsel"
         },
         "RMN": {
-            "NAME": "Róma levél", 
+            "NAME": "Róma levél",
             "SHORT_NAME": "Róm"
         },
         "1CO": {
-            "NAME": "I. Korintus levél", 
+            "NAME": "I. Korintus levél",
             "SHORT_NAME": "1Kor"
         },
         "2CO": {
-            "NAME": "II. Korintus levél", 
+            "NAME": "II. Korintus levél",
             "SHORT_NAME": "2Kor"
         },
         "GAL": {
-            "NAME": "Galátzia levél", 
+            "NAME": "Galátzia levél",
             "SHORT_NAME": "Gal"
         },
         "EPH": {
-            "NAME": "Efézusi levél", 
+            "NAME": "Efézusi levél",
             "SHORT_NAME": "Ef"
         },
         "PHL": {
-            "NAME": "Filippi levél", 
+            "NAME": "Filippi levél",
             "SHORT_NAME": "Fil"
         },
         "COL": {
-            "NAME": "Kolosse levél", 
+            "NAME": "Kolosse levél",
             "SHORT_NAME": "Kol"
         },
         "1TH": {
-            "NAME": "I. Thessalonika levél", 
+            "NAME": "I. Thessalonika levél",
             "SHORT_NAME": "1Thessz"
         },
         "2TH": {
-            "NAME": "II. Thessalonika levél", 
+            "NAME": "II. Thessalonika levél",
             "SHORT_NAME": "2Thessz"
         },
         "1TM": {
-            "NAME": "I. Timóteus levél", 
+            "NAME": "I. Timóteus levél",
             "SHORT_NAME": "1Tim"
         },
         "2TM": {
-            "NAME": "II. Timóteus levél", 
+            "NAME": "II. Timóteus levél",
             "SHORT_NAME": "2Tim"
         },
         "TIT": {
-            "NAME": "Titus levél", 
+            "NAME": "Titus levél",
             "SHORT_NAME": "Tit"
         },
         "PHM": {
-            "NAME": "Filemon levél", 
+            "NAME": "Filemon levél",
             "SHORT_NAME": "Filem"
         },
         "HEB": {
-            "NAME": "Zsidó levél", 
+            "NAME": "Zsidó levél",
             "SHORT_NAME": "Zsid"
         },
         "JMS": {
-            "NAME": "Jakab levél", 
+            "NAME": "Jakab levél",
             "SHORT_NAME": "Jak"
         },
         "1PT": {
-            "NAME": "I. Péter levél", 
+            "NAME": "I. Péter levél",
             "SHORT_NAME": "1Pt"
         },
         "2PT": {
-            "NAME": "II. Péter levél", 
+            "NAME": "II. Péter levél",
             "SHORT_NAME": "2Pt"
         },
         "1JN": {
-            "NAME": "I. János levél", 
+            "NAME": "I. János levél",
             "SHORT_NAME": "1Jn"
         },
         "2JN": {
-            "NAME": "II. János levél", 
+            "NAME": "II. János levél",
             "SHORT_NAME": "2Jn"
         },
         "3JN": {
-            "NAME": "III. János levél", 
+            "NAME": "III. János levél",
             "SHORT_NAME": "3Jn"
         },
         "JUD": {
-            "NAME": "Júdás levél", 
+            "NAME": "Júdás levél",
             "SHORT_NAME": "Júd"
         },
         "REV": {
-            "NAME": "Jelenések könyve", 
+            "NAME": "Jelenések könyve",
             "SHORT_NAME": "Jel"
         }
     },
     "COMMON": {
         "BACK": "Vissza",
-        "BOOK_SCHEME": "Könyv vázlat"        
+        "BOOK_SCHEME": "Könyv vázlat"
     }
 }

@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { observer } from 'mobx-react-lite';
 
 import { AppContext } from '@/app/global/AppProvider';
 import { Bible, Vers } from '@/app/model/Bible';
+import { openParallelBibleSelect } from '../Modal/ParallelBibleList';
 
 const useStyle = makeStyles({
     versContainer: {
@@ -86,54 +87,61 @@ interface VersProp {
     showDescription?: boolean;
     showFootNotes?: boolean;
     selected?: boolean;
+    searchTerm?: string;
     setFootNoteSidebar?: (bible: Bible, footNoteId: string) => void;
 }
 
-export const VersItem = ({ vers, showDescription, showFootNotes, selected, setFootNoteSidebar }: VersProp) => {
+export const VersItem = ({ vers, showDescription, showFootNotes, selected, searchTerm, setFootNoteSidebar }: VersProp) => {
     const classes = useStyle();
+    let text = vers.text;
+    if (searchTerm) {
+        const regExp = new RegExp(searchTerm, 'ig')
+        text = text.replace(regExp, `<span class='highlight'>${searchTerm}</span>`);
+    }
+
     return (
-        <>
+        <div style={{ marginBottom: 8 }}>
             {vers && vers.content && showDescription && (
-                <div 
+                <div
                     className={classes.versDescription}
                     children={vers.content}
                 />
             )}
-            { vers && (
-                <div 
+            {vers && (
+                <div
                     className={classes.versItem} data-vers-id={vers.longId}
                     ref={selected ? (e: HTMLDivElement) => e && e.scrollIntoView() : undefined}
                 >
                     <span className='vers-id' children={vers.id + '.'} />
-                    <span 
-                        className='vers-text' 
-                        style={selected ? { fontWeight: 'bold', backgroundColor: 'yellow' } : undefined }
-                        dangerouslySetInnerHTML={{ __html: vers.text }} 
+                    <span
+                        className='vers-text'
+                        style={selected ? { fontWeight: 'bold', backgroundColor: 'yellow' } : undefined}
+                        dangerouslySetInnerHTML={{ __html: text }}
                     />
                     {vers.$footNotes && showFootNotes && vers.$footNotes.map((footNote, fnIdx) => (
-                        <span 
+                        <span
                             className={classes.versFootNote}
                             children={`${footNote.text} ${(vers.$footNotes!.length - 1) > fnIdx ? ',' : ''}`}
-                            key={`${vers.id} ${fnIdx} ${footNote.id}`} 
+                            key={`${vers.id} ${fnIdx} ${footNote.id}`}
                             onClick={setFootNoteSidebar ? () => setFootNoteSidebar(vers.$bible!, footNote.id) : undefined}
-                        /> 
+                        />
                     ))}
                 </div>
             )}
-        </>        
+        </div>
     );
 }
 
 export const VersContainer = observer(() => {
     const globalStore = useContext(AppContext);
-    const { usedBibles, allVerses, baseBible, parallelBibles, onAddBibles, setFootNoteSidebar, navigate } = globalStore;
+    const { usedBibles, allVerses, baseBible, parallelBibles, setFootNoteSidebar, navigate } = globalStore;
     const onlyBase = parallelBibles.length === 0;
     const classes = useStyle();
-   
+
     return (
         <div>
-            <section 
-                className={classes.versContainer} 
+            <section
+                className={classes.versContainer}
                 style={{
                     gridTemplateColumns: `repeat(${parallelBibles.length + 1}, 1fr)`,
                 }}
@@ -150,7 +158,7 @@ export const VersContainer = observer(() => {
                                 onClick={() => navigate(`/?bibleId=${baseBible.id}&bookId=${prev.bookId}&chapterId=${prev.chapterId}`)}
                                 title={prev.title}
                             />
-                            <nav 
+                            <nav
                                 key='title'
                                 onClick={() => navigate(`/?bibleId=${baseBible.id}&bookId=${bible.currentBook}`)}
                                 children={`${bible.getBookName()} (${bible.currentChapter}/${bible.maxChapter})`}
@@ -162,24 +170,24 @@ export const VersContainer = observer(() => {
                                 onClick={() => navigate(`/?bibleId=${baseBible.id}&bookId=${next.bookId}&chapterId=${next.chapterId}`)}
                                 title={next.title}
                             />
-                            { bible.id === baseBible.id && (
-                                <div 
-                                    className='add' 
+                            {bible.id === baseBible.id && (
+                                <div
+                                    className='add'
                                     children='+'
-                                    onClick={onAddBibles}
+                                    onClick={() => openParallelBibleSelect()}
                                 />
                             )}
                         </header>
                     )
                 })}
                 {allVerses.map((v, idx) => (
-                    <VersItem 
-                        key={idx} 
+                    <VersItem
+                        key={idx}
                         selected={baseBible.currentVers > 0 && (v.id >= baseBible.currentVers && v.id <= (baseBible.currentVers + baseBible.limit))}
-                        vers={v} 
+                        vers={v}
                         showDescription={onlyBase}
                         showFootNotes={onlyBase}
-                        setFootNoteSidebar={setFootNoteSidebar} 
+                        setFootNoteSidebar={setFootNoteSidebar}
                     />
                 ))}
             </section>

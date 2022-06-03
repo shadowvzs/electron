@@ -13,10 +13,18 @@
     "jsx": "react",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
-      "@component": ["src/components"],
-      "@global": ["src/global"],
-      "@view": ["src/view"]
+      "@/*": [
+        "src/*"
+      ],
+      "@component": [
+        "src/components"
+      ],
+      "@global": [
+        "src/global"
+      ],
+      "@view": [
+        "src/view"
+      ]
     },
   }
 }

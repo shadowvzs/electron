@@ -1,9 +1,10 @@
+import { App } from "../core/app";
 import { IS_ELECTRON } from "../global/Const";
 import { BaseBibleRepository } from "./BaseBibleRepository";
 import { BaseTranslatorRepository } from "./BaseTranslatorRepository";
 import { ElectronBibleRepository } from "./electron/ElectronBibleRepository";
 import { ElectronTranslatorRepository } from "./electron/ElectronTranslatorRepository";
-import { LocalStorageService } from "./LocalStorageService";
+import { localStorageService, LocalStorageService } from "./LocalStorageService";
 import { OfflineBibleRepository } from "./offline/OfflineBibleRepository";
 import { OfflineTranslatorRepository } from "./offline/OfflineTranslatorRepository";
 import { OfflineService } from "./OfflineService";
@@ -23,12 +24,14 @@ type CachedServices = {
     [OfflineService.$name]?: OfflineService,
 }
 
-class ServiceFactory {
+export class ServiceFactory {
+    private _app: App;
     private _defaultSourceType: SourceType = IS_ELECTRON ? SourceType.Electron : SourceType.RemoteApi;
     private _cache: CachedServices = {};
 
-    constructor(sourceType?: SourceType) {
-        this._cache[LocalStorageService.$name] = new LocalStorageService();
+    constructor(app: App, sourceType?: SourceType) {
+        this._app = app;
+        this._cache[LocalStorageService.$name] = localStorageService;
         this.setSourceType(sourceType);
     }
 
@@ -96,18 +99,11 @@ class ServiceFactory {
         return service;
     }
 
-    public createLocalStorageService(): LocalStorageService {
-        if (this._cache[LocalStorageService.$name]) { return this._cache[LocalStorageService.$name]!; }
-        this._cache[LocalStorageService.$name] = new LocalStorageService();
-        return this._cache[LocalStorageService.$name]!;
-    }
-
-    public createOfflineService(sourceType: SourceType = this._defaultSourceType): OfflineService | undefined {
+    public createOfflineService(): OfflineService | undefined {
         if (this._cache[OfflineService.$name]) { return this._cache[OfflineService.$name]; }
-        const service: OfflineService = new OfflineService(this.createLocalStorageService());
+        const { localStorageService, cacheManager } = this._app;
+        const service: OfflineService = new OfflineService(localStorageService, cacheManager);
         this._cache[OfflineService.$name] = service;
         return service;
     }
 }
-
-export const serviceFactory = new ServiceFactory();

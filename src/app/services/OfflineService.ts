@@ -36,7 +36,7 @@ interface IOfflineData {
 export class OfflineService {
     public static $name = 'offlineService' as const;
 
-    public readonly cacheManager = new CacheManager('cached-json-data');
+    public cacheManager: CacheManager;
 
     public bibles: Bible[];
 
@@ -123,18 +123,22 @@ export class OfflineService {
 
     private saveBible = async (bible: Bible) => {
         const books: any[] = [];
-        for (const [bookName, chaptercount] of bible.books) {
+        for (const [bookName, chapterCount] of bible.books) {
             // get all verses in book from api
             const book = await RemoteBibleRepository.getBibleBook(bible.id, bookName);
             books.push(book);
             // increase the downloaded bible counter and update the download state
             this.setDownloadedBookCount(this.downloadedBookCount + 1);
-            this.setDownloadState({ ...this.downloadState, [bible.id]: this.downloadState[bible.id] + 1 })
+            this.setDownloadState({ ...this.downloadState, [bible.id]: this.downloadState[bible.id] + 1 });
         }
         await this.cacheManager.set(`bible-${bible.id}`, books);
     }
 
-    constructor(private _localStorageService: LocalStorageService) {
+    constructor(
+        private _localStorageService: LocalStorageService,
+        _cacheManager: CacheManager
+    ) {
+        this.cacheManager = _cacheManager;
         makeObservable(this);
         this._localStorageService.loadConfigAsync();
     }

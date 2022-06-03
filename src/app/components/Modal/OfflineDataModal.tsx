@@ -1,39 +1,52 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
-import { GlobalStore, translate } from '@/app/global/GlobalStore';
+import { App, translate } from '@/app/core/app';
 import { computed, makeObservable } from 'mobx';
 import { observer } from 'mobx-react-lite';
 import { ProgressBar } from '../Loader/Progressbar';
+import modalService, { ModalProps } from '@/app/services/ModalService';
 
-export interface OfflineDataModalProps {
-    globalStore: GlobalStore;
+export interface DownloadOfflineDataModalProps extends ModalProps<void, void> {
+    app: App;
 }
 
-class OfflineDataStore {
+class DownloadOfflineDataStore {
 
     public bibleHelper: Record<string, { name: string, progressRatio: number }> = {};
 
     @computed
     public get isDownloading() {
-        return this._props.globalStore.offlineService.isDownloading;
+        return this._props.app.offlineService.isDownloading;
     }
 
     @computed
     public get progress() {
-        const { downloadedBookCount, totalBookCount, downloadStartFrom } = this._props.globalStore.offlineService;
-        if ((totalBookCount - downloadStartFrom) === 0) { return 0; }
+        const { downloadedBookCount, totalBookCount, downloadStartFrom } = this._props.app.offlineService;
+        console.log(
+            downloadedBookCount, totalBookCount, downloadStartFrom
+        )
+        if (downloadedBookCount === totalBookCount) {
+            return 100;
+        } else if ((totalBookCount - downloadStartFrom) === 0) {
+            return 0;
+        }
         return Math.floor((downloadedBookCount - downloadStartFrom) / (totalBookCount - downloadStartFrom) * 100);
     }
 
     public onDownload = async () => {
-        const { about, translatorService: { translations }, bibles, offlineService } = this._props.globalStore;
+        const { about, translatorService: { translations }, bibles, offlineService } = this._props.app;
         offlineService.saveOfflineData({ about, bibles, translations });
     }
 
-    constructor(protected _props: OfflineDataModalProps) {
+    public onSuccess() {
+        if (!this._props.onSuccess) { return; }
+        this._props.onSuccess();
+    }
+
+    constructor(protected _props: DownloadOfflineDataModalProps) {
         makeObservable(this);
-        const { offlineService, bibles } = this._props.globalStore;
+        const { offlineService, bibles } = this._props.app;
         offlineService.init(bibles);
         bibles.forEach(b => {
             this.bibleHelper[b.id] = { name: b.name, progressRatio: 100 / b.books.length };
@@ -41,16 +54,11 @@ class OfflineDataStore {
     }
 }
 
-export const OfflineDataModal = observer((props: OfflineDataModalProps & { onSuccess?: (item: any) => void }) => {
+export const DownloadOfflineDataModal = observer((props: DownloadOfflineDataModalProps) => {
     const classes = useModalStyle();
-    const store = React.useState(() => new OfflineDataStore(props))[0];
+    const store = React.useState(() => new DownloadOfflineDataStore(props))[0];
     const { bibleHelper, progress, isDownloading, onDownload } = store;
-    const { globalStore: { offlineService }, onSuccess } = props;
-    // const onSuccess = React.useCallback(() => {
-    //     if (props.onSuccess) {
-    //         props.onSuccess(bibles.filter(x => items.includes(x.id)));
-    //     }
-    // }, [items]);
+    const { app: { offlineService } } = props;
 
     return (
         <section className={classes.root}>
@@ -75,7 +83,7 @@ export const OfflineDataModal = observer((props: OfflineDataModalProps & { onSuc
                 <button
                     disabled={isDownloading}
                     children={translate('CLOSE')}
-                    onClick={onSuccess}
+                    onClick={store.onSuccess}
                 />
             </footer>
         </section>
@@ -119,4 +127,9 @@ const useModalStyle = makeStyles({
             padding: '4px 8px'
         }
     }
+});
+
+export const openOfflineDataDownloader = (props?: DownloadOfflineDataModalProps) => modalService.open<DownloadOfflineDataModalProps, void>(DownloadOfflineDataModal, {
+    title: translate('OFFLINE.MODAL.TITLE'),
+    data: props
 });

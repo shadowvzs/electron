@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { observer } from 'mobx-react-lite';
 
 import { AppContext } from '@/app/global/AppProvider';
-import { translate } from '@/app/global/GlobalStore';
+import { translate } from '@/app/core/app';
 
 const useStyle = makeStyles({
     bookContainer: {
@@ -42,7 +42,7 @@ export const BookContainer = observer(() => {
                 <div>
                     <h2>{translate('TESTAMENT.OLD')}</h2>
                     {baseBible.$oldTestament.map(book => (
-                        <nav 
+                        <nav
                             key={book.name}
                             onClick={() => navigate(`/?bibleId=${baseBible.id}&bookId=${book.name}`)}
                         >
@@ -53,7 +53,7 @@ export const BookContainer = observer(() => {
                 <div>
                     <h2>{translate('TESTAMENT.NEW')}</h2>
                     {baseBible.$newTestament.map(book => (
-                        <nav 
+                        <nav
                             key={book.name}
                             onClick={() => navigate(`/?bibleId=${baseBible.id}&bookId=${book.name}`)}
                         >

@@ -12,6 +12,7 @@
     "tslint": "^6.1.3"
   },
   "dependencies": {
+    "@gyozelem/bible": "^0.2.5",
     "@gyozelem/utility": "^1.2.6"
   }
 }
