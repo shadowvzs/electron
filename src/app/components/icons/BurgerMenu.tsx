@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import { observer } from 'mobx-react-lite';
 import cn from '@gyozelem/utility/classnames';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
 import { AppContext } from '@/app/global/AppProvider';
-import { translate } from '@/app/global/GlobalStore';
+import { translate } from '@/app/core/app';
 
 const useStyle = makeStyles({
     rootContainer: {
@@ -16,7 +16,7 @@ const useStyle = makeStyles({
     },
     root: {
         position: 'absolute',
-        top: 40,
+        top: 35,
         right: 10,
         display: 'block',
         width: 32,

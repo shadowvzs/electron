@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
 import { AppContext } from '@/app/global/AppProvider';
 import { observer } from 'mobx-react-lite';
-import { translate } from '@/app/global/GlobalStore';
+import { translate } from '@/app/core/app';
 
 const useStyle = makeStyles({
     root: {
@@ -72,7 +72,7 @@ export const AboutContainer = observer(() => {
                     <h3>{translate('ABOUT.ABOUT')}</h3>
                     <ul>
                         {about.map(({ text }, idx) => (
-                            <li key={idx}> 
+                            <li key={idx}>
                                 <span dangerouslySetInnerHTML={{ __html: text }} />
                             </li>
                         ))}
@@ -82,7 +82,7 @@ export const AboutContainer = observer(() => {
                     <h3>{translate('ABOUT.ARTICLES')}</h3>
                     <ul>
                         {articles.map(({ id, title }, idx) => (
-                            <li key={idx}> 
+                            <li key={idx}>
                                 <span onClick={() => navigate(`/article?id=${id}`)}>{title}</span>
                             </li>
                         ))}
@@ -91,8 +91,8 @@ export const AboutContainer = observer(() => {
                 <section className={classes.changeLogSection}>
                     <h3>{translate('ABOUT.CHANGELOG')}</h3>
                     <ul>
-                        {changeLog.reverse().map(({ text, date}, idx) => (
-                            <li key={idx}> 
+                        {changeLog.reverse().map(({ text, date }, idx) => (
+                            <li key={idx}>
                                 <span>{date}</span> - <span dangerouslySetInnerHTML={{ __html: text }} />
                             </li>
                         ))}

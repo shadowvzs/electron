@@ -1,10 +1,11 @@
 import React, { useContext } from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
-import { SearchComponent } from '../Search/SearchComponent';
+import { SearchComponent } from '../Search/SearchBar';
 import { SearchResult } from '../Search/SearchResult';
 import { AppContext } from '@/app/global/AppProvider';
 import { observer } from 'mobx-react-lite';
+import { SearchStore } from '../Search/SearchStore';
 
 const useStyle = makeStyles({
     searchContainer: {
@@ -32,12 +33,12 @@ const useStyle = makeStyles({
 });
 
 export const SearchContainer = observer(() => {
-    const globalStore = useContext(AppContext);
-    const { isMobile } = globalStore;
+    const app = useContext(AppContext);
+    const { isMobile } = app;
     const classes = useStyle();
     return (
         <section className={classes.searchContainer} style={{ flexDirection: isMobile ? 'column' : 'row' }}>
-            <aside className={classes.aside} style={isMobile ? { width: 'auto', height: 'auto' } : undefined }>
+            <aside className={classes.aside} style={isMobile ? { width: 'auto', height: 'auto' } : undefined}>
                 <SearchComponent />
             </aside>
             <main className={classes.main}>

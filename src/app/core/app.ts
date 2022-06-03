@@ -1,19 +1,19 @@
 import { action, computed, makeObservable, observable } from "mobx";
 import di from '@gyozelem/utility/dep-injector';
 
-import { ParallelBibleList, ParallelBibleListProps } from "../components/Modal/ParallelBibleList";
-
 import { About, Bible, Vers } from "../model/Bible";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
-import { BaseTranslatorRepository, IAvailableLanguage, ITranslation } from "../services/BaseTranslatorRepository";
-import { ModalService } from "../services/ModalService";
-import { serviceFactory, SourceType } from "../services/ServiceFactory";
+import { BaseTranslatorRepository, IAvailableLanguage } from "../services/BaseTranslatorRepository";
+import modalService, { ModalService } from "../services/ModalService";
+import { ServiceFactory, SourceType } from "../services/ServiceFactory";
 import { SidebarService } from "../services/SidebarService";
 import { renderFootNoteList } from "../components/Sidebar/FootNoteList";
 
 
 import { OfflineService } from "../services/OfflineService";
-import { OfflineDataModal, OfflineDataModalProps } from "../components/Modal/OfflineDataModal";
+import { CacheManager } from "@gyozelem/utility/CacheManager";
+import { LocalStorageService, localStorageService } from "../services/LocalStorageService";
+import { settingsService, SettingsService } from "../services/SettingsService";
 
 const defaultLanguage = 'hu';
 export const REMOTE_API = 'http://localhost:3333/';
@@ -57,13 +57,17 @@ enum ServiceMode {
     Offline
 }
 
-export class GlobalStore {
+export class App {
 
     public bibleService: BaseBibleRepository;
     public translatorService: BaseTranslatorRepository;
     public modalService: ModalService;
     public sidebarService: SidebarService;
     public offlineService: OfflineService;
+    public cacheManager: CacheManager;
+    public serviceFactory: ServiceFactory;
+    public localStorageService: LocalStorageService;
+    public settingsService: SettingsService;
     public about: About;
 
     @observable
@@ -95,24 +99,6 @@ export class GlobalStore {
         })
         this.parallelBibles = bibles;
     }
-
-    public onAddBibles = () => {
-        this.modalService.open<ParallelBibleListProps, Bible[]>(ParallelBibleList, {
-            title: translate('BIBLES.PARALLEL.SET'),
-            data: { globalStore: this }
-        }).then(bibleIds => {
-            this.setParallelBibles(this.bibles.filter(x => bibleIds.includes(x)));
-        });
-    };
-
-    public onOfflineData = () => {
-        this.modalService.open<OfflineDataModalProps, any>(OfflineDataModal, {
-            title: translate('OFFLINE.MODAL.TITLE'),
-            data: { globalStore: this }
-        }).then(() => {
-            // cool
-        });
-    };
 
     @observable
     public baseBible: Bible = null!;
@@ -276,28 +262,36 @@ export class GlobalStore {
 
     constructor() {
         makeObservable(this);
-        window.addEventListener('resize', this.onWindowResize);
         (window as any)['globalStore'] = this;
     }
 
     public async init() {
         this.setLoading(true);
 
+        this.cacheManager = new CacheManager('cached-json-data');
+        this.localStorageService = localStorageService;
+        this.serviceFactory = new ServiceFactory(this);
+
         if (!this.modalService) {
-            this.modalService = new ModalService({ containerSelector: '#modalRoot' });
+            this.modalService = modalService.init({ app: this, containerSelector: '#modalRoot' });
         }
+
+        await this.localStorageService.loadConfigAsync();
+        await (this.cacheManager as any).init();
+
         // SourceType.Offline
-        const { bibleService, offlineService, translatorService } = serviceFactory.setSourceType().initAllServices();
+        const { bibleService, offlineService, translatorService } = this.serviceFactory.setSourceType(/*SourceType.Offline*/).initAllServices();
         this.offlineService = offlineService!;
         this.translatorService = translatorService;
         this.bibleService = bibleService;
+        this.settingsService = settingsService;
 
         if (!translatorService.translations) {
             await this.translatorService.getTranslations();
         }
 
         translate = this.translatorService.translate;
-
+        await this.settingsService.init();
         this.bibles = await this.bibleService.getInstalledBibles();
         this.about = await this.bibleService.about();
 
@@ -308,11 +302,12 @@ export class GlobalStore {
 
         this.navigateTo({ bibleId: this.getCurrentBible().id });
         this.setLoading(false);
+        window.addEventListener('resize', this.onWindowResize);
     }
 
     @action.bound
     private onWindowResize() {
-        this.windowSize = { x: window.innerWidth, y: window.innerHeight };
+        this.windowSize = { x: document.body.clientWidth, y: document.body.clientHeight };
     }
 
     public destroy() {
@@ -321,4 +316,4 @@ export class GlobalStore {
     }
 }
 
-export const globalStore = new GlobalStore();
+export const app = new App();

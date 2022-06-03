@@ -2,8 +2,8 @@ import React from 'react';
 import { observer } from 'mobx-react-lite';
 
 import { AppProvider } from './global/AppProvider';
-import { globalStore } from './global/GlobalStore';
-import { makeStyles } from '@material-ui/styles';
+import { app } from './core/app';
+import { makeStyles } from '@mui/styles';
 import {
     BrowserRouter as Router,
 } from "react-router-dom";
@@ -12,27 +12,18 @@ import { PageHeader } from './components/Layout/PageHeader';
 import { Sidebar } from './components/Layout/Sidebar';
 import { Loader } from './components/Loader/Loading';
 
-const useStyle = makeStyles({
-    root: {
-        position: 'absolute',
-        top: 40,
-        width: '100%',
-        minHeight: 'calc(100% - 40px)'
-    },
-});
-
 const App = observer(() => {
 
     React.useEffect(() => {
-        globalStore.init();
-    }, [globalStore]);
+        app.init();
+    }, [app]);
 
-    if (globalStore.loading) { return <Loader />; }
+    if (app.loading) { return <Loader />; }
 
     return (
         <Router>
-            <AppProvider store={globalStore}>
-                {globalStore.baseBible && (
+            <AppProvider store={app}>
+                {app.baseBible && (
                     <div className="main-page">
                         <Routes />
                         <PageHeader />

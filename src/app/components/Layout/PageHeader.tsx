@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import cn from '@gyozelem/utility/classnames';
 import { observer } from 'mobx-react-lite';
 
 import { AppContext } from '@/app/global/AppProvider';
-import { translate } from '@/app/global/GlobalStore';
+import { translate } from '@/app/core/app';
 import { BurgerMenu } from '../icons/BurgerMenu';
+import { openSettings } from '../Modal/SettingsModal';
 
 const useStyle = makeStyles({
     root: {
@@ -117,8 +118,8 @@ const useStyle = makeStyles({
 });
 
 export const PageHeader = observer(() => {
-    const globalStore = useContext(AppContext);
-    const { isMobile } = globalStore;
+    const app = useContext(AppContext);
+    const isMobile = app.isMobile;
     const classes = useStyle();
     return (
         <div className={classes.root}>
@@ -162,12 +163,12 @@ export const BibleBookMenu = observer(() => {
 
 export const ToolbarMenu = observer(() => {
     const classes = useStyle();
-    const { navigate, onOfflineData } = useContext(AppContext);
+    const { navigate } = useContext(AppContext);
     return (
         <div className={cn(classes.headerBox, classes.toolbarBox)}>
             <div
                 title={translate('SETTINGS.SETTINGS')}
-                onClick={() => onOfflineData()}
+                onClick={() => openSettings()}
             >
                 <img src="assets/icons/set.png" width="24" height="24" />
             </div>

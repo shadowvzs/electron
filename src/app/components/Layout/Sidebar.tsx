@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { observer, useObserver } from 'mobx-react-lite';
 
 import { AppContext } from '@/app/global/AppProvider';
@@ -17,7 +17,8 @@ const useStyle = makeStyles({
         display: 'flex',
         flexDirection: 'column',
         transition: '0.3 ease',
-        overflow: 'auto'
+        overflow: 'auto',
+        zIndex: 1
     },
     main: {
         display: 'flex',
@@ -42,7 +43,7 @@ export const Sidebar = observer(() => {
         <section className={classes.root} style={{ width: content ? width : 0 }}>
             <header style={{ padding: 16, position: 'relative' }}>
                 <h2>{title}</h2>
-                {content && <div 
+                {content && <div
                     className={classes.closeBtn}
                     onClick={sidebarService.onClose}
                     dangerouslySetInnerHTML={{ __html: '&times;' }}

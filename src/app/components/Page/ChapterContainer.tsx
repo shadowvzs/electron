@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { observer } from 'mobx-react-lite';
 
 import { AppContext } from '@/app/global/AppProvider';
-import { translate } from '@/app/global/GlobalStore';
+import { translate } from '@/app/core/app';
 
 const useStyle = makeStyles({
     chapterContainer: {
@@ -47,9 +47,9 @@ export const ChapterContainer = observer(() => {
             </div>
             <div>
                 {chapters.map((_, idx) => (
-                    <nav 
-                        key={idx} 
-                        children={idx + 1} 
+                    <nav
+                        key={idx}
+                        children={idx + 1}
                         onClick={() => navigate(`/?bibleId=${baseBible.id}&bookId=${currentBook}&chapterId=${idx + 1}`)}
                     />
                 ))}

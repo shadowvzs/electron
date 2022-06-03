@@ -1,8 +1,9 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
-import { GlobalStore, translate } from '@/app/global/GlobalStore';
+import { App, translate } from '@/app/core/app';
 import { Bible } from '@/app/model/Bible';
+import modalService, { ModalProps } from '@/app/services/ModalService';
 
 const useModalStyle = makeStyles({
     root: {
@@ -26,14 +27,14 @@ const useModalStyle = makeStyles({
     }
 });
 
-export interface ParallelBibleListProps {
-    globalStore: GlobalStore;
+export interface ParallelBibleListProps extends ModalProps<void, Bible[]> {
+    app?: App;
 }
 
-export const ParallelBibleList = (props: ParallelBibleListProps & { onSuccess?: (bibles: Bible[]) => void }) => {
+export const ParallelBibleList = (props: ParallelBibleListProps) => {
 
-    const [items, setItems] = React.useState<string[]>(props.globalStore.parallelBibles.map(x => x.id));
-    const { bibles, baseBible, parallelBibles } = props.globalStore;
+    const [items, setItems] = React.useState<string[]>(props.app!.parallelBibles.map(x => x.id));
+    const { bibles, baseBible, parallelBibles } = props.app!;
     const availableBibles = bibles.filter(x => x.id !== baseBible.id);
     const classes = useModalStyle();
 
@@ -57,14 +58,14 @@ export const ParallelBibleList = (props: ParallelBibleListProps & { onSuccess?: 
             <ul>
                 {availableBibles.map(b => (
                     <li key={b.id}>
-                        <input 
-                            type='checkbox' 
-                            id={'add_bible_'+b.id} 
-                            value={b.id} 
+                        <input
+                            type='checkbox'
+                            id={'add_bible_' + b.id}
+                            value={b.id}
                             onChange={onChange}
                             checked={items.includes(b.id)}
                         />
-                        <label htmlFor={'add_bible_'+b.id} children={b.name} />
+                        <label htmlFor={'add_bible_' + b.id} children={b.name} />
                     </li>
                 ))}
             </ul>
@@ -76,4 +77,9 @@ export const ParallelBibleList = (props: ParallelBibleListProps & { onSuccess?: 
             </div>
         </div>
     );
-}
+};
+
+export const openParallelBibleSelect = (props?: ParallelBibleListProps) => modalService.open<ParallelBibleListProps, Bible[]>(ParallelBibleList, {
+    title: translate('BIBLES.PARALLEL.SET'),
+    data: props
+});

@@ -2,13 +2,13 @@ import { SearchContainer } from '../components/Page/SearchContainer';
 import { BibleContainer } from '../components/Page/BibleContainer';
 import { AboutContainer } from '../components/Page/AboutContainer';
 import { ArticleContainer } from '../components/Page/ArticleContainer';
-import { globalStore } from '../global/GlobalStore';
+import { app } from '../core/app';
 
 export const routeMap = [
     {
         path: '/search',
         beforeRender: () => {
-            globalStore.navigateTo({ bibleId: globalStore.getCurrentBible().id });
+            app.navigateTo({ bibleId: app.getCurrentBible().id });
             return true;
         },
         renderCmp: SearchContainer,
@@ -16,7 +16,7 @@ export const routeMap = [
     {
         path: '/article',
         beforeRender: () => {
-            globalStore.navigateTo({ bibleId: globalStore.getCurrentBible().id });
+            app.navigateTo({ bibleId: app.getCurrentBible().id });
             return true;
         },
         renderCmp: ArticleContainer,
@@ -24,7 +24,7 @@ export const routeMap = [
     {
         path: '/about',
         beforeRender: () => {
-            globalStore.navigateTo({ bibleId: globalStore.getCurrentBible().id });
+            app.navigateTo({ bibleId: app.getCurrentBible().id });
             return true;
         },
         renderCmp: AboutContainer,
@@ -32,8 +32,8 @@ export const routeMap = [
     {
         path: '/',
         beforeRender: () => {
-            const params = globalStore.extractBibleUrlParams(location.href);
-            globalStore.navigateTo(params);
+            const params = app.extractBibleUrlParams(location.href);
+            app.navigateTo(params);
             return true;
         },
         renderCmp: BibleContainer,

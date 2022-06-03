@@ -55,3 +55,5 @@ export class LocalStorageService {
         this.loadConfigAsync();
     }
 }
+
+export const localStorageService = new LocalStorageService();

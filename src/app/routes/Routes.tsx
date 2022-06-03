@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react-lite';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import {
     BrowserRouter as Router,
     Switch,
@@ -9,7 +9,7 @@ import {
     Redirect,
 } from "react-router-dom";
 
-import { globalStore } from '../global/GlobalStore';
+import { app } from '../core/app';
 import { routeMap } from './routeMap';
 
 const useStyle = makeStyles({
@@ -36,7 +36,7 @@ export const Routes = observer((props: any) => {
     const history = useHistory()
     const classes = useStyle();
 
-    React.useEffect(() => { globalStore._navigate = history.push }, []);
+    React.useEffect(() => { app._navigate = history.push }, []);
 
     return (
         <div className={classes.root}>
