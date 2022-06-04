@@ -1,4 +1,5 @@
-import { BaseTranslatorRepository, IAvailableLanguage, ITranslation } from "../BaseTranslatorRepository";
+import { IAvailableLanguage, ITranslation } from "@/app/interfaces/config";
+import { BaseTranslatorRepository } from "../BaseTranslatorRepository";
 
 export class ElectronTranslatorRepository extends BaseTranslatorRepository {
     private ipcRenderer: { invoke: (name: string, data: any) => Promise<any>};

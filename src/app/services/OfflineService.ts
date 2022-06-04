@@ -1,10 +1,12 @@
 import { action, makeObservable, observable, toJS } from "mobx";
-import { CacheManager } from "@gyozelem/utility/CacheManager";
-
-import { Bible, Vers } from "../model/Bible";
-import { ITranslation } from "./BaseTranslatorRepository";
-import { LocalStorageService } from "./LocalStorageService";
+import { Bible } from "../model/Bible";
 import { RemoteBibleRepository } from "./remote/RemoteBibleRepository";
+import { injectable } from "inversify";
+import { ICacheManager, ILocalStorageService, IOfflineService } from "../interfaces/services";
+import { IOfflineData } from "../interfaces/models";
+import { TYPES } from "../core/types";
+import 'reflect-metadata';
+import { myContainer } from "../core/container";
 
 const dbScheme = {
     about: {
@@ -27,16 +29,12 @@ const dbScheme = {
 
 type DbScheme = typeof dbScheme;
 
-interface IOfflineData {
-    about: Record<string, any>;
-    bibles: Bible[];
-    translations: ITranslation;
-}
 
-export class OfflineService {
-    public static $name = 'offlineService' as const;
-
-    public cacheManager: CacheManager;
+@injectable()
+export class OfflineService implements IOfflineService {
+    public static readonly $name = 'offlineService' as const;
+    private _localStorageService: ILocalStorageService;
+    private _cacheManager: ICacheManager;
 
     public bibles: Bible[];
 
@@ -68,7 +66,9 @@ export class OfflineService {
     }
 
     public init = async (bibles: Bible[]) => {
-        console.log('offline service inited')
+        console.info('offline service inited')
+        this._localStorageService = myContainer.get<ILocalStorageService>(TYPES.ILocalStorageService);
+        this._cacheManager = myContainer.get<ICacheManager>(TYPES.ICacheManager);
         await this._localStorageService.loadConfigAsync();
         this.bibles = bibles;
         let downloadedBookCount = 0;
@@ -91,7 +91,7 @@ export class OfflineService {
         await this.init(bibles);
 
         // --- STORE CORE DATA ---
-        await this.cacheManager.set('get-installed-bibles', bibles.map(x => ({
+        await this._cacheManager.set('get-installed-bibles', bibles.map(x => ({
             books: x.books,
             id: x.id,
             lang: x.lang,
@@ -99,10 +99,10 @@ export class OfflineService {
         })));
 
         // --- STORE ABOUT ---
-        await this.cacheManager.set('about', about);
+        await this._cacheManager.set('about', about);
 
         // --- STORE TRANSLATIONS ---
-        await this.cacheManager.set('translation', translations);
+        await this._cacheManager.set('translation', translations);
 
         // --- STORE BIBLES ---
         const downloadedBible = this._localStorageService.config.downloaded.bibles;
@@ -131,15 +131,15 @@ export class OfflineService {
             this.setDownloadedBookCount(this.downloadedBookCount + 1);
             this.setDownloadState({ ...this.downloadState, [bible.id]: this.downloadState[bible.id] + 1 });
         }
-        await this.cacheManager.set(`bible-${bible.id}`, books);
+        await this._cacheManager.set(`bible-${bible.id}`, books);
     }
 
     constructor(
-        private _localStorageService: LocalStorageService,
-        _cacheManager: CacheManager
+        // private _localStorageService: LocalStorageService,
+        // _cacheManager: CacheManager
     ) {
-        this.cacheManager = _cacheManager;
+        // this._cacheManager = _cacheManager;
         makeObservable(this);
-        this._localStorageService.loadConfigAsync();
+        // this._localStorageService.loadConfigAsync();
     }
 }

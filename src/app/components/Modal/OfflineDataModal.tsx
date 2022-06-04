@@ -5,7 +5,10 @@ import { App, translate } from '@/app/core/app';
 import { computed, makeObservable } from 'mobx';
 import { observer } from 'mobx-react-lite';
 import { ProgressBar } from '../Loader/Progressbar';
-import modalService, { ModalProps } from '@/app/services/ModalService';
+import { modalService, ModalService } from '@/app/services/ModalService';
+import { inject } from 'inversify';
+import { TYPES } from '@/app/core/types';
+import { ModalProps } from '@/app/interfaces/config';
 
 export interface DownloadOfflineDataModalProps extends ModalProps<void, void> {
     app: App;
@@ -14,7 +17,7 @@ export interface DownloadOfflineDataModalProps extends ModalProps<void, void> {
 class DownloadOfflineDataStore {
 
     public bibleHelper: Record<string, { name: string, progressRatio: number }> = {};
-
+    
     @computed
     public get isDownloading() {
         return this._props.app.offlineService.isDownloading;

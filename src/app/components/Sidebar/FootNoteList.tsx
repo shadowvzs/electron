@@ -1,10 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
-import { Bible, Vers } from '@/app/model/Bible';
+import { Bible } from '@/app/model/Bible';
 import { VersItem } from '../Page/VersContainer';
 import { translate } from '@/app/core/app';
 import { ExpandIcon } from '../icons/ExpandIcon';
 import { CollapseIcon } from '../icons/CollapseIcon';
+import { IVers } from '@/app/interfaces/models';
 
 const useStyle = makeStyles({
     listContainer: {
@@ -40,11 +41,11 @@ const useStyle = makeStyles({
 });
 
 interface FootNoteListProps {
-    verses: Vers[];
+    verses: IVers[];
     setFootNoteSidebar: (bible: Bible, id: string) => Promise<void>;
 }
 
-const getVersText = (verses: Vers[]) => {
+const getVersText = (verses: IVers[]) => {
     const [, book, chapter, vers1] = verses[0].longId.split('-');
     const [, , , vers2] = verses.slice(-1)[0].longId.split('-');
     const versText = verses.length > 1 ? (vers1 + '-' + vers2) : vers1;
@@ -83,7 +84,7 @@ export const FootNoteList = ({ verses, setFootNoteSidebar }: FootNoteListProps) 
     );
 };
 
-export const renderFootNoteList = (versGroups: Vers[][], setFootNoteSidebar: (bible: Bible, id: string) => Promise<void>) => {
+export const renderFootNoteList = (versGroups: IVers[][], setFootNoteSidebar: (bible: Bible, id: string) => Promise<void>) => {
     return (
         <div style={{ position: 'relative' }}>
             {versGroups.map((versList, idx) => (

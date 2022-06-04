@@ -5,7 +5,7 @@ import { AppContext } from '@/app/global/AppProvider';
 import { observer } from 'mobx-react-lite';
 import { translate } from '@/app/core/app';
 import { action, makeObservable, observable } from 'mobx';
-import { Article } from '@/app/model/Bible';
+import { IArticle } from '@/app/interfaces/models';
 
 const useStyle = makeStyles({
     root: {
@@ -40,12 +40,12 @@ const useStyle = makeStyles({
 class ArticleStore {
 
     @observable
-    public article?: Article;
+    public article?: IArticle;
 
     @action.bound
-    public setArticle(article?: Article) { this.article = article; }
+    public setArticle(article?: IArticle) { this.article = article; }
 
-    constructor(articles: Article[]) {
+    constructor(articles: IArticle[]) {
         makeObservable(this);
         const currentUrl = new URL(location.href);
         const articleId = currentUrl.searchParams.get('id');

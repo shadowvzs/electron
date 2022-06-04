@@ -3,8 +3,9 @@ import { makeStyles } from '@mui/styles';
 import { observer } from 'mobx-react-lite';
 
 import { AppContext } from '@/app/global/AppProvider';
-import { Bible, Vers } from '@/app/model/Bible';
+import { Bible } from '@/app/model/Bible';
 import { openParallelBibleSelect } from '../Modal/ParallelBibleList';
+import { IVers } from '@/app/interfaces/models';
 
 const useStyle = makeStyles({
     versContainer: {
@@ -83,7 +84,7 @@ const useStyle = makeStyles({
 });
 
 interface VersProp {
-    vers: Vers;
+    vers: IVers;
     showDescription?: boolean;
     showFootNotes?: boolean;
     selected?: boolean;

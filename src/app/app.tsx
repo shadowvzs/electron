@@ -4,6 +4,8 @@ import { observer } from 'mobx-react-lite';
 import { AppProvider } from './global/AppProvider';
 import { app } from './core/app';
 import { makeStyles } from '@mui/styles';
+import 'reflect-metadata';
+
 import {
     BrowserRouter as Router,
 } from "react-router-dom";

@@ -1,19 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-export interface IModalConfig<T = any> {
-    app: T;
-    containerSelector: string,
-}
-
-export interface ModalProps<P, R> {
-    app?: any;
-    data?: P;
-    title?: string;
-    onCancel: () => void,
-    onClose?: () => void;
-    onSuccess: (result: R) => void;
-}
+import { injectable } from "inversify";
+import { IModalConfig, ModalProps } from "../interfaces/config";
+import { IModalService } from "../interfaces/services";
+import 'reflect-metadata';
 
 const styles: Record<'overlay' | 'modal' | 'header' | 'close', React.CSSProperties> = {
     overlay: {
@@ -60,15 +50,19 @@ const styles: Record<'overlay' | 'modal' | 'header' | 'close', React.CSSProperti
     }
 }
 
-export class ModalService {
+export let modalService: ModalService;
+
+@injectable()
+export class ModalService implements IModalService {
     private $container: HTMLElement;
     private config: IModalConfig;
 
     constructor() {
+        modalService = this;
         this.open = this.open.bind(this);
     }
 
-    public init(config: IModalConfig) {
+    public init(config: IModalConfig): this {
         this.config = config;
         const $container = document.querySelector<HTMLElement>(config.containerSelector);
         if (!$container) {
@@ -139,7 +133,3 @@ export class ModalService {
         });
     }
 }
-
-const modalService = new ModalService();
-
-export default modalService;

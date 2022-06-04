@@ -1,13 +1,7 @@
-interface IConfig {
-    settings: {
-        valami: any;
-    },
-    downloaded: {
-        about: boolean;
-        bibles: string[];
-        languages: string[];
-    }
-}
+import { injectable } from "inversify";
+import { IConfig, IConfigKey, IConfigValue } from "../interfaces/models";
+import { ILocalStorageService } from "../interfaces/services";
+import 'reflect-metadata';
 
 const defaultConfig: IConfig = {
     settings: {
@@ -20,18 +14,16 @@ const defaultConfig: IConfig = {
     }
 }
 
-type IConfigKey = keyof IConfig;
-type IConfigValue = any;
 
-export class LocalStorageService {
-    public static $name = 'localStorageService' as const;
-
+@injectable()
+export class LocalStorageService implements ILocalStorageService {
+    public static readonly $name = 'localStorageService' as const;
     public config: IConfig = defaultConfig;
-    public configKey = 'configV1';
+    private readonly _configKey = 'configV1';
 
     public loadConfig = () => {
         try {
-            const config = JSON.parse(localStorage.getItem(this.configKey)!);
+            const config = JSON.parse(localStorage.getItem(this._configKey)!);
             this.config = config || defaultConfig;
             return config;
         } catch (err) {
@@ -40,7 +32,7 @@ export class LocalStorageService {
     }
 
     public loadConfigAsync = () => new Promise((resolve) => { this.loadConfig(); resolve(true); });
-    public saveConfig = () => { localStorage.setItem(this.configKey, JSON.stringify(this.config)); }
+    public saveConfig = () => { localStorage.setItem(this._configKey, JSON.stringify(this.config)); }
     public saveConfigAsync = () => new Promise((resolve) => { this.saveConfig(); resolve(true); });
 
     public updateConfig = (key: IConfigKey, value: IConfigValue) => {
@@ -55,5 +47,3 @@ export class LocalStorageService {
         this.loadConfigAsync();
     }
 }
-
-export const localStorageService = new LocalStorageService();

@@ -1,11 +1,12 @@
 import { FootNoteObj } from "@gyozelem/bible/base-backend";
 import { action, makeObservable, observable } from "mobx";
 import { SearchQueryParams } from "@gyozelem/bible/base-backend";
-import { About, Bible, Vers } from "../model/Bible";
 import { OfflineService } from "./OfflineService";
+import { IBaseBibleRepository, IBibleStore } from "../interfaces/services";
+import { Bible } from "../model/Bible";
+import { IAbout, IBible, IVers } from "../interfaces/models";
 
-class BibleStore {
-
+class BibleStore implements IBibleStore {
     @observable
     public searchLoading: boolean = false;
 
@@ -15,10 +16,10 @@ class BibleStore {
     }
 
     @observable
-    public searchResult: Vers[] = [];
+    public searchResult: IVers[] = [];
 
     @action.bound
-    public setSearchResult(verses: Vers[]) {
+    public setSearchResult(verses: IVers[]) {
         this.searchResult = verses;
     }
 
@@ -27,8 +28,8 @@ class BibleStore {
     }
 }
 
-export abstract class BaseBibleRepository {
-    public static $name = 'bibleRepository' as const;
+export abstract class BaseBibleRepository implements IBaseBibleRepository {
+    public static readonly $name = 'bibleRepository' as const;
 
     protected offlineService?: OfflineService
 
@@ -49,7 +50,7 @@ export abstract class BaseBibleRepository {
         }
     }
 
-    public store: BibleStore = new BibleStore();
+    public store: IBibleStore = new BibleStore();
 
     public async getInstalledBibles(): Promise<Bible[]> {
         throw new Error('Method not implemented.');
@@ -59,23 +60,23 @@ export abstract class BaseBibleRepository {
         throw new Error('Method not implemented.');
     }
 
-    public async getBibleBook(bibleId: string, bookId: string): Promise<Vers[][]> {
+    public async getBibleBook(bibleId: string, bookId: string): Promise<IVers[][]> {
         throw new Error('Method not implemented.');
     }
 
-    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<Vers[]> {
+    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<IVers[]> {
         throw new Error('Method not implemented.');
     }
 
-    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<Vers[][]> {
+    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<IVers[][]> {
         throw new Error('Method not implemented.');
     }
 
-    public async search(data: SearchQueryParams): Promise<Vers[]> {
+    public async search(data: SearchQueryParams): Promise<IVers[]> {
         throw new Error('Method not implemented.');
     }
 
-    public async about(): Promise<About> {
+    public async about(): Promise<IAbout> {
         throw new Error('Method not implemented.');
     }
 }

@@ -7,9 +7,11 @@
     "skipLibCheck": true,
     "noImplicitAny": true,
     "removeComments": true,
+    "types": ["reflect-metadata"],
     "forceConsistentCasingInFileNames": true,
     "strictPropertyInitialization": false,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "jsx": "react",
     "baseUrl": "./",
     "paths": {

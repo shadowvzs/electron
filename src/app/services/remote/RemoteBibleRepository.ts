@@ -1,12 +1,13 @@
 import { BaseBibleRepository } from "../BaseBibleRepository";
-import { About, Bible, Vers } from "../../model/Bible";
+import { Bible } from "../../model/Bible";
 import { REMOTE_URL } from "@/app/global/Const";
 import { FootNoteObj } from "@gyozelem/bible/base-backend";
 import { SearchQueryParams } from "@gyozelem/bible/base-backend";
+import { IAbout, IVers } from "@/app/interfaces/models";
 
 export class RemoteBibleRepository extends BaseBibleRepository {
 
-    public static async getBibleBook(bibleId: string, bookId: string): Promise<Vers[][]> {
+    public static async getBibleBook(bibleId: string, bookId: string): Promise<IVers[][]> {
         const result = await fetch(REMOTE_URL + 'api/get-bible-book/' + bibleId + '/' + bookId);
         return await result.json();
     }
@@ -25,13 +26,13 @@ export class RemoteBibleRepository extends BaseBibleRepository {
 
     public getBibleBook = RemoteBibleRepository.getBibleBook;
 
-    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<Vers[]> {
+    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<IVers[]> {
         const result = await fetch(`${REMOTE_URL}api/get-chapter-verses?bibleId=${bibleId}&bookId=${bookId}&chapterId=${chapterId}`);
         const verses = await result.json();
         return verses;
     }
 
-    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<Vers[][]> {
+    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<IVers[][]> {
         const result = await fetch(`${REMOTE_URL}api/get-footnotes/${bibleId}`,
             {
                 method: 'POST',
@@ -41,7 +42,7 @@ export class RemoteBibleRepository extends BaseBibleRepository {
         return await result.json();
     }
 
-    public async search(data: SearchQueryParams): Promise<Vers[]> {
+    public async search(data: SearchQueryParams): Promise<IVers[]> {
         this.store.setSearchLoading(true);
         const result = await fetch(`${REMOTE_URL}api/search`,
             {
@@ -55,7 +56,7 @@ export class RemoteBibleRepository extends BaseBibleRepository {
         return verses;
     }
 
-    public async about(): Promise<About> {
+    public async about(): Promise<IAbout> {
         const result = await fetch(`${REMOTE_URL}api/about`);
         return await result.json();
     }

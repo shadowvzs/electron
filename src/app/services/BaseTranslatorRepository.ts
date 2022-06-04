@@ -1,20 +1,18 @@
-import { OfflineService } from "./OfflineService";
+import { myContainer } from "../core/container";
+import { TYPES } from "../core/types";
+import { IAvailableLanguage, ITranslation } from "../interfaces/config";
+import { IBaseTranslatorRepository, IOfflineService } from "../interfaces/services";
 
-export type ITranslation = Record<'hu' | 'en' | 'ro', Record<string, any | string>>;
-export type IAvailableLanguage = keyof ITranslation;
-
-export abstract class BaseTranslatorRepository {
+export abstract class BaseTranslatorRepository implements IBaseTranslatorRepository {
     public static $name = 'translatorRepository' as const;
 
     public translations: ITranslation;
     public availableLanguages: IAvailableLanguage[];
     public currentLanguage: IAvailableLanguage;
-    protected offlineService?: OfflineService;
+    protected offlineService: IOfflineService;
 
-    constructor(
-        offlineService?: OfflineService
-    ) {
-        this.offlineService = offlineService;
+    constructor() {
+        this.offlineService = myContainer.get<IOfflineService>(TYPES.IOfflineService);
         this.translate = this.translate.bind(this);
     }
 

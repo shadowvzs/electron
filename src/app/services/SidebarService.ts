@@ -1,20 +1,19 @@
 import { action, makeObservable, observable } from "mobx";
+import { injectable } from 'inversify';
+import { ISidebarData } from "../interfaces/models";
+import { ISidebarService } from "../interfaces/services";
+import 'reflect-metadata';
 
-interface IData {
-    content: JSX.Element | null;
-    title: string;
-    width?: number | string;
-}
-
-export class SidebarService {
+@injectable()
+export class SidebarService implements ISidebarService {
     @observable.shallow
-    public data: IData = {
+    public data: ISidebarData = {
         content: null,
         title: '',
     }
 
     @action.bound
-    public setData(data: IData) {
+    public setData(data: ISidebarData) {
         if (!data.width) {
             data.width = 320;
         }

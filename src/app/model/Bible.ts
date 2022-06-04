@@ -1,10 +1,11 @@
 import { action, makeObservable, observable, runInAction } from "mobx";
 
 import { translate } from "../core/app";
+import { IAvailableLanguage } from "../interfaces/config";
+import { IBible, IVers } from "../interfaces/models";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
-import { IAvailableLanguage } from "../services/BaseTranslatorRepository";
 
-export class Bible {
+export class Bible implements IBible {
     public id: string;
     public lang: IAvailableLanguage;
     public books: [string, number][] = [];
@@ -16,11 +17,11 @@ export class Bible {
     }
 
     public get $oldTestament() {
-        return this.books.slice(0, this.matthewIdx).map(([name, chapterCounr]) => ({ name, chapterCounr }));
+        return this.books.slice(0, this.matthewIdx).map(([name, chapterCount]) => ({ name, chapterCount }));
     }
 
     public get $newTestament() {
-        return this.books.slice(this.matthewIdx).map(([name, chapterCounr]) => ({ name, chapterCounr }));
+        return this.books.slice(this.matthewIdx).map(([name, chapterCount]) => ({ name, chapterCount }));
     }
 
     @observable
@@ -168,33 +169,5 @@ export class Bible {
         makeObservable(this)
     }
 
-    public verses: Vers[] = [];
-}
-
-export interface Vers {
-    $bible?: Bible;
-    $origin?: string;
-    $contentFootnotes?: { id: string; text: string }[];
-    $footNotes?: { id: string; text: string }[];
-    content?: string;
-    contentFootnotes?: string[];
-    id: number;
-    longId: string;
-    footNotes?: string[];
-    text: string;
-}
-
-export interface Article {
-    id: string,
-    title: string;
-    content: string;
-}
-
-export interface About {
-    about: { text: string; }[],
-    articles: Article[];
-    changeLog: {
-        text: string;
-        date: string;
-    }[];
+    public verses: IVers[] = [];
 }

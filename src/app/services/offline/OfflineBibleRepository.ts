@@ -1,44 +1,58 @@
 import { BaseBibleRepository } from "../BaseBibleRepository";
-import { About, Bible, Vers } from "../../model/Bible";
+import { Bible } from "../../model/Bible";
 import { REMOTE_URL } from "@/app/global/Const";
 import { FootNoteObj } from "@gyozelem/bible/base-backend";
-import { createSearchRegExps, removeLanguageSpecCharacters } from "@gyozelem/bible/utils";
+// import { createSearchRegExps, removeLanguageSpecCharacters } from "@gyozelem/bible/utils";
 import { SearchQueryParams } from "@gyozelem/bible/base-backend";
+import { IAbout, IVers } from "@/app/interfaces/models";
+import { CacheManager } from "../CacheManager";
+import { TYPES } from "@/app/core/types";
+import { inject } from "inversify";
+import { createSearchRegExps, removeLanguageSpecCharacters } from "../../../../npm-packages/@gyozelem/bible/utils";
+import { ICacheManager } from "@/app/interfaces/services";
+import { myContainer } from "@/app/core/container";
 
 type ICachedBible = {
-    verses: Vers[][][];
+    verses: IVers[][][];
     bible: Bible;
-    bookMap: Record<string, Record<number, Vers[]>>;
+    bookMap: Record<string, Record<number, IVers[]>>;
 };
 type IBibleCache = Map<string, ICachedBible>;
 
 export class OfflineBibleRepository extends BaseBibleRepository {
+
+    private _cacheManager: ICacheManager;
     private _installedBibles: Bible[];
     private _bibleCache: IBibleCache = new Map();
 
+    constructor() {
+        super();
+        this._cacheManager = myContainer.get<ICacheManager>(TYPES.ICacheManager);
+    }
+
     public async getInstalledBibles(): Promise<Bible[]> {
         if (!this._installedBibles) {
-            const bibles: Bible[] = await this.offlineService!.cacheManager.get('get-installed-bibles');
+            const bibles: Bible[] = await this._cacheManager.get('get-installed-bibles');
             this._installedBibles = bibles.map(x => Object.assign(new Bible(this), x));
         }
         return this._installedBibles;
     }
 
     public async getBible(bibleId: string): Promise<Bible> {
-        const bible: Bible = await this.offlineService!.cacheManager.get(`bible-${bibleId}`);
+        const bible: Bible = await this._cacheManager.get(`bible-${bibleId}`);
         return Object.assign(new Bible(this), bible);
     }
 
     private async loadBible(bibleId: string): Promise<ICachedBible> {
         if (!this._bibleCache.has(bibleId)) {
-            const verses: Vers[][][] = await this.offlineService!.cacheManager.get(`bible-${bibleId}`);
+            const verses: IVers[][][] = await this._cacheManager.get(`bible-${bibleId}`);
             const bibles = await this.getInstalledBibles();
             const bible = bibles.find(x => x.id === bibleId)!;
             const bookMap = bible.books.reduce((obj, [chapterName], idx) => {
-                const book = verses[idx].reduce((t, c, i) => { t[i + 1] = c; return t }, {} as Record<number, Vers[]>);
+                const book = verses[idx].reduce((t, c, i) => { t[i + 1] = c; return t }, {} as Record<number, IVers[]>);
                 obj[chapterName] = book;
                 return obj;
-            }, {} as Record<string, Record<number, Vers[]>>)
+            }, {} as Record<string, Record<number, IVers[]>>)
             this._bibleCache.set(bibleId, {
                 verses: verses,
                 bible: bible,
@@ -48,13 +62,13 @@ export class OfflineBibleRepository extends BaseBibleRepository {
         return this._bibleCache.get(bibleId)!;
     }
 
-    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<Vers[]> {
+    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<IVers[]> {
         const { bookMap } = await this.loadBible(bibleId);
         const result = bookMap[bookId][chapterId];
         return result;
     }
 
-    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<Vers[][]> {
+    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<IVers[][]> {
         const { bookMap } = await this.loadBible(bibleId);
         const result = footNotes.map(({
             bookIndex,
@@ -66,7 +80,7 @@ export class OfflineBibleRepository extends BaseBibleRepository {
         return result;
     }
 
-    public async search(searchParms: SearchQueryParams): Promise<Vers[]> {
+    public async search(searchParms: SearchQueryParams): Promise<IVers[]> {
         const {
             bibleId,
             books,
@@ -84,7 +98,7 @@ export class OfflineBibleRepository extends BaseBibleRepository {
         }
 
         const wordRegExps = createSearchRegExps(searchTerm, caseSensitive, wordMatchType);
-        const result: Vers[] = Object.values(bookMap).map(chapters => Object.values(chapters).filter(Boolean).flat(2).filter(vers => {
+        const result: IVers[] = Object.values(bookMap).map(chapters => Object.values(chapters).filter(Boolean).flat(2).filter(vers => {
             return (wordRegExps.every(re => re.test(strictCharacters ? vers.text : removeLanguageSpecCharacters(vers.text))));
         })).flat(2);
         this.store.setSearchResult(result);
@@ -92,7 +106,7 @@ export class OfflineBibleRepository extends BaseBibleRepository {
         return result;
     }
 
-    public async about(): Promise<About> {
-        return await this.offlineService!.cacheManager.get(`about`);
+    public async about(): Promise<IAbout> {
+        return (await this._cacheManager.get(`about`)) as IAbout;
     }
 }

@@ -3,7 +3,8 @@ import { makeStyles } from '@mui/styles';
 
 import { App, translate } from '@/app/core/app';
 import { Bible } from '@/app/model/Bible';
-import modalService, { ModalProps } from '@/app/services/ModalService';
+import { ModalProps } from '@/app/interfaces/config';
+import { modalService } from '@/app/services/ModalService';
 
 const useModalStyle = makeStyles({
     root: {

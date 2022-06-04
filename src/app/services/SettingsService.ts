@@ -1,4 +1,9 @@
-const fontFamilies = [
+import { injectable } from "inversify";
+import { FontFamilies, ISettingConfig, ISettingOption, ISettings } from "../interfaces/config";
+import { ISettingsService } from "../interfaces/services";
+import 'reflect-metadata';
+
+const fontFamilies: FontFamilies[] = [
     'Century Gothic',
     'Georgia',
     'Palatino Linotype',
@@ -45,26 +50,7 @@ const fontFamilies = [
     'Ribeye Marrow'
 ];
 
-export interface IUISettings {
-    backgroundColor: string;
-    fontColor: string;
-    fontFamily: typeof fontFamilies[keyof typeof fontFamilies];
-    fontSize: number;
-}
-
-interface IOption {
-    label: string;
-    value: string;
-}
-
-interface IConfig {
-    id: string;
-    default?: (options?: IOption[]) => any;
-    render?: 'color' | 'select' | 'number';
-    options?: { label: string, value: string; }[];
-}
-
-const settingsConfig: IConfig[] = [
+const settingsConfig: ISettingConfig[] = [
     {
         id: 'backgroundColor',
         default: () => '#EFFFFF',
@@ -77,7 +63,7 @@ const settingsConfig: IConfig[] = [
     },
     {
         id: 'fontFamily',
-        default: (options?: IOption[]) => options && options[0].value,
+        default: (options?: ISettingOption[]) => options && options[0].value,
         render: 'select',
         options: fontFamilies.map(x => ({ label: x as string, value: x }))
     },
@@ -88,15 +74,13 @@ const settingsConfig: IConfig[] = [
     },
 ];
 
-export interface ISettings {
-    ui: IUISettings[];
-}
 
 export const settingsScheme = {
     ui: settingsConfig
 }
 
-export class SettingsService {
+@injectable()
+export class SettingsService implements ISettingsService {
     private _storageKey = 'settings';
     public settings: ISettings;
 
@@ -121,5 +105,3 @@ export class SettingsService {
         this.settings[key][property] = value;
     }
 }
-
-export const settingsService = new SettingsService();

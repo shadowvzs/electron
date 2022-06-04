@@ -1,54 +1,61 @@
 import { action, computed, makeObservable, observable } from "mobx";
 import di from '@gyozelem/utility/dep-injector';
 
-import { About, Bible, Vers } from "../model/Bible";
+import { Bible } from "../model/Bible";
 import { BaseBibleRepository } from "../services/BaseBibleRepository";
-import { BaseTranslatorRepository, IAvailableLanguage } from "../services/BaseTranslatorRepository";
-import modalService, { ModalService } from "../services/ModalService";
-import { ServiceFactory, SourceType } from "../services/ServiceFactory";
+import { BaseTranslatorRepository } from "../services/BaseTranslatorRepository";
+import { ModalService } from "../services/ModalService";
+import { ServiceFactory } from "../services/ServiceFactory";
 import { SidebarService } from "../services/SidebarService";
 import { renderFootNoteList } from "../components/Sidebar/FootNoteList";
 
 
 import { OfflineService } from "../services/OfflineService";
 import { CacheManager } from "@gyozelem/utility/CacheManager";
-import { LocalStorageService, localStorageService } from "../services/LocalStorageService";
-import { settingsService, SettingsService } from "../services/SettingsService";
+import { LocalStorageService } from "../services/LocalStorageService";
+import { SettingsService } from "../services/SettingsService";
+import { IAbout, IVers } from "../interfaces/models";
+import { IAvailableLanguage } from "../interfaces/config";
+import { inject } from "inversify";
+import { TYPES } from "./types";
+import 'reflect-metadata';
+import { myContainer } from "./container";
+import { ICacheManager, ILocalStorageService, IModalService, IServiceFactory, ISettingsService, ISidebarService } from "../interfaces/services";
 
 const defaultLanguage = 'hu';
 export const REMOTE_API = 'http://localhost:3333/';
 
 export let translate: (key: string, params?: Record<string, string>, languageOverride?: IAvailableLanguage) => string = (key) => key;
 
-@di.InjectableSingleton("IToast1")
-class A {
-    getName() {
-        return Math.random();
-    }
-}
+// @di.InjectableSingleton("IToast1")
+// class A {
+//     getName() {
+//         return Math.random();
+//     }
+// }
 
-@di.InjectableSingleton("IToast2")
-class B {
-    getType() {
-        return Math.random();
-    }
-}
+// @di.InjectableSingleton("IToast2")
+// class B {
+//     getType() {
+//         return Math.random();
+//     }
+// }
 
-@di.InjectableClass()
-class C {
+// @di.InjectableClass()
+// class C {
 
-    @di.InjectProperty("IToast1")
-    public toast1: A;
+//     @di.InjectProperty("IToast1")
+//     public toast1: A;
 
-    @di.InjectProperty("IToast2")
-    public toast2: B;
+//     @di.InjectProperty("IToast2")
+//     public toast2: B;
 
-    constructor(public valami: number) { }
-}
+//     constructor(public valami: number) { }
+// }
 
-const c = new C(1);
-(window as any)['aaa'] = c;
-console.log(c, c.toast1.getName(), c.toast2.getType(), c.valami);
+// const c = new C(1);
+// (window as any)['aaa'] = c;
+// console.log(c, c.toast1.getName(), c.toast2.getType(), c.valami);
 
 type BibleParams = { bibleId: string, bookId: string, chapterId: number, versId: number, limit: number };
 
@@ -61,14 +68,9 @@ export class App {
 
     public bibleService: BaseBibleRepository;
     public translatorService: BaseTranslatorRepository;
-    public modalService: ModalService;
-    public sidebarService: SidebarService;
     public offlineService: OfflineService;
-    public cacheManager: CacheManager;
-    public serviceFactory: ServiceFactory;
-    public localStorageService: LocalStorageService;
-    public settingsService: SettingsService;
-    public about: About;
+    
+    public about: IAbout;
 
     @observable
     public loading: boolean = false;
@@ -139,9 +141,9 @@ export class App {
     }
 
     @computed
-    public get allVerses(): Vers[] {
-        const verses: Vers[] = [];
-        let vers: Vers;
+    public get allVerses(): IVers[] {
+        const verses: IVers[] = [];
+        let vers: IVers;
 
         if (this.isBibleLoading) {
             return [];
@@ -260,22 +262,28 @@ export class App {
         return this.currentBreakPoint === 'xs';
     }
 
+    public localStorageService: ILocalStorageService;
+    public sidebarService: ISidebarService;
+    public modalService: IModalService;
+    public cacheManager: ICacheManager;
+    public serviceFactory: IServiceFactory;
+    public settingsService: ISettingsService;
+
     constructor() {
         makeObservable(this);
+        this.localStorageService = myContainer.get<ILocalStorageService>(TYPES.ILocalStorageService);
+        this.sidebarService = myContainer.get<ISidebarService>(TYPES.ISidebarService);
+        this.modalService = myContainer.get<IModalService>(TYPES.IModalService);
+        this.cacheManager = myContainer.get<ICacheManager>(TYPES.ICacheManager);
+        this.serviceFactory = myContainer.get<IServiceFactory>(TYPES.IServiceFactory);
+        this.settingsService = myContainer.get<ISettingsService>(TYPES.ISettingsService);
         (window as any)['globalStore'] = this;
     }
 
-    public async init() {
+    public init = async () => {
         this.setLoading(true);
 
-        this.cacheManager = new CacheManager('cached-json-data');
-        this.localStorageService = localStorageService;
-        this.serviceFactory = new ServiceFactory(this);
-
-        if (!this.modalService) {
-            this.modalService = modalService.init({ app: this, containerSelector: '#modalRoot' });
-        }
-
+        if (this.modalService) { this.modalService.init({ app: this, containerSelector: '#modalRoot' }); }
         await this.localStorageService.loadConfigAsync();
         await (this.cacheManager as any).init();
 
@@ -284,8 +292,7 @@ export class App {
         this.offlineService = offlineService!;
         this.translatorService = translatorService;
         this.bibleService = bibleService;
-        this.settingsService = settingsService;
-
+ 
         if (!translatorService.translations) {
             await this.translatorService.getTranslations();
         }

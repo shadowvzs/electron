@@ -1,5 +1,6 @@
 import { REMOTE_URL } from "@/app/global/Const";
-import { BaseTranslatorRepository, IAvailableLanguage, ITranslation } from "../BaseTranslatorRepository";
+import { IAvailableLanguage, ITranslation } from "@/app/interfaces/config";
+import { BaseTranslatorRepository } from "../BaseTranslatorRepository";
 
 export class RemoteTranslatorRepository extends BaseTranslatorRepository {
     public async getTranslations(): Promise<ITranslation> {

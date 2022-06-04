@@ -4,10 +4,10 @@ import { makeStyles } from '@mui/styles';
 import { App, translate } from '@/app/core/app';
 import { action, computed, makeObservable, observable } from 'mobx';
 import { observer } from 'mobx-react-lite';
-import modalService, { ModalProps } from '@/app/services/ModalService';
 import { Input } from '../core/Input';
 import { openOfflineDataDownloader } from './OfflineDataModal';
-import { ISettings } from '@/app/services/SettingsService';
+import { ISettings, ModalProps } from '@/app/interfaces/config';
+import { modalService } from '@/app/services/ModalService';
 
 export interface SettingsModalProps extends ModalProps<void, ISettings> {
     app?: App;

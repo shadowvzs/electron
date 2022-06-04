@@ -4,18 +4,16 @@ import { BaseBibleRepository } from "./BaseBibleRepository";
 import { BaseTranslatorRepository } from "./BaseTranslatorRepository";
 import { ElectronBibleRepository } from "./electron/ElectronBibleRepository";
 import { ElectronTranslatorRepository } from "./electron/ElectronTranslatorRepository";
-import { localStorageService, LocalStorageService } from "./LocalStorageService";
+import { LocalStorageService } from "./LocalStorageService";
 import { OfflineBibleRepository } from "./offline/OfflineBibleRepository";
 import { OfflineTranslatorRepository } from "./offline/OfflineTranslatorRepository";
 import { OfflineService } from "./OfflineService";
 import { RemoteBibleRepository } from "./remote/RemoteBibleRepository";
 import { RemoteTranslatorRepository } from "./remote/RemoteTranslatorRepository";
-
-export enum SourceType {
-    Electron,
-    RemoteApi,
-    Offline
-}
+import { injectable } from "inversify";
+import { IServiceFactory } from "../interfaces/services";
+import { SourceType } from "../interfaces/config";
+import 'reflect-metadata';
 
 type CachedServices = {
     [BaseBibleRepository.$name]?: BaseBibleRepository,
@@ -24,16 +22,11 @@ type CachedServices = {
     [OfflineService.$name]?: OfflineService,
 }
 
-export class ServiceFactory {
+@injectable()
+export class ServiceFactory implements IServiceFactory {
     private _app: App;
     private _defaultSourceType: SourceType = IS_ELECTRON ? SourceType.Electron : SourceType.RemoteApi;
     private _cache: CachedServices = {};
-
-    constructor(app: App, sourceType?: SourceType) {
-        this._app = app;
-        this._cache[LocalStorageService.$name] = localStorageService;
-        this.setSourceType(sourceType);
-    }
 
     public setSourceType(sourceType?: SourceType) {
         if (sourceType) {
@@ -70,7 +63,7 @@ export class ServiceFactory {
                 service = new RemoteBibleRepository();
                 break;
             case SourceType.Offline:
-                service = new OfflineBibleRepository(this.createOfflineService());
+                service = new OfflineBibleRepository();
                 break;
             default:
                 throw new Error('Source type not implemented.');
@@ -90,7 +83,7 @@ export class ServiceFactory {
                 service = new RemoteTranslatorRepository();
                 break;
             case SourceType.Offline:
-                service = new OfflineTranslatorRepository(this.createOfflineService());
+                service = new OfflineTranslatorRepository();
                 break;
             default:
                 throw new Error('Source type not implemented.');
@@ -99,10 +92,9 @@ export class ServiceFactory {
         return service;
     }
 
-    public createOfflineService(): OfflineService | undefined {
-        if (this._cache[OfflineService.$name]) { return this._cache[OfflineService.$name]; }
-        const { localStorageService, cacheManager } = this._app;
-        const service: OfflineService = new OfflineService(localStorageService, cacheManager);
+    public createOfflineService(): OfflineService {
+        if (this._cache[OfflineService.$name]) { return this._cache[OfflineService.$name] as OfflineService; }
+        const service: OfflineService = new OfflineService();
         this._cache[OfflineService.$name] = service;
         return service;
     }

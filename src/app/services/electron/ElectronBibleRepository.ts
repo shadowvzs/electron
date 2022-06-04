@@ -1,6 +1,7 @@
+import { IAbout, IVers } from "@/app/interfaces/models";
 import { FootNoteObj, SearchQueryParams } from "@gyozelem/bible/base-backend";
 import { toJS } from "mobx";
-import { About, Bible, Vers } from "../../model/Bible";
+import { Bible } from "../../model/Bible";
 import { BaseBibleRepository } from "../BaseBibleRepository";
 
 export class ElectronBibleRepository extends BaseBibleRepository {
@@ -21,7 +22,7 @@ export class ElectronBibleRepository extends BaseBibleRepository {
         return Object.assign(new Bible(this), bible);
     }
 
-    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<Vers[]> {
+    public async getChapterVerses(bibleId: string, bookId: string, chapterId: number): Promise<IVers[]> {
         const queryParams = {
             bibleId: bibleId,
             bookId: bookId,
@@ -31,12 +32,12 @@ export class ElectronBibleRepository extends BaseBibleRepository {
         return chapterVerses;
     }
 
-    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<Vers[][]> {
+    public async getFootNotes(footNotes: FootNoteObj[], bibleId: string): Promise<IVers[][]> {
         const result = await this.ipcRenderer.invoke('get-foot-notes', { bibleId, footNotes });
         return result;
     }
 
-    public async search(data: SearchQueryParams): Promise<Vers[]> {
+    public async search(data: SearchQueryParams): Promise<IVers[]> {
         this.store.setSearchLoading(true);
         data.books = toJS(data.books);
         const result = await this.ipcRenderer.invoke('search', data );
@@ -45,7 +46,7 @@ export class ElectronBibleRepository extends BaseBibleRepository {
         return result;
     }
 
-    public async about(): Promise<About> {
+    public async about(): Promise<IAbout> {
         const result = await this.ipcRenderer.invoke('about', null);
         return result;
     }
