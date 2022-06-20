@@ -1,3 +1,4 @@
-node_modules
-dist
-release
+project/node_modules
+project/dist
+project/release
+

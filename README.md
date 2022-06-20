@@ -187,7 +187,7 @@ export class ElectronTranslatorRepository extends BaseTranslatorRepository {
 ```typescript
 export class RemoteTranslatorRepository extends BaseTranslatorRepository {
     public async getTranslations(): Promise<ITranslation> {
-        const result = await fetch(REMOTE_URL + 'api/get-translations');
+        const result = await fetch(this.REMOTE_URL + 'api/get-translations');
         return await result.json();
     }
 }
